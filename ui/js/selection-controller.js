@@ -74,19 +74,21 @@ class SelectionController {
       card.classList.add('locked');
     }
 
-    const iconLeftSrc = `assets/icons/${id}.svg`;
-    const iconRightSrc = `assets/icons/accents/${id}.svg`;
+    const safeId = /^[a-z0-9_-]+$/i.test(id) ? id : 'unknown';
+    const iconLeftSrc = `assets/icons/${safeId}.svg`;
+    const iconRightSrc = `assets/icons/accents/${safeId}.svg`;
+    const escape = window.escapeAetheriusHtml;
 
     card.innerHTML = `
       <div class="class-icon-left">
-        <img src="${iconLeftSrc}" alt="${cls.name}" onerror="this.style.display='none'">
+        <img src="${iconLeftSrc}" alt="${escape(cls.name)}" onerror="this.style.display='none'">
       </div>
       <div class="class-info">
-        <div class="class-name">${cls.name}</div>
-        <div class="class-desc">${cls.description}</div>
+        <div class="class-name">${escape(cls.name)}</div>
+        <div class="class-desc">${escape(cls.description)}</div>
       </div>
       <div class="class-icon-right">
-        <img src="${iconRightSrc}" alt="${cls.name}" onerror="this.style.display='none'">
+        <img src="${iconRightSrc}" alt="${escape(cls.name)}" onerror="this.style.display='none'">
       </div>
       ${isLocked ? '<div class="lock-badge">WINTERHOLD</div>' : ''}
     `;

@@ -30,6 +30,9 @@ export class RaidSystem {
     if (party.isRaid) {
       return { success: false, message: 'O grupo já é uma Raid Party.' };
     }
+    if (party.members.length < 8) {
+      return { success: false, message: 'O grupo precisa estar completo com 8 membros antes de virar Raid.' };
+    }
 
     party.isRaid = true;
     party.maxMembers = 20;
@@ -89,7 +92,7 @@ export class RaidSystem {
     const partySystem = PartySystem.getInstance();
     // busca party
     const result: Record<number, PartyMember[]> = { 1: [], 2: [], 3: [], 4: [] };
-    const party = (partySystem as any).parties?.get(partyId);
+    const party = partySystem.getPartyById(partyId);
     if (!party) return result;
 
     for (const m of party.members) {

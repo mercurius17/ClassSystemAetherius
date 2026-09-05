@@ -47,7 +47,7 @@ sistema-classes/
 ├── prisma-plugin/               # Plugin C++ SKSE opcional para carregamento nativo via IVPrismaUI1
 │   ├── CMakeLists.txt
 │   └── src/ (main.cpp, PCH.h, PrismaUI_API.h)
-└── tests/                       # Testes automatizados Jest (41 testes cobrindo 100% do sistema)
+└── tests/                       # Testes automatizados Jest para regras, bordas e validação de pacotes
 ```
 
 ---
@@ -162,7 +162,7 @@ npm install
 # 2. Sincronizar e validar arquivos JSON de configuração
 npm run sync-data
 
-# 3. Executar a suíte completa de testes automatizados (41 testes)
+# 3. Executar a suíte completa de testes automatizados
 npm test
 
 # 4. Compilar o projeto TypeScript para dist/
@@ -175,3 +175,16 @@ npm run preview
 ### Controles no Jogo
 - **Tecla [K]**: Abre o Painel de Classe (se já possuir classe) ou a Seleção de Classes.
 - **Tecla [ESC]**: Fecha imediatamente a interface PRISMA UI e devolve o controle ao jogo.
+
+---
+
+## 7. Estado da Integração em Runtime
+
+O núcleo TypeScript de regras, persistência e roteamento é compilável e testado. A implantação no jogo ainda exige um adaptador único de transporte. O SkyMP disponível neste workspace expõe eventos customizados por `mp.makeEventSource` e `ctx.sendEvent`; ele não documenta o objeto `mp.events.callRemote` usado pelos arquivos de cliente atuais.
+
+Há dois caminhos de UI no código e eles não devem ser ativados simultaneamente:
+
+- `prisma-plugin/`: cria a view Prisma UI nativa e recebe `onClassAction`, mas ainda não encaminha essas ações ao servidor SkyMP nem aplica o estado retornado ao ator.
+- `client/`: contém aplicação de perks/atributos e eventos do SkyrimPlatform, mas depende de um adaptador de transporte SkyMP que ainda não existe no repositório.
+
+Portanto, os componentes não devem ser anunciados como uma integração pronta para produção até que o servidor registre um `makeEventSource` e o caminho Prisma C++ ↔ SkyMP seja implementado e testado dentro do jogo. Consulte `AUDIT.md` para riscos, correções realizadas e próximos passos.

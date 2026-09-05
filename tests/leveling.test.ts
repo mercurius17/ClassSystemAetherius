@@ -7,8 +7,11 @@ import {
   LEVEL_PROGRESSION_TABLE,
   MAX_CLASS_LEVEL,
   ATTRIBUTE_POINTS_PER_LEVEL,
-  TOTAL_DISTRIBUTED_ATTRIBUTE_POINTS
+  TOTAL_DISTRIBUTED_ATTRIBUTE_POINTS,
+  calculateDailyXpCap
 } from '../shared/levelingMath';
+import { LevelingSystem } from '../server/levelingSystem';
+import { PlayerRepository } from '../server/storage/playerRepository';
 
 describe('Sistema de Leveling e Fórmulas Matemáticas de XP', () => {
   test('Deve conter todos os 39 degraus de progressão até o nível 40', () => {
@@ -23,6 +26,52 @@ describe('Sistema de Leveling e Fórmulas Matemáticas de XP', () => {
     expect(last.levelTo).toBe(40);
     expect(last.xpRequired).toBe(198500);
     expect(last.totalAccumulated).toBe(1848000);
+  });
+
+  test('Deve aplicar o cansaço ao cruzar do nível 14 para o 15 no mesmo prêmio de XP', () => {
+    const playerRepo = PlayerRepository.getInstance();
+    const levelingSystem = LevelingSystem.getInstance();
+    const state = playerRepo.getPlayerState(9191);
+    state.classId = 'arqueiro';
+    state.className = 'Arqueiro';
+    state.level = 14;
+    state.currentXp = 9000;
+    state.nextLevelXp = getXpRequiredForNextLevel(14);
+    state.dailyXpGained = 0;
+
+    const result = levelingSystem.addExperience(state, 100_000);
+
+    expect(result.newLevel).toBe(15);
+    expect(result.xpAwarded).toBe(100 + calculateDailyXpCap(15)!);
+    expect(state.isFatigued).toBe(true);
+  });
+
+  test('Deve rejeitar XP inválida sem corromper o estado', () => {
+    const state = PlayerRepository.getInstance().getPlayerState(9292);
+    state.classId = 'arqueiro';
+    const before = { ...state };
+
+    expect(LevelingSystem.getInstance().addExperience(state, Number.NaN).xpAwarded).toBe(0);
+    expect(LevelingSystem.getInstance().addExperience(state, -100).xpAwarded).toBe(0);
+    expect(state.currentXp).toBe(before.currentXp);
+    expect(state.totalXpAccumulated).toBe(before.totalXpAccumulated);
+  });
+
+  test('Deve ignorar XP e classificação de chefe forjadas pelo cliente', () => {
+    const state = PlayerRepository.getInstance().getPlayerState(9393);
+    state.classId = 'arqueiro';
+
+    const result = LevelingSystem.getInstance().processCombatKill({
+      killerId: 9393,
+      victimId: 123,
+      victimName: 'Bandit',
+      victimLevel: 1,
+      victimBaseXp: 10_000,
+      isDragon: true,
+      isDragonPriest: true
+    });
+
+    expect(result.awardedPlayers[0].xpAwarded).toBe(10);
   });
 
   test('Deve validar a quantidade total de pontos de atributos (585 pontos)', () => {

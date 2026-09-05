@@ -119,6 +119,7 @@ export interface PartyState {
 
 export interface CombatKillEvent {
   killerId: number;
+  victimId?: number;
   victimName: string;
   victimLevel: number;
   victimBaseXp: number;

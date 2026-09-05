@@ -1,7 +1,12 @@
 import { PlayerClassState, ResolvedPerk } from '../shared/types';
 import { getClassById, getAllClasses } from '../shared/classesData';
 import { PerkResolver } from '../shared/perkResolver';
-import { getXpRequiredForNextLevel, FREE_RESET_MAX_LEVEL } from '../shared/levelingMath';
+import {
+  calculateDailyXpCap,
+  FREE_RESET_MAX_LEVEL,
+  getDailyCycleKey,
+  getXpRequiredForNextLevel
+} from '../shared/levelingMath';
 import { getRaceBaseAttributes } from '../shared/raceData';
 import { resolveSkillsForClassAndLevel } from '../shared/skillResolver';
 import { PlayerRepository } from './storage/playerRepository';
@@ -61,6 +66,10 @@ export class ClassSystem {
     playerState.unlockedPerks = [];
     playerState.baseAttributes = getRaceBaseAttributes(playerState.playerRace);
     playerState.unlockedSkills = resolveSkillsForClassAndLevel(classDef, 1);
+    playerState.dailyCycleKey = getDailyCycleKey();
+    playerState.dailyXpGained = 0;
+    playerState.dailyXpCap = calculateDailyXpCap(1);
+    playerState.isFatigued = false;
 
     // Desbloqueia as perks do estágio 1 (nível 1/0)
     const stage1 = classDef.stages.find(s => s.level === 1 || s.level === 0);
@@ -95,6 +104,14 @@ export class ClassSystem {
   ): { success: boolean; state?: PlayerClassState; message: string } {
     const playerRepo = PlayerRepository.getInstance();
     const playerState = playerRepo.getPlayerState(playerId);
+
+    const allocations = [health, magicka, stamina];
+    if (allocations.some(value => !Number.isSafeInteger(value) || value < 0)) {
+      return {
+        success: false,
+        message: 'Os pontos de atributos devem ser números inteiros não negativos.'
+      };
+    }
 
     const totalToSpend = health + magicka + stamina;
     if (totalToSpend <= 0) {
@@ -172,6 +189,10 @@ export class ClassSystem {
     playerState.baseAttributes = getRaceBaseAttributes(playerState.playerRace);
     playerState.unlockedPerks = [];
     playerState.unlockedSkills = {};
+    playerState.dailyCycleKey = getDailyCycleKey();
+    playerState.dailyXpGained = 0;
+    playerState.dailyXpCap = calculateDailyXpCap(1);
+    playerState.isFatigued = false;
 
     playerRepo.savePlayerState(playerState);
 

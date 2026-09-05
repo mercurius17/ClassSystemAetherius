@@ -148,7 +148,7 @@ class PanelController {
     if (window.skyrimPlatform && typeof window.skyrimPlatform.openUrl === 'function') {
       window.skyrimPlatform.openUrl(url);
     } else {
-      window.open(url, '_blank');
+      window.open(url, '_blank', 'noopener,noreferrer');
     }
   }
 
@@ -508,8 +508,9 @@ class PanelController {
             namePt: spellId,
             descriptionPt: 'Feitiço autorizado da classe.'
           };
-          const displayName = spellInfo.namePt || spellId;
-          const description = spellInfo.descriptionPt || 'Feitiço de combate autorizado para esta classe.';
+          const escape = window.escapeAetheriusHtml;
+          const displayName = escape(spellInfo.namePt || spellId);
+          const description = escape(spellInfo.descriptionPt || 'Feitiço de combate autorizado para esta classe.');
 
           return `
             <div class="spell-card" title="${description}">
@@ -569,12 +570,13 @@ class PanelController {
 
         const card = document.createElement('div');
         card.className = `perk-card ${isStageUnlocked ? 'unlocked' : 'locked'}`;
+        const escape = window.escapeAetheriusHtml;
         card.innerHTML = `
           <div class="perk-card-header">
-            <div class="perk-card-title">${perkInfo.namePt || perkInfo.name}</div>
-            <div class="perk-card-stage">Estágio ${stage.stageNumber} • Nv. ${stage.level}</div>
+            <div class="perk-card-title">${escape(perkInfo.namePt || perkInfo.name)}</div>
+            <div class="perk-card-stage">Estágio ${escape(stage.stageNumber)} • Nv. ${escape(stage.level)}</div>
           </div>
-          <div class="perk-card-desc">${perkInfo.descriptionPt}</div>
+          <div class="perk-card-desc">${escape(perkInfo.descriptionPt)}</div>
         `;
         container.appendChild(card);
       });

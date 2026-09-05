@@ -133,6 +133,7 @@ export function getTotalXpAccumulatedForLevel(targetLevel: number): number {
  * Baseado na Seção 3 da Planilha de Leveling.
  */
 export function calculateDeltaModifier(enemyLevel: number, playerLevel: number): number {
+  if (!Number.isFinite(enemyLevel) || !Number.isFinite(playerLevel)) return 0;
   const delta = enemyLevel - playerLevel;
 
   if (delta <= -20) {
@@ -161,6 +162,8 @@ export function calculateDeltaModifier(enemyLevel: number, playerLevel: number):
  * - Para Raid Party (8 a 20 membros): Tabela oficial regressiva de 60% a 40% (Seção 7)
  */
 export function calculatePartyModifier(memberCount: number, isRaid: boolean = false): number {
+  if (!Number.isFinite(memberCount)) return 1.0;
+  memberCount = Math.max(1, Math.trunc(memberCount));
   if (memberCount <= 1) {
     return 1.0;
   }
@@ -217,6 +220,13 @@ export function calculateCombatXp(
   isDragonPriest: boolean = false,
   isDragon: boolean = false
 ): number {
+  if (
+    !Number.isFinite(enemyLevel) || enemyLevel < 1 ||
+    !Number.isFinite(playerLevel) || playerLevel < 1
+  ) {
+    return 0;
+  }
+
   const modParty = calculatePartyModifier(partyMembers, isRaid);
 
   // Chefes Épicos possuem recompensa fixa e ignoram nível do ator e delta, aplicando apenas Mod_Party
@@ -226,6 +236,10 @@ export function calculateCombatXp(
 
   if (isDragonPriest) {
     return Number((DRAGON_PRIEST_FIXED_XP * modParty).toFixed(1));
+  }
+
+  if (!Number.isFinite(baseXp) || baseXp <= 0) {
+    return 0;
   }
 
   const modDelta = calculateDeltaModifier(enemyLevel, playerLevel);

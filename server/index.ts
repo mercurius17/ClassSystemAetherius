@@ -15,6 +15,8 @@ export class SkyMPClassServer {
   public partySystem: PartySystem;
   public raidSystem: RaidSystem;
   public playerRepo: PlayerRepository;
+  private recentKillReports = new Map<string, number>();
+  private readonly killReportTtlMs = 10 * 60 * 1000;
 
   constructor() {
     this.classSystem = ClassSystem.getInstance();
@@ -61,7 +63,21 @@ export class SkyMPClassServer {
   /**
    * Processador de pacotes vindos do cliente (Prisma UI / Skyrim Platform).
    */
-  public handleClientPacket(playerId: number, packetType: string, payload: any): any {
+  public handleClientPacket(playerId: number, packetType: string, payload: unknown): any {
+    if (!Number.isSafeInteger(playerId) || playerId <= 0 || typeof packetType !== 'string') {
+      return { type: 'error', message: 'Pacote inválido.' };
+    }
+
+    const data = payload && typeof payload === 'object'
+      ? payload as Record<string, unknown>
+      : {};
+    const finiteNumber = (value: unknown): number | null =>
+      typeof value === 'number' && Number.isFinite(value) ? value : null;
+    const safeId = (value: unknown): number | null => {
+      const parsed = finiteNumber(value);
+      return parsed !== null && Number.isSafeInteger(parsed) && parsed > 0 ? parsed : null;
+    };
+
     switch (packetType) {
       case 'requestInitialData': {
         const state = this.playerRepo.getPlayerState(playerId);
@@ -76,7 +92,10 @@ export class SkyMPClassServer {
       }
 
       case 'selectClass': {
-        const res = this.classSystem.selectClass(playerId, payload.classId);
+        if (typeof data.classId !== 'string' || data.classId.length > 64) {
+          return { type: 'classSelectedResponse', data: { success: false, message: 'Classe inválida.' } };
+        }
+        const res = this.classSystem.selectClass(playerId, data.classId);
         return {
           type: 'classSelectedResponse',
           data: res
@@ -86,9 +105,9 @@ export class SkyMPClassServer {
       case 'allocateAttributes': {
         const res = this.classSystem.allocateAttributes(
           playerId,
-          payload.health || 0,
-          payload.magicka || 0,
-          payload.stamina || 0
+          finiteNumber(data.health) ?? 0,
+          finiteNumber(data.magicka) ?? 0,
+          finiteNumber(data.stamina) ?? 0
         );
         return {
           type: 'attributesAllocatedResponse',
@@ -110,18 +129,25 @@ export class SkyMPClassServer {
       }
 
       case 'inviteParty': {
-        const res = this.partySystem.invitePlayer(playerId, payload.targetId);
+        const targetId = safeId(data.targetId);
+        const res = targetId === null
+          ? { success: false, message: 'Jogador alvo inválido.' }
+          : this.partySystem.invitePlayer(playerId, targetId);
         return { type: 'partyInviteSent', data: res };
       }
 
       case 'acceptPartyInvite': {
-        const res = this.partySystem.acceptInvite(payload.inviteId, playerId);
+        const res = typeof data.inviteId === 'string' && data.inviteId.length <= 160
+          ? this.partySystem.acceptInvite(data.inviteId, playerId)
+          : { success: false, message: 'Convite inválido.' };
         return { type: 'partyInviteAccepted', data: res };
       }
 
       case 'declinePartyInvite': {
-        this.partySystem.declineInvite(payload.inviteId);
-        return { type: 'partyInviteDeclined', data: { success: true } };
+        const res = typeof data.inviteId === 'string' && data.inviteId.length <= 160
+          ? this.partySystem.declineInvite(data.inviteId, playerId)
+          : { success: false, message: 'Convite inválido.' };
+        return { type: 'partyInviteDeclined', data: res };
       }
 
       case 'leaveParty': {
@@ -130,12 +156,18 @@ export class SkyMPClassServer {
       }
 
       case 'kickPartyMember': {
-        const res = this.partySystem.kickMember(playerId, payload.targetId);
+        const targetId = safeId(data.targetId);
+        const res = targetId === null
+          ? { success: false, message: 'Jogador alvo inválido.' }
+          : this.partySystem.kickMember(playerId, targetId);
         return { type: 'partyMemberKicked', data: res };
       }
 
       case 'promotePartyLeader': {
-        const res = this.partySystem.promoteLeader(playerId, payload.newLeaderId);
+        const newLeaderId = safeId(data.newLeaderId);
+        const res = newLeaderId === null
+          ? { success: false, message: 'Novo líder inválido.' }
+          : this.partySystem.promoteLeader(playerId, newLeaderId);
         return { type: 'partyLeaderPromoted', data: res };
       }
 
@@ -145,20 +177,55 @@ export class SkyMPClassServer {
       }
 
       case 'assignRaidSubgroup': {
-        const res = this.raidSystem.assignSubgroup(playerId, payload.targetMemberId, payload.subgroupId);
+        const targetMemberId = safeId(data.targetMemberId);
+        const subgroupId = finiteNumber(data.subgroupId);
+        const res = targetMemberId === null || subgroupId === null || !Number.isSafeInteger(subgroupId)
+          ? { success: false, message: 'Membro ou subgrupo inválido.' }
+          : this.raidSystem.assignSubgroup(playerId, targetMemberId, subgroupId);
         return { type: 'raidSubgroupAssigned', data: res };
       }
 
       case 'reportCombatKill': {
+        const victimId = safeId(data.victimId);
+        if (victimId === null) {
+          return {
+            type: 'combatKillProcessed',
+            data: { awardedPlayers: [], rejected: true, reason: 'Identificador da vítima inválido.' }
+          };
+        }
+
+        const now = Date.now();
+        const reportKey = `${playerId}:${victimId}`;
+        const previousReport = this.recentKillReports.get(reportKey);
+        if (previousReport !== undefined && now - previousReport < this.killReportTtlMs) {
+          return {
+            type: 'combatKillProcessed',
+            data: { awardedPlayers: [], rejected: true, reason: 'Abate já processado.' }
+          };
+        }
+        this.recentKillReports.set(reportKey, now);
+        if (this.recentKillReports.size > 10_000) {
+          for (const [key, timestamp] of this.recentKillReports) {
+            if (now - timestamp >= this.killReportTtlMs) this.recentKillReports.delete(key);
+          }
+        }
+
         const event: CombatKillEvent = {
           killerId: playerId,
-          victimName: payload.victimName || 'Bandit',
-          victimLevel: payload.victimLevel || 1,
-          victimBaseXp: payload.victimBaseXp || 0,
-          isDragonPriest: !!payload.isDragonPriest,
-          isDragon: !!payload.isDragon
+          victimId,
+          victimName: typeof data.victimName === 'string' && data.victimName.trim()
+            ? data.victimName.trim().slice(0, 128)
+            : 'Inimigo',
+          victimLevel: finiteNumber(data.victimLevel) ?? 1,
+          victimBaseXp: finiteNumber(data.victimBaseXp) ?? 0,
+          isDragonPriest: data.isDragonPriest === true,
+          isDragon: data.isDragon === true
         };
-        const res = this.levelingSystem.processCombatKill(event, payload.pos, payload.cell);
+        const pos = Array.isArray(data.pos) && data.pos.length === 3 && data.pos.every(v => typeof v === 'number' && Number.isFinite(v))
+          ? data.pos as [number, number, number]
+          : undefined;
+        const cell = typeof data.cell === 'string' ? data.cell.slice(0, 256) : undefined;
+        const res = this.levelingSystem.processCombatKill(event, pos, cell);
         return { type: 'combatKillProcessed', data: res };
       }
 

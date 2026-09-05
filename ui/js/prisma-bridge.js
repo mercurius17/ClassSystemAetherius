@@ -6,6 +6,14 @@
  * 3. Navegador Web Convencional (Modo Dev / Simulação interativa com persistência local)
  */
 
+window.escapeAetheriusHtml = (value) => String(value ?? '').replace(/[&<>'"]/g, (char) => ({
+  '&': '&amp;',
+  '<': '&lt;',
+  '>': '&gt;',
+  "'": '&#39;',
+  '"': '&quot;'
+}[char]));
+
 class PrismaBridge {
   constructor() {
     this.listeners = new Map();
@@ -211,6 +219,14 @@ class PrismaBridge {
         const m = Number(magicka) || 0;
         const s = Number(stamina) || 0;
         const total = h + m + s;
+
+        if (![h, m, s].every(Number.isSafeInteger) || h < 0 || m < 0 || s < 0 || total <= 0) {
+          this.emit('attributesAllocatedResponse', {
+            success: false,
+            message: 'Os pontos devem ser números inteiros não negativos.'
+          });
+          return;
+        }
 
         if (h % 5 !== 0 || m % 5 !== 0 || s % 5 !== 0) {
           this.emit('attributesAllocatedResponse', {

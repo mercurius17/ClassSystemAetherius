@@ -104,6 +104,10 @@ describe('Sistema de Classes e Regras de Negócio', () => {
     expect(invalidRes.success).toBe(false);
     expect(invalidRes.message).toContain('múltiplos de 5');
 
+    const negativeRes = classSystem.allocateAttributes(playerId, 20, -5, 0);
+    expect(negativeRes.success).toBe(false);
+    expect(playerState.unspentAttributePoints).toBe(15);
+
     // Tentativa válida: valores múltiplos de 5 (ex: 5 de vida, 5 de vigor, 5 de magia = 15)
     const validRes = classSystem.allocateAttributes(playerId, 5, 5, 5);
     expect(validRes.success).toBe(true);

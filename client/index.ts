@@ -1,4 +1,4 @@
-import { on, once, printConsole, Game } from 'skyrimPlatform';
+import { on, once, printConsole, Game, ButtonEvent } from 'skyrimPlatform';
 import { PrismaController } from './prismaController';
 import { CombatEvents } from './combatEvents';
 import { ClientPerkApplier } from './clientPerkApplier';
@@ -9,10 +9,6 @@ export class SkyMPClassClient {
   private prismaController: PrismaController;
   private combatEvents: CombatEvents;
   private perkApplier: ClientPerkApplier;
-
-  // Código da tecla K (0x4B = 75) e ESC (0x1B = 27)
-  private readonly TOGGLE_KEY = 75; // Tecla 'K'
-  private readonly ESC_KEY = 27;    // Tecla 'ESC'
 
   constructor() {
     this.prismaController = PrismaController.getInstance();
@@ -72,20 +68,20 @@ export class SkyMPClassClient {
     }
 
     try {
-      // Monitora entrada de teclas via Skyrim Platform
-      on('input', (event: any) => {
+      // Monitora o evento público de botões do Skyrim Platform.
+      on('buttonEvent', (event: ButtonEvent) => {
         if (!event) return;
 
-        const isKeyDown = event.isDown || event.eventType === 0;
-        const keyCode = event.key || event.keyCode || event.dxKey;
+        const isKeyDown = event.isDown && !event.isRepeating;
+        const keyCode = event.code;
 
         if (isKeyDown) {
           // Tecla K: Alterna abrir/fechar interface
-          if (keyCode === this.TOGGLE_KEY || keyCode === 0x25 /* DX scan code for K */) {
+          if (keyCode === 0x25 /* DX scan code for K */) {
             this.prismaController.toggle();
           }
           // Tecla ESC: Se a interface estiver aberta, fecha a interface
-          else if ((keyCode === this.ESC_KEY || keyCode === 0x01) && this.prismaController.isUIOpen()) {
+          else if (keyCode === 0x01 && this.prismaController.isUIOpen()) {
             this.prismaController.close();
           }
         }

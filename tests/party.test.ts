@@ -54,6 +54,10 @@ describe('Sistema de Grupos (Party) e Raids', () => {
 
   test('Deve permitir converter Party de 8 membros para RAID PARTY com limite de 20', () => {
     partySystem.createParty(1001);
+    for (let playerId = 1002; playerId <= 1008; playerId++) {
+      const invite = partySystem.invitePlayer(1001, playerId);
+      partySystem.acceptInvite(invite.inviteId!, playerId);
+    }
     const raidRes = raidSystem.convertToRaid(1001);
 
     expect(raidRes.success).toBe(true);
@@ -64,11 +68,11 @@ describe('Sistema de Grupos (Party) e Raids', () => {
 
   test('Deve organizar membros da Raid em subgrupos de 1 a 4 com limite de 5 membros cada', () => {
     partySystem.createParty(1001);
+    for (let playerId = 1002; playerId <= 1008; playerId++) {
+      const invite = partySystem.invitePlayer(1001, playerId);
+      partySystem.acceptInvite(invite.inviteId!, playerId);
+    }
     raidSystem.convertToRaid(1001);
-
-    // Adiciona membro
-    const inv = partySystem.invitePlayer(1001, 1002);
-    partySystem.acceptInvite(inv.inviteId!, 1002);
 
     const assignRes = raidSystem.assignSubgroup(1001, 1002, 2);
     expect(assignRes.success).toBe(true);
@@ -76,6 +80,32 @@ describe('Sistema de Grupos (Party) e Raids', () => {
     const party = partySystem.getPartyByPlayerId(1001);
     const m2 = party?.members.find(m => m.id === 1002);
     expect(m2?.subgroupId).toBe(2);
+  });
+
+  test('Deve impedir conversão para Raid antes de a Party atingir 8 membros', () => {
+    partySystem.createParty(1001);
+    const result = raidSystem.convertToRaid(1001);
+    expect(result.success).toBe(false);
+    expect(result.message).toContain('8 membros');
+  });
+
+  test('Deve revalidar se o convidado entrou em outro grupo antes de aceitar', () => {
+    partySystem.createParty(1001);
+    const invite = partySystem.invitePlayer(1001, 1002);
+    partySystem.createParty(1002);
+
+    const result = partySystem.acceptInvite(invite.inviteId!, 1002);
+    expect(result.success).toBe(false);
+    expect(partySystem.getPartyByPlayerId(1002)?.leaderId).toBe(1002);
+  });
+
+  test('Deve impedir que terceiros recusem convites e que o líder expulse não membros', () => {
+    partySystem.createParty(1001);
+    const invite = partySystem.invitePlayer(1001, 1002);
+
+    expect(partySystem.declineInvite(invite.inviteId!, 1003).success).toBe(false);
+    expect(partySystem.acceptInvite(invite.inviteId!, 1002).success).toBe(true);
+    expect(partySystem.kickMember(1001, 9999).success).toBe(false);
   });
 
   test('Deve filtrar apenas membros próximos (raio <= 5000 e mesma célula) para divisão de XP', () => {

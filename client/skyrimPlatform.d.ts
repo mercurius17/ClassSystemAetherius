@@ -33,6 +33,21 @@ declare module 'skyrimPlatform' {
     isInCombat(): boolean;
   }
 
+  export const Actor: {
+    from(form: Form | null): Actor | null;
+  };
+
+  export interface DeathEvent {
+    actorDying: Form;
+    actorKiller: Form;
+  }
+
+  export interface ButtonEvent {
+    code: number;
+    isDown: boolean;
+    isRepeating: boolean;
+  }
+
   export interface GameNamespace {
     getPlayer(): Actor;
     getFormFromFile(formId: number, pluginName: string): Form | null;
@@ -58,6 +73,8 @@ declare module 'skyrimPlatform' {
   export const Input: InputNamespace;
   export const Ui: UiNamespace;
 
+  export function on(eventName: 'deathStart', callback: (event: DeathEvent) => void): void;
+  export function on(eventName: 'buttonEvent', callback: (event: ButtonEvent) => void): void;
   export function on(eventName: string, callback: (...args: any[]) => void): void;
   export function once(eventName: string, callback: (...args: any[]) => void): void;
   export function printConsole(...args: any[]): void;

@@ -6,6 +6,7 @@ export class PartySystem {
   private parties: Map<string, PartyState> = new Map();
   private playerToPartyMap: Map<number, string> = new Map();
   private pendingInvites: Map<string, { partyId: string; targetId: number; expiresAt: number }> = new Map();
+  private inviteSequence = 0;
 
   public static getInstance(): PartySystem {
     if (!PartySystem.instance) {
@@ -67,6 +68,10 @@ export class PartySystem {
     return this.parties.get(partyId) || null;
   }
 
+  public getPartyById(partyId: string): PartyState | null {
+    return this.parties.get(partyId) || null;
+  }
+
   public invitePlayer(leaderOrMemberId: number, targetPlayerId: number): { success: boolean; inviteId?: string; message: string } {
     const party = this.getPartyByPlayerId(leaderOrMemberId);
     if (!party) {
@@ -85,7 +90,7 @@ export class PartySystem {
       return { success: false, message: 'O jogador já está em outro grupo.' };
     }
 
-    const inviteId = `invite_${targetPlayerId}_${Date.now()}`;
+    const inviteId = `invite_${targetPlayerId}_${Date.now()}_${++this.inviteSequence}`;
     this.pendingInvites.set(inviteId, {
       partyId: party.partyId,
       targetId: targetPlayerId,
@@ -119,6 +124,11 @@ export class PartySystem {
     if (party.members.length >= party.maxMembers) {
       this.pendingInvites.delete(inviteId);
       return { success: false, message: 'O grupo já está cheio.' };
+    }
+    // O jogador pode ter entrado em outro grupo enquanto este convite estava pendente.
+    if (this.playerToPartyMap.has(playerId)) {
+      this.pendingInvites.delete(inviteId);
+      return { success: false, message: 'Você já está em outro grupo.' };
     }
 
     const playerRepo = PlayerRepository.getInstance();
@@ -154,8 +164,16 @@ export class PartySystem {
     return { success: true, party, message: 'Você entrou no grupo.' };
   }
 
-  public declineInvite(inviteId: string): void {
+  public declineInvite(inviteId: string, playerId: number): { success: boolean; message: string } {
+    const invite = this.pendingInvites.get(inviteId);
+    if (!invite) {
+      return { success: false, message: 'Convite inexistente ou expirado.' };
+    }
+    if (invite.targetId !== playerId) {
+      return { success: false, message: 'Este convite não é direcionado a você.' };
+    }
     this.pendingInvites.delete(inviteId);
+    return { success: true, message: 'Convite recusado.' };
   }
 
   public leaveParty(playerId: number): { success: boolean; message: string } {
@@ -199,6 +217,9 @@ export class PartySystem {
 
     if (leaderId === targetPlayerId) {
       return { success: false, message: 'Você não pode expulsar a si mesmo (use Sair do Grupo).' };
+    }
+    if (!party.members.some(m => m.id === targetPlayerId)) {
+      return { success: false, message: 'Jogador alvo não está no grupo.' };
     }
 
     party.members = party.members.filter(m => m.id !== targetPlayerId);
@@ -248,14 +269,15 @@ export class PartySystem {
     const member = party.members.find(m => m.id === playerId);
     if (!member) return;
 
-    if (stats.health !== undefined) member.health = stats.health;
-    if (stats.maxHealth !== undefined) member.maxHealth = stats.maxHealth;
-    if (stats.magicka !== undefined) member.magicka = stats.magicka;
-    if (stats.maxMagicka !== undefined) member.maxMagicka = stats.maxMagicka;
-    if (stats.stamina !== undefined) member.stamina = stats.stamina;
-    if (stats.maxStamina !== undefined) member.maxStamina = stats.maxStamina;
-    if (stats.pos !== undefined) member.pos = stats.pos;
-    if (stats.cellOrWorldDesc !== undefined) member.cellOrWorldDesc = stats.cellOrWorldDesc;
+    const finiteNonNegative = (value: number): boolean => Number.isFinite(value) && value >= 0;
+    if (stats.health !== undefined && finiteNonNegative(stats.health)) member.health = stats.health;
+    if (stats.maxHealth !== undefined && finiteNonNegative(stats.maxHealth)) member.maxHealth = stats.maxHealth;
+    if (stats.magicka !== undefined && finiteNonNegative(stats.magicka)) member.magicka = stats.magicka;
+    if (stats.maxMagicka !== undefined && finiteNonNegative(stats.maxMagicka)) member.maxMagicka = stats.maxMagicka;
+    if (stats.stamina !== undefined && finiteNonNegative(stats.stamina)) member.stamina = stats.stamina;
+    if (stats.maxStamina !== undefined && finiteNonNegative(stats.maxStamina)) member.maxStamina = stats.maxStamina;
+    if (stats.pos !== undefined && stats.pos.length === 3 && stats.pos.every(Number.isFinite)) member.pos = stats.pos;
+    if (stats.cellOrWorldDesc !== undefined && stats.cellOrWorldDesc.length <= 256) member.cellOrWorldDesc = stats.cellOrWorldDesc;
   }
 
   /**
@@ -288,5 +310,6 @@ export class PartySystem {
     this.parties.clear();
     this.playerToPartyMap.clear();
     this.pendingInvites.clear();
+    this.inviteSequence = 0;
   }
 }

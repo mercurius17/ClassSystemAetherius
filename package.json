@@ -23,7 +23,7 @@
     "raid"
   ],
   "author": "Aetherius SkyMP",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.24",

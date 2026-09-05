@@ -154,20 +154,28 @@ class PartyUI {
     const card = document.createElement('div');
     card.className = `member-card ${member.isLeader ? 'leader' : ''}`;
 
+    const escape = window.escapeAetheriusHtml;
+    const health = Number.isFinite(member.health) ? Math.max(0, member.health) : 0;
+    const maxHealth = Number.isFinite(member.maxHealth) && member.maxHealth > 0 ? member.maxHealth : 1;
+    const magicka = Number.isFinite(member.magicka) ? Math.max(0, member.magicka) : 0;
+    const maxMagicka = Number.isFinite(member.maxMagicka) && member.maxMagicka > 0 ? member.maxMagicka : 1;
+    const healthPct = Math.min(100, (health / maxHealth) * 100);
+    const magickaPct = Math.min(100, (magicka / maxMagicka) * 100);
+
     card.innerHTML = `
       <div class="member-header">
         <div class="member-name-box">
           ${member.isLeader ? '<span class="leader-icon">👑</span>' : ''}
-          <span class="member-name">${member.name}</span>
+          <span class="member-name">${escape(member.name)}</span>
         </div>
-        <span class="member-level">Nv. ${member.level}</span>
+        <span class="member-level">Nv. ${escape(member.level)}</span>
       </div>
-      <div class="member-class">${member.className || 'Sem Classe'}</div>
-      <div class="member-bar health" title="Vida: ${member.health}/${member.maxHealth}">
-        <div class="bar-fill" style="width: ${(member.health / member.maxHealth) * 100}%"></div>
+      <div class="member-class">${escape(member.className || 'Sem Classe')}</div>
+      <div class="member-bar health" title="Vida: ${health}/${maxHealth}">
+        <div class="bar-fill" style="width: ${healthPct}%"></div>
       </div>
-      <div class="member-bar magicka" title="Mágicka: ${member.magicka}/${member.maxMagicka}">
-        <div class="bar-fill" style="width: ${(member.magicka / member.maxMagicka) * 100}%"></div>
+      <div class="member-bar magicka" title="Mágicka: ${magicka}/${maxMagicka}">
+        <div class="bar-fill" style="width: ${magickaPct}%"></div>
       </div>
     `;
 

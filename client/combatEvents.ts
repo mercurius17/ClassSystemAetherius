@@ -1,4 +1,4 @@
-import { on, Game, Actor, Debug, printConsole } from 'skyrimPlatform';
+import { on, Game, Actor, Debug, DeathEvent, printConsole } from 'skyrimPlatform';
 import { findBestiaryEntry } from '../shared/bestiaryData';
 import { CombatKillEvent } from '../shared/types';
 
@@ -29,10 +29,12 @@ export class CombatEvents {
     }
 
     try {
-      // Monitora evento de morte do Skyrim Platform
-      on('death', (victim: Actor, killer: Actor) => {
+      // deathStart é o evento público exposto pelo Skyrim Platform.
+      on('deathStart', (event: DeathEvent) => {
         try {
-          this.handleDeathEvent(victim, killer);
+          const victim = Actor.from(event.actorDying);
+          const killer = Actor.from(event.actorKiller);
+          if (victim) this.handleDeathEvent(victim, killer);
         } catch (err) {
           printConsole(`[CombatEvents] Erro ao processar evento de morte: ${err}`);
         }
@@ -42,7 +44,7 @@ export class CombatEvents {
     }
   }
 
-  private handleDeathEvent(victim: Actor, killer: Actor): void {
+  private handleDeathEvent(victim: Actor, killer: Actor | null): void {
     if (!victim || typeof Game === 'undefined' || !Game.getPlayer) {
       return;
     }
@@ -85,6 +87,7 @@ export class CombatEvents {
 
     const event: CombatKillEvent = {
       killerId: playerId,
+      victimId: victim.getFormId(),
       victimName,
       victimLevel,
       victimBaseXp: bestiary.baseXp,

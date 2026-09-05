@@ -41,18 +41,27 @@ export class LevelingSystem {
 
     // Resolve informações do inimigo a partir do bestiário se necessário
     const bestiary = findBestiaryEntry(event.victimName);
-    const baseXp = event.victimBaseXp > 0 ? event.victimBaseXp : bestiary.baseXp;
-    const isDragonPriest = event.isDragonPriest || !!bestiary.isDragonPriest;
-    const isDragon = event.isDragon || !!bestiary.isDragon;
+    // Recompensa e classificação vêm do catálogo do servidor. Valores enviados pelo
+    // cliente são apenas informativos e não podem elevar o XP nem forjar um chefe.
+    const baseXp = bestiary.baseXp;
+    const victimLevel = Number.isFinite(event.victimLevel)
+      ? Math.min(Math.max(Math.trunc(event.victimLevel), 1), 255)
+      : 1;
+    const isDragonPriest = !!bestiary.isDragonPriest;
+    const isDragon = !!bestiary.isDragon;
 
     const party = partySystem.getPartyByPlayerId(event.killerId);
     const results: Array<{ playerId: number; xpAwarded: number; newLevel: number; leveledUp: boolean }> = [];
 
     if (party && party.members.length > 1) {
       // Verifica membros que estão na mesma célula e a até 5000 unidades
-      const validMembers = (killerPos && cell)
+      const killerMember = party.members.find(member => member.id === event.killerId);
+      const proximateMembers = (killerPos && cell)
         ? partySystem.getProximateMembers(party.partyId, killerPos, cell, 5000)
-        : party.members;
+        : [];
+      const validMembers = killerMember && !proximateMembers.some(member => member.id === event.killerId)
+        ? [killerMember, ...proximateMembers]
+        : proximateMembers;
 
       const memberCount = Math.max(validMembers.length, 1);
       const isRaid = party.isRaid;
@@ -63,7 +72,7 @@ export class LevelingSystem {
 
         const effectiveXp = calculateCombatXp(
           baseXp,
-          event.victimLevel,
+          victimLevel,
           memberState.level,
           memberCount,
           isRaid,
@@ -85,7 +94,7 @@ export class LevelingSystem {
       // Combate Solo
       const effectiveXp = calculateCombatXp(
         baseXp,
-        event.victimLevel,
+        victimLevel,
         killerState.level,
         1,
         false,
@@ -112,86 +121,77 @@ export class LevelingSystem {
    * O cansaço NÃO existe até o nível 15 em todas as classes, passando a valer estritamente a partir do nível 15.
    */
   public addExperience(playerState: PlayerClassState, xp: number): { newLevel: number; leveledUp: boolean; xpAwarded: number } {
-    if (playerState.level >= MAX_CLASS_LEVEL) {
-      return { newLevel: MAX_CLASS_LEVEL, leveledUp: false, xpAwarded: 0 };
+    if (!Number.isFinite(xp) || xp <= 0 || playerState.level >= MAX_CLASS_LEVEL) {
+      return { newLevel: playerState.level, leveledUp: false, xpAwarded: 0 };
     }
 
-    // 1. Atualiza o ciclo diário caso tenha virado às 06:00 BRT
     const playerRepo = PlayerRepository.getInstance();
     playerRepo.refreshDailyCycle(playerState);
+    let remainingXp = xp;
+    let xpAwarded = 0;
+    let leveledUp = false;
 
-    // 2. O cansaço diário só é ativo a partir do nível 15
-    const fatigueActive = isFatigueSystemActive(playerState.level);
+    // Processa por nível para que um prêmio grande recebido no nível 14 não contorne
+    // o cansaço ao atravessar o marco do nível 15.
+    while (remainingXp > 0 && playerState.level < MAX_CLASS_LEVEL) {
+      const fatigueActive = isFatigueSystemActive(playerState.level);
+      let allowedThisCycle = remainingXp;
 
-    if (fatigueActive) {
-      playerState.dailyXpCap = calculateDailyXpCap(playerState.level);
-      const cap = playerState.dailyXpCap || 0;
-      const currentGained = playerState.dailyXpGained || 0;
-      const remainingAllowed = Math.max(0, cap - currentGained);
-
-      // Se atingiu o limite de 20%, entra em cansaço e não recebe XP
-      if (remainingAllowed <= 0) {
-        playerState.isFatigued = true;
-        playerRepo.savePlayerState(playerState);
-        return { newLevel: playerState.level, leveledUp: false, xpAwarded: 0 };
-      }
-
-      const actualXp = Math.min(xp, remainingAllowed);
-      playerState.dailyXpGained = currentGained + actualXp;
-      playerState.isFatigued = playerState.dailyXpGained >= cap;
-
-      playerState.currentXp += actualXp;
-      playerState.totalXpAccumulated += actualXp;
-      let leveledUp = false;
-
-      while (playerState.level < MAX_CLASS_LEVEL && playerState.currentXp >= playerState.nextLevelXp) {
-        playerState.currentXp -= playerState.nextLevelXp;
-        playerState.level++;
-        playerState.nextLevelXp = getXpRequiredForNextLevel(playerState.level);
-        playerState.unspentAttributePoints += ATTRIBUTE_POINTS_PER_LEVEL;
-        leveledUp = true;
-
-        // Desbloqueia novas perks se atingiu marco de estágio
-        this.checkAndUnlockStagePerks(playerState);
-      }
-
-      // Atualiza teto diário para o novo nível se ainda ativo
-      if (isFatigueSystemActive(playerState.level)) {
-        playerState.dailyXpCap = calculateDailyXpCap(playerState.level);
-      }
-
-      playerRepo.savePlayerState(playerState);
-      return { newLevel: playerState.level, leveledUp, xpAwarded: actualXp };
-    } else {
-      // Níveis 1 a 14: Sistema de cansaço NÃO existe (ganho ilimitado e irrestrito)
-      playerState.dailyXpCap = null;
-      playerState.isFatigued = false;
-      playerState.dailyXpGained = 0;
-
-      playerState.currentXp += xp;
-      playerState.totalXpAccumulated += xp;
-      let leveledUp = false;
-
-      while (playerState.level < MAX_CLASS_LEVEL && playerState.currentXp >= playerState.nextLevelXp) {
-        playerState.currentXp -= playerState.nextLevelXp;
-        playerState.level++;
-        playerState.nextLevelXp = getXpRequiredForNextLevel(playerState.level);
-        playerState.unspentAttributePoints += ATTRIBUTE_POINTS_PER_LEVEL;
-        leveledUp = true;
-
-        this.checkAndUnlockStagePerks(playerState);
-      }
-
-      // Se com o level up o personagem alcançou o nível 15, inicializa o sistema de cansaço
-      if (isFatigueSystemActive(playerState.level)) {
-        playerState.dailyXpCap = calculateDailyXpCap(playerState.level);
+      if (fatigueActive) {
+        const cap = calculateDailyXpCap(playerState.level) || 0;
+        playerState.dailyXpCap = cap;
+        allowedThisCycle = Math.min(
+          remainingXp,
+          Math.max(0, cap - (playerState.dailyXpGained || 0))
+        );
+        if (allowedThisCycle <= 0) {
+          playerState.isFatigued = true;
+          break;
+        }
+      } else {
+        playerState.dailyXpCap = null;
         playerState.dailyXpGained = 0;
         playerState.isFatigued = false;
       }
 
-      playerRepo.savePlayerState(playerState);
-      return { newLevel: playerState.level, leveledUp, xpAwarded: xp };
+      const xpToNextLevel = Math.max(0, playerState.nextLevelXp - playerState.currentXp);
+      const chunk = Math.min(allowedThisCycle, xpToNextLevel || allowedThisCycle);
+      if (chunk <= 0) break;
+
+      playerState.currentXp += chunk;
+      playerState.totalXpAccumulated += chunk;
+      xpAwarded += chunk;
+      remainingXp -= chunk;
+
+      if (fatigueActive) {
+        playerState.dailyXpGained = (playerState.dailyXpGained || 0) + chunk;
+      }
+
+      if (playerState.currentXp >= playerState.nextLevelXp) {
+        playerState.currentXp -= playerState.nextLevelXp;
+        playerState.level++;
+        playerState.nextLevelXp = getXpRequiredForNextLevel(playerState.level);
+        playerState.unspentAttributePoints += ATTRIBUTE_POINTS_PER_LEVEL;
+        leveledUp = true;
+        this.checkAndUnlockStagePerks(playerState);
+      }
+
+      if (isFatigueSystemActive(playerState.level)) {
+        playerState.dailyXpCap = calculateDailyXpCap(playerState.level);
+        playerState.isFatigued = (playerState.dailyXpGained || 0) >= (playerState.dailyXpCap || 0);
+      }
     }
+
+    if (playerState.level >= MAX_CLASS_LEVEL) {
+      playerState.level = MAX_CLASS_LEVEL;
+      playerState.currentXp = 0;
+      playerState.nextLevelXp = 0;
+      playerState.dailyXpCap = null;
+      playerState.isFatigued = false;
+    }
+
+    playerRepo.savePlayerState(playerState);
+    return { newLevel: playerState.level, leveledUp, xpAwarded };
   }
 
   /**
