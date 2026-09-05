@@ -74,7 +74,7 @@ Exigem vínculo de Roleplay com o Colégio de Winterhold (`requiresWinterholdStu
 6. **Druida**: Combatente híbrido em comunhão com a natureza, conjurações e cura.
 
 ### 🏹 Especialistas (Furtividade, Tiro e Astúcia)
-1. **Arqueiro**: Mestre dos disparos precisos à distância e emboscadas com arcos longos *(Steady Aim removida por equilíbrio de rede)*.
+1. **Arqueiro**: Mestre dos disparos precisos à distância e emboscadas com arcos longos.
 2. **Ranger**: Caçador versátil que transita perfeitamente entre disparos rápidos de arco e combate de proximidade.
 3. **Viper**: Especialista ágil em venenos letais, adagas envenenadas e evasão com armadura leve.
 4. **Assassino**: Especialista em eliminação furtiva a curta distância, ataques críticos e ilusão.
