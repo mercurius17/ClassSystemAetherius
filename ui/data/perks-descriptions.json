@@ -1,0 +1,974 @@
+{
+  "Destruction Mastery": {
+    "name": "Destruction Mastery",
+    "namePt": "Maestria em Destruição",
+    "descriptionPt": "Feitiços de Destruição custam 0,5% a menos de Mágicka por nível em Destruição.",
+    "originalDesc": "Cast Destruction spells for 0.5% less Magicka per level of Destruction."
+  },
+  "Destruction Dual Casting": {
+    "name": "Destruction Dual Casting",
+    "namePt": "Conjuração Dupla de Destruição",
+    "descriptionPt": "Lançar um feitiço de Destruição com ambas as mãos potencializa seus efeitos, aumentando o poder e o custo de conjuração.",
+    "originalDesc": "Dual casting a Destruction spell overcharges its effects, increasing power and casting cost."
+  },
+  "Augmented Flames (1)": {
+    "name": "Augmented Flames (1)",
+    "namePt": "Chamas Aumentadas I",
+    "descriptionPt": "Feitiços e efeitos de fogo são 20% mais poderosos.",
+    "originalDesc": "Fire spells and effects are 20/40% more powerful."
+  },
+  "Augmented Frost (1)": {
+    "name": "Augmented Frost (1)",
+    "namePt": "Gelo Aumentado I",
+    "descriptionPt": "Feitiços e efeitos de gelo são 20% mais poderosos.",
+    "originalDesc": "Frost spells and effects are 20/40% more powerful."
+  },
+  "Augmented Shock (1)": {
+    "name": "Augmented Shock (1)",
+    "namePt": "Raios Aumentados I",
+    "descriptionPt": "Feitiços e efeitos elétricos são 20% mais poderosos.",
+    "originalDesc": "Shock spells and effects are 20/40% more powerful."
+  },
+  "Impact": {
+    "name": "Impact",
+    "namePt": "Impacto",
+    "descriptionPt": "Feitiços de Destruição baseados em projéteis têm 30% de chance de desestabilizar os alvos quando lançados com ambas as mãos.",
+    "originalDesc": "Projectile based Destruction spells have 30% chance to stagger their targets when dual cast."
+  },
+  "Alteration Mastery": {
+    "name": "Alteration Mastery",
+    "namePt": "Maestria em Alteração",
+    "descriptionPt": "Feitiços de Alteração custam 0,5% a menos de Mágicka por nível em Alteração.",
+    "originalDesc": "Cast Alteration spells for 0.5% less Magicka per level of Alteration."
+  },
+  "Mage Armor (3)": {
+    "name": "Mage Armor (3)",
+    "namePt": "Armadura Mágica III",
+    "descriptionPt": "Feitiços de proteção como Carne de Pedra são 200% mais fortes se você não estiver usando armadura.",
+    "originalDesc": "Protection spells like Stoneflesh are 100/150/200% stronger if not wearing armor."
+  },
+  "Magic Resistance (2)": {
+    "name": "Magic Resistance (2)",
+    "namePt": "Resistência Mágica II",
+    "descriptionPt": "Aumenta a Resistência Mágica em 20%.",
+    "originalDesc": "Increases Magic Resistance by 10/20/30%."
+  },
+  "Stability": {
+    "name": "Stability",
+    "namePt": "Estabilidade",
+    "descriptionPt": "Feitiços e efeitos de Alteração duram 25% a mais.",
+    "originalDesc": "Alteration spells and effects last 25% longer."
+  },
+  "Ocato's Preparation": {
+    "name": "Ocato's Preparation",
+    "namePt": "Preparação de Ocato",
+    "descriptionPt": "Ao entrar em combate, ativa automaticamente o feitiço de armadura mágica mais eficaz que você conhece.",
+    "originalDesc": "When entering combat, automatically activates the most effective magical armor spell you know."
+  },
+  "Restoration Mastery": {
+    "name": "Restoration Mastery",
+    "namePt": "Maestria em Restauração",
+    "descriptionPt": "Feitiços de Restauração custam 0,5% a menos de Mágicka por nível em Restauração.",
+    "originalDesc": "Cast Restoration spells for 0.5% less Magicka per level of Restoration."
+  },
+  "Restoration Dual Casting": {
+    "name": "Restoration Dual Casting",
+    "namePt": "Conjuração Dupla de Restauração",
+    "descriptionPt": "Lançar um feitiço de Restauração com ambas as mãos potencializa seus efeitos, aumentando o poder e o custo de conjuração.",
+    "originalDesc": "Dual casting a Restoration spell overcharges its effects, increasing power and casting cost."
+  },
+  "Vigilant Ward (1)": {
+    "name": "Vigilant Ward (1)",
+    "namePt": "Barreira Vigilante I",
+    "descriptionPt": "Barreiras custam 50% a menos de Mágicka e reduzem o dano recebido em 30%.",
+    "originalDesc": "Wards cost 50/80% less Magicka and reduce incoming damage by 30/60%."
+  },
+  "Ward Absorb": {
+    "name": "Ward Absorb",
+    "namePt": "Absorção de Barreira",
+    "descriptionPt": "Quando sua barreira bloqueia um feitiço, você recupera Mágicka equivalente a 30% do custo desse feitiço.",
+    "originalDesc": "When your ward blocks a spell, you gain Magicka equal to 30% of that spell's cost."
+  },
+  "One-Handed Mastery": {
+    "name": "One-Handed Mastery",
+    "namePt": "Maestria em Uma Mão",
+    "descriptionPt": "Armas de uma mão causam 1% a mais de dano e 5% a mais de dano crítico por nível em Uma Mão.",
+    "originalDesc": "One-handed weapons do 1% more damage and 5% more critical damage per level of One-Handed."
+  },
+  "Rune Mestre (1)": {
+    "name": "Rune Mestre (1)",
+    "namePt": "Mestre das Runas I",
+    "descriptionPt": "Permite posicionar runas três vezes mais longe, e as runas são 10% mais poderosas.",
+    "originalDesc": "Can place runes three times as far away/at any distance, and runes are 10/20% more powerful."
+  },
+  "Augmented Frost (2)": {
+    "name": "Augmented Frost (2)",
+    "namePt": "Gelo Aumentado II",
+    "descriptionPt": "Feitiços e efeitos de gelo são 40% mais poderosos.",
+    "originalDesc": "Frost spells and effects are 20/40% more powerful."
+  },
+  "Chilling Frost": {
+    "name": "Chilling Frost",
+    "namePt": "Geada Enregelante",
+    "descriptionPt": "Feitiços de gelo reduzem a velocidade de ataque em 20% e infligem 15% de fraqueza a gelo por 10 segundos.",
+    "originalDesc": "Frost spells reduce attack speed by 20% and inflict 15% weakness to frost for 10 seconds."
+  },
+  "Winter's Grasp": {
+    "name": "Winter's Grasp",
+    "namePt": "Abraço do Inverno",
+    "descriptionPt": "Feitiços de gelo congelam alvos com menos de 20% de Vida em um bloco de gelo por 5 segundos.",
+    "originalDesc": "Frost spells freeze targets below 20% Health in a block of ice for 5 seconds."
+  },
+  "Hellstorm": {
+    "name": "Hellstorm",
+    "namePt": "Tempestade Infernal",
+    "descriptionPt": "Causa 50% a mais de dano elemental a alvos que estejam em chamas, congelados, silenciados ou levitados por outras vantagens de Destruição.",
+    "originalDesc": "Deal 50% more elemental damage to targets that are ignited, frozen, silenced or levitated by other Destruction perks."
+  },
+  "Augmented Shock (2)": {
+    "name": "Augmented Shock (2)",
+    "namePt": "Raios Aumentados II",
+    "descriptionPt": "Feitiços e efeitos elétricos são 40% mais poderosos.",
+    "originalDesc": "Shock spells and effects are 20/40% more powerful."
+  },
+  "Deafening Shock": {
+    "name": "Deafening Shock",
+    "namePt": "Choque Ensurdecedor",
+    "descriptionPt": "Feitiços elétricos têm 20% de chance de silenciar os alvos por 2 segundos.",
+    "originalDesc": "Shock spells have 20% chance to silence targets for 2 seconds."
+  },
+  "Crackling Sphere": {
+    "name": "Crackling Sphere",
+    "namePt": "Esfera Crepitante",
+    "descriptionPt": "Feitiços elétricos têm 20% de chance de levitar os alvos por 2 segundos.",
+    "originalDesc": "Shock spells have 20% chance to levitate targets for 2 seconds."
+  },
+  "Augmented Flames (2)": {
+    "name": "Augmented Flames (2)",
+    "namePt": "Chamas Aumentadas II",
+    "descriptionPt": "Feitiços e efeitos de fogo são 40% mais poderosos.",
+    "originalDesc": "Fire spells and effects are 20/40% more powerful."
+  },
+  "Devouring Flames": {
+    "name": "Devouring Flames",
+    "namePt": "Chamas Vorazes",
+    "descriptionPt": "Feitiços de fogo incendeiam alvos com menos de 20% de Vida, causando dano adicional por 5 segundos.",
+    "originalDesc": "Fire spells ignite targets below 20% Health, dealing extra damage for 5 seconds."
+  },
+  "Scorched Earth": {
+    "name": "Scorched Earth",
+    "namePt": "Terra Arrasada",
+    "descriptionPt": "Feitiços de fogo reduzem suas vítimas a cinzas, deixando uma pira que incendeia oponentes, causando dano adicional por 10 segundos.",
+    "originalDesc": "Fire spells burn their victims to cinders, leaving a pyre that ignites opponents, dealing extra damage for 10 seconds."
+  },
+  "Conjuration Mastery": {
+    "name": "Conjuration Mastery",
+    "namePt": "Maestria em Conjuração",
+    "descriptionPt": "Feitiços de Conjuração custam 0,5% a menos de Mágicka por nível em Conjuração.",
+    "originalDesc": "Cast Conjuration spells for 0.5% less Magicka per level of Conjuration."
+  },
+  "Conjuration Dual Casting": {
+    "name": "Conjuration Dual Casting",
+    "namePt": "Conjuração Dupla de Conjuração",
+    "descriptionPt": "Lançar um feitiço de Conjuração com ambas as mãos potencializa seus efeitos, aumentando a duração e o custo de conjuração.",
+    "originalDesc": "Dual casting a Conjuration spell overcharges its effects, increasing duration and casting cost."
+  },
+  "Atromancy": {
+    "name": "Atromancy",
+    "namePt": "Atromancia",
+    "descriptionPt": "Daedra e criaturas invocadas duram o dobro do tempo.",
+    "originalDesc": "Summoned daedra and creatures last twice as long."
+  },
+  "Rift Summoner (2)": {
+    "name": "Rift Summoner (2)",
+    "namePt": "Invocador da Fenda II",
+    "descriptionPt": "Permite invocar a qualquer distância.",
+    "originalDesc": "Can summon three times as far away/at any distance."
+  },
+  "Oblivion Stone (2)": {
+    "name": "Oblivion Stone (2)",
+    "namePt": "Pedra do Oblivion II",
+    "descriptionPt": "Daedra e criaturas invocadas recebem 200 pontos de armadura e 50% de resistência mágica.",
+    "originalDesc": "Summoned daedra and creatures get 100/200 points of armor and 25/50% magic resistance."
+  },
+  "Grand Conjurer (1)": {
+    "name": "Grand Conjurer (1)",
+    "namePt": "Grande Conjurador I",
+    "descriptionPt": "Permite reanimar, banir ou comandar alvos de até 15 níveis mais altos.",
+    "originalDesc": "Can reanimate, banish or command targets up to 15 levels higher."
+  },
+  "Elemental Potency": {
+    "name": "Elemental Potency",
+    "namePt": "Potência Elemental",
+    "descriptionPt": "Feitiços de invocação de Atronachs agora convocam Atronachs Potentes de nível mais alto com ataques elementais aprimorados.",
+    "originalDesc": "Atronach summoning spells now call higher level Potent Atronachs with improved elemental attacks."
+  },
+  "Elemental Conflux": {
+    "name": "Elemental Conflux",
+    "namePt": "Confluxo Elemental",
+    "descriptionPt": "Enquanto estiver perto de um atronach aliado, recebe um bônus de 20% em feitiços e efeitos do elemento correspondente e 50 de dano elemental correspondente em armas vinculadas.",
+    "originalDesc": "While near an allied atronach, gain a 20% bonus to matching elemental spells and effects, and 50 matching elemental damage to bound weapons."
+  },
+  "Twin Souls": {
+    "name": "Twin Souls",
+    "namePt": "Almas Gêmeas",
+    "descriptionPt": "Permite invocar ou reanimar um lacaio adicional.",
+    "originalDesc": "You can summon or reanimate an additional minion."
+  },
+  "Heavy Armor Mastery": {
+    "name": "Heavy Armor Mastery",
+    "namePt": "Maestria em Armadura Pesada",
+    "descriptionPt": "O índice de armadura das peças de Armadura Pesada aumenta em 1% por nível em Armadura Pesada.",
+    "originalDesc": "Armor rating of Heavy Armor pieces increased by 1% per level of Heavy Armor."
+  },
+  "Cushioned (2)": {
+    "name": "Cushioned (2)",
+    "namePt": "Amortecimento II",
+    "descriptionPt": "Você não sofre dano de queda se estiver vestindo apenas Armadura Pesada.",
+    "originalDesc": "You take no damage from falling if wearing all Heavy Armor."
+  },
+  "Battle Fatigue": {
+    "name": "Battle Fatigue",
+    "namePt": "Fadiga de Batalha",
+    "descriptionPt": "Recebe até 20% a menos de dano de ataque de oponentes com pouco Vigor se estiver vestindo apenas Armadura Pesada.",
+    "originalDesc": "Take up to 20% less attack damage from opponents with low Stamina if wearing all Heavy Armor."
+  },
+  "Heavy Armor Fit": {
+    "name": "Heavy Armor Fit",
+    "namePt": "Ajuste de Armadura Pesada",
+    "descriptionPt": "O índice de armadura das peças de Armadura Pesada aumenta em 15% se estiver vestindo apenas Armadura Pesada.",
+    "originalDesc": "Armor rating of Heavy Armor pieces increased by 15% if wearing all Heavy Armor."
+  },
+  "Tower of Strength": {
+    "name": "Tower of Strength",
+    "namePt": "Torre de Força",
+    "descriptionPt": "Recebe 25% a menos de dano de ataques de poder e pancadas se estiver vestindo apenas Armadura Pesada.",
+    "originalDesc": "Take 25% less damage from power attacks and bashes if wearing all Heavy Armor."
+  },
+  "Matching Heavy Set": {
+    "name": "Matching Heavy Set",
+    "namePt": "Conjunto Pesado Combinado",
+    "descriptionPt": "O índice de armadura das peças de Armadura Pesada aumenta em 15% se estiver usando um conjunto combinado de 3 ou mais peças de Armadura Pesada.",
+    "originalDesc": "Armor rating of Heavy Armor pieces increased by 15% if wearing a matched set of 3 or more Heavy Armor pieces."
+  },
+  "Elemental Defense": {
+    "name": "Elemental Defense",
+    "namePt": "Defesa Elemental",
+    "descriptionPt": "Recebe 15% a menos de dano elemental se estiver vestindo apenas Armadura Pesada.",
+    "originalDesc": "Take 15% less elemental damage if wearing all Heavy Armor."
+  },
+  "Glancing Blows": {
+    "name": "Glancing Blows",
+    "namePt": "Golpes de Raspão",
+    "descriptionPt": "Imune a vantagens específicas de armas, como Golpes Deformantes e Ferimentos Mortais, se estiver vestindo apenas Armadura Pesada.",
+    "originalDesc": "Immune to weapon specific perks such as Denting Blows and Mortal Wounds if wearing all Heavy Armor."
+  },
+  "Face of the Mountain": {
+    "name": "Face of the Mountain",
+    "namePt": "Face da Montanha",
+    "descriptionPt": "Receber um ataque de poder ou pancada vestindo apenas Armadura Pesada sempre desestabiliza o atacante, com 25% de chance de derrubá-lo.",
+    "originalDesc": "Taking an incoming power attack or bash in all Heavy Armor always staggers the attacker with 25% chance to knock them down."
+  },
+  "Block Mastery": {
+    "name": "Block Mastery",
+    "namePt": "Maestria em Bloqueio",
+    "descriptionPt": "Bloquear é 0,5% mais eficaz por nível em Bloqueio.",
+    "originalDesc": "Blocking is 0.5% more effective per level of Block."
+  },
+  "Deflect Arrows": {
+    "name": "Deflect Arrows",
+    "namePt": "Desviar Flechas",
+    "descriptionPt": "Flechas causam 25% a menos de dano ao bloquear. Flechas que atingem um escudo não causam dano.",
+    "originalDesc": "Arrows do 25% less damage while blocking. Arrows that hit a shield do no damage."
+  },
+  "Elemental Protection": {
+    "name": "Elemental Protection",
+    "namePt": "Proteção Elemental",
+    "descriptionPt": "Bloquear com um escudo reduz o dano elemental recebido em 50%.",
+    "originalDesc": "Blocking with a shield reduces elemental damage taken by 50%."
+  },
+  "Power Bash": {
+    "name": "Power Bash",
+    "namePt": "Pancada Poderosa",
+    "descriptionPt": "Permite desferir uma pancada poderosa segurando Ataque enquanto bloqueia.",
+    "originalDesc": "Able to do a power bash by holding down Attack while blocking."
+  },
+  "Shield Charge": {
+    "name": "Shield Charge",
+    "namePt": "Investida de Escudo",
+    "descriptionPt": "Permite disparar com o escudo erguido, derrubando oponentes ao custo de 15 pontos de Vigor por segundo.",
+    "originalDesc": "Able to sprint with a shield raised, knocking opponents down for 15 points of Stamina per second."
+  },
+  "Block Runner": {
+    "name": "Block Runner",
+    "namePt": "Bloqueador Veloz",
+    "descriptionPt": "Permite mover-se em velocidade normal enquanto bloqueia.",
+    "originalDesc": "Can move at full speed while blocking."
+  },
+  "Stoneheart": {
+    "name": "Stoneheart",
+    "namePt": "Coração de Pedra",
+    "descriptionPt": "Você não pode ser desestabilizado por ataques de poder e pancadas enquanto bloqueia.",
+    "originalDesc": "Can't be staggered by power attacks and bashes while blocking."
+  },
+  "Disciplined Fighter": {
+    "name": "Disciplined Fighter",
+    "namePt": "Combatente Disciplinado",
+    "descriptionPt": "Ataques de poder de uma mão custam 25% a menos de Vigor.",
+    "originalDesc": "One-handed power attacks cost 25% less Stamina."
+  },
+  "Magic Resistance (3)": {
+    "name": "Magic Resistance (3)",
+    "namePt": "Resistência Mágica III",
+    "descriptionPt": "Aumenta a Resistência Mágica em 30%.",
+    "originalDesc": "Increases Magic Resistance by 10/20/30%."
+  },
+  "Light Armor Mastery": {
+    "name": "Light Armor Mastery",
+    "namePt": "Maestria em Armadura Leve",
+    "descriptionPt": "O índice de armadura das peças de Armadura Leve aumenta em 1% por nível em Armadura Leve.",
+    "originalDesc": "Armor rating of Light Armor pieces increased by 1% per level of Light Armor."
+  },
+  "Agility": {
+    "name": "Agility",
+    "namePt": "Agilidade",
+    "descriptionPt": "Regenera 2% adicionais do seu Vigor máximo por segundo se estiver vestindo apenas Armadura Leve.",
+    "originalDesc": "Regenerate an additional 2% of your maximum Stamina per second if wearing all Light Armor."
+  },
+  "Light Armor Fit": {
+    "name": "Light Armor Fit",
+    "namePt": "Ajuste de Armadura Leve",
+    "descriptionPt": "O índice de armadura das peças de Armadura Leve aumenta em 15% se estiver vestindo apenas Armadura Leve.",
+    "originalDesc": "Armor rating of Light Armor pieces increased by 15% if wearing all Light Armor."
+  },
+  "Keen Senses": {
+    "name": "Keen Senses",
+    "namePt": "Sentidos Aguçados",
+    "descriptionPt": "Outras vantagens de Armadura Leve não exigem mais um elmo. O índice de armadura das peças de Armadura Leve aumenta em 20% se não estiver usando um elmo.",
+    "originalDesc": "Other Light Armor perks no longer require a helmet. Armor rating of Light Armor pieces increased by 20% if not wearing a helmet."
+  },
+  "Light Armor Training": {
+    "name": "Light Armor Training",
+    "namePt": "Treinamento de Armadura Leve",
+    "descriptionPt": "Armaduras leves equipadas não têm peso e não reduzem sua velocidade.",
+    "originalDesc": "Light Armor weighs nothing and doesn't slow you down when worn."
+  },
+  "Wardancer": {
+    "name": "Wardancer",
+    "namePt": "Dançarino de Guerra",
+    "descriptionPt": "Seus ataques causam 20% a mais de dano e dano crítico ao vestir apenas Armadura Leve. Sofrer um golpe não bloqueado desativa este efeito por 10 segundos.",
+    "originalDesc": "Your attacks deal 20% more damage and critical damage in all Light Armor. Taking an unblocked hit disables this effect for 10 seconds."
+  },
+  "Two-Handed Mastery": {
+    "name": "Two-Handed Mastery",
+    "namePt": "Maestria em Duas Mãos",
+    "descriptionPt": "Armas de duas mãos causam 1% a mais de dano e 5% a mais de dano crítico por nível em Duas Mãos.",
+    "originalDesc": "Two-handed weapons do 1% more damage and 5% more critical damage per level of Two-Handed."
+  },
+  "Brutal Fighter": {
+    "name": "Brutal Fighter",
+    "namePt": "Combatente Brutal",
+    "descriptionPt": "Ataques de poder de duas mãos custam 25% a menos de Vigor.",
+    "originalDesc": "Two-handed power attacks cost 25% less Stamina."
+  },
+  "Mortal Wounds (1)": {
+    "name": "Mortal Wounds (1)",
+    "namePt": "Ferimentos Mortais I",
+    "descriptionPt": "Armas de duas mãos ferem seres vivos por 10 segundos. Causa 10% a mais de dano de ataque a alvos feridos.",
+    "originalDesc": "Two-handed weapons wound the living for 10 seconds. Deal 10% more attack damage to wounded targets."
+  },
+  "Death or Glory": {
+    "name": "Death or Glory",
+    "namePt": "Morte ou Glória",
+    "descriptionPt": "Ataques de poder de duas mãos causam até 100% a mais de dano abaixo da metade da Vida. O dano aumenta conforme sua Vida diminui.",
+    "originalDesc": "Two-handed power attacks deal up to 100% more damage below half Health. Damage increases as your Health decreases."
+  },
+  "Ferocious Strength": {
+    "name": "Ferocious Strength",
+    "namePt": "Força Feroz",
+    "descriptionPt": "Ataques de poder de duas mãos causam 0,1% a mais de dano por ponto de Vigor. Desbloqueia decapitações.",
+    "originalDesc": "Two-handed power attacks do 0.1% more damage per point of Stamina. Unlocks decapitations."
+  },
+  "Hook Blade": {
+    "name": "Hook Blade",
+    "namePt": "Lâmina em Gancho",
+    "descriptionPt": "Ataques de poder com machados de guerra quebram bloqueios, desferindo um golpe crítico com 3 vezes o dano crítico e derrubando o alvo.",
+    "originalDesc": "Power attacks with battleaxes smash through a block, inflicting a critical strike for 3 times critical damage and knocking the target down."
+  },
+  "Rolling Charge": {
+    "name": "Rolling Charge",
+    "namePt": "Investida em Rolamento",
+    "descriptionPt": "Acumula velocidade durante um ataque de poder em disparada a longa distância, desferindo um golpe crítico com 4 vezes o dano crítico se acumular velocidade suficiente.",
+    "originalDesc": "Build up speed during a long distance sprinting power attack, inflicting a critical strike for 4 times critical damage if enough speed is accumulated."
+  },
+  "Stimulants": {
+    "name": "Stimulants",
+    "namePt": "Estimulantes",
+    "descriptionPt": "Regenera 2% adicionais da sua Mágicka e Vigor totais por segundo sob o efeito de uma poção ou alimento benéfico.",
+    "originalDesc": "Regenerate an extra 2% of your total Magicka and Stamina per second under the effects of a beneficial potion or food."
+  },
+  "Slow Metabolism (1)": {
+    "name": "Slow Metabolism (1)",
+    "namePt": "Metabolismo Lento I",
+    "descriptionPt": "Todas as poções e alimentos com efeitos benéficos duram o dobro do tempo.",
+    "originalDesc": "All potions and food with beneficial effects last twice as long."
+  },
+  "Adrenaline": {
+    "name": "Adrenaline",
+    "namePt": "Adrenalina",
+    "descriptionPt": "Move-se 10% mais rápido sob o efeito de uma poção ou alimento benéfico.",
+    "originalDesc": "Move 10% faster under the effects of a beneficial potion or food."
+  },
+  "Reap the Whirlwind": {
+    "name": "Reap the Whirlwind",
+    "namePt": "Colher a Tempestade",
+    "descriptionPt": "Sofrer um golpe vestindo apenas Armadura Pesada concede 20% a mais de dano de ataque e dano crítico contra o atacante por 5 segundos.",
+    "originalDesc": "Taking an incoming hit in all Heavy Armor grants 20% extra attack damage and critical damage against the attacker for 5 seconds."
+  },
+  "Heavy Armor Training": {
+    "name": "Heavy Armor Training",
+    "namePt": "Treinamento de Armadura Pesada",
+    "descriptionPt": "Armaduras pesadas equipadas não têm peso e não reduzem sua velocidade.",
+    "originalDesc": "Heavy Armor weighs nothing and doesn't slow you down when worn."
+  },
+  "Overbearing Assault (2)": {
+    "name": "Overbearing Assault (2)",
+    "namePt": "Assalto Opressor II",
+    "descriptionPt": "Espadas de duas mãos reduzem o dano de ataque do alvo em 20% por 10 segundos.",
+    "originalDesc": "Greatswords reduce attack damage by 15/20% for 10 seconds."
+  },
+  "Bear Hide": {
+    "name": "Bear Hide",
+    "namePt": "Pele de Urso",
+    "descriptionPt": "Recebe 30% a menos de dano de ataque durante seus ataques de poder de duas mãos.",
+    "originalDesc": "Take 30% less attack damage during your two-handed power attack."
+  },
+  "Crowd Pleaser": {
+    "name": "Crowd Pleaser",
+    "namePt": "Aclamação da Multidão",
+    "descriptionPt": "Matar um oponente com uma arma de duas mãos aumenta o dano de duas mãos em 20% por 20 segundos.",
+    "originalDesc": "Killing an opponent with a two-handed weapon raises two-handed damage by 20% for 20 seconds."
+  },
+  "Raw Power (2)": {
+    "name": "Raw Power (2)",
+    "namePt": "Poder Bruto II",
+    "descriptionPt": "Feitiços de Destruição não elementais são 20% mais poderosos.",
+    "originalDesc": "Non-elemental Destruction spells are 10/20% more powerful."
+  },
+  "Denting Blows (2)": {
+    "name": "Denting Blows (2)",
+    "namePt": "Golpes Deformantes II",
+    "descriptionPt": "Maças reduzem a armadura do alvo em 150 pontos por 10 segundos.",
+    "originalDesc": "Maces reduce armor by 100/150 points for 10 seconds."
+  },
+  "Furious Strength": {
+    "name": "Furious Strength",
+    "namePt": "Força Furiosa",
+    "descriptionPt": "Ataques de poder de uma mão causam 0,1% a mais de dano por ponto de Vigor. Desbloqueia decapitações.",
+    "originalDesc": "One-handed power attacks do 0.1% more damage per point of Stamina. Unlocks decapitations."
+  },
+  "Mercy": {
+    "name": "Mercy",
+    "namePt": "Misericórdia",
+    "descriptionPt": "Feitiços de Restauração são até 50% mais eficazes se a Vida restante do alvo estiver baixa.",
+    "originalDesc": "Restoration spells are up to 50% more effective if the recipient's remaining Health is low."
+  },
+  "Inspire": {
+    "name": "Inspire",
+    "namePt": "Inspirar",
+    "descriptionPt": "Aliados vivos a até 15 pés recebem 5 pontos de cura por segundo.",
+    "originalDesc": "Nearby living allies within 15 feet are healed 5/10 points per second."
+  },
+  "Inner Light (1)": {
+    "name": "Inner Light (1)",
+    "namePt": "Luz Interior I",
+    "descriptionPt": "Regenera 1% adicional da sua Mágicka total por segundo.",
+    "originalDesc": "Regenerate an extra 1/2% of your total Magicka per second."
+  },
+  "Respite": {
+    "name": "Respite",
+    "namePt": "Respiro",
+    "descriptionPt": "Feitiços de cura também restauram Vigor.",
+    "originalDesc": "Healing spells also restore Stamina."
+  },
+  "Inner Light (2)": {
+    "name": "Inner Light (2)",
+    "namePt": "Luz Interior II",
+    "descriptionPt": "Regenera 2% adicionais da sua Mágicka total por segundo.",
+    "originalDesc": "Regenerate an extra 1/2% of your total Magicka per second."
+  },
+  "Windrunner": {
+    "name": "Windrunner",
+    "namePt": "Caminhante do Vento",
+    "descriptionPt": "Move-se 10% mais rápido se estiver vestindo apenas Armadura Leve.",
+    "originalDesc": "Move 10% faster if wearing all Light Armor."
+  },
+  "Evasive Sprint": {
+    "name": "Evasive Sprint",
+    "namePt": "Disparada Evasiva",
+    "descriptionPt": "Ao disparar vestindo apenas Armadura Leve, recebe 50% a menos de dano de ataque e o peso não afeta o consumo de Vigor.",
+    "originalDesc": "While sprinting in all Light Armor, take 50% less attack damage and weight does not affect Stamina drain."
+  },
+  "Untouchable": {
+    "name": "Untouchable",
+    "namePt": "Intocável",
+    "descriptionPt": "Move-se 15% mais rápido durante o combate vestindo apenas Armadura Leve. Sofrer um golpe não bloqueado desativa este efeito por 10 segundos.",
+    "originalDesc": "Move an additional 15% faster in combat in all Light Armor. Taking an unblocked hit disables this effect for 10 seconds."
+  },
+  "Overpowering Assault (1)": {
+    "name": "Overpowering Assault (1)",
+    "namePt": "Assalto Avassalador I",
+    "descriptionPt": "Espadas de uma mão reduzem o dano de ataque do alvo em 15% por 10 segundos.",
+    "originalDesc": "Swords reduce attack damage by 15/20% for 10 seconds."
+  },
+  "Dual Flurry (2)": {
+    "name": "Dual Flurry (2)",
+    "namePt": "Rajada Dupla II",
+    "descriptionPt": "Ataques com empunhadura dupla são 35% mais rápidos.",
+    "originalDesc": "Dual wielding attacks are 20/35% faster."
+  },
+  "Valorous Charge": {
+    "name": "Valorous Charge",
+    "namePt": "Investida Valorosa",
+    "descriptionPt": "Permite realizar um ataque de poder de uma mão em disparada causando até 50% a mais de dano e dano crítico a oponentes com muita Vida.",
+    "originalDesc": "Can do a one-handed sprinting power attack for up to 50% more damage and critical damage to high Health opponents."
+  },
+  "Dual Savagery": {
+    "name": "Dual Savagery",
+    "namePt": "Selvageria Dupla",
+    "descriptionPt": "Ataques de poder com empunhadura dupla causam 50% a mais de dano e desestabilizam 50% a mais.",
+    "originalDesc": "Dual wielding power attacks deal 50% more damage and stagger 50% more."
+  },
+  "Execute": {
+    "name": "Execute",
+    "namePt": "Executar",
+    "descriptionPt": "Ataques de poder com espadas executam alvos com menos de 20% de Vida, desferindo um golpe crítico com 10 vezes o dano crítico.",
+    "originalDesc": "Power attacks with a sword execute targets below 20% Health, inflicting a critical strike for 10 times critical damage."
+  },
+  "Bladedancer": {
+    "name": "Bladedancer",
+    "namePt": "Dançarino das Lâminas",
+    "descriptionPt": "Recebe 30% a menos de dano de ataque enquanto realiza ataques de poder com duas armas.",
+    "originalDesc": "Take 30% less attack damage while power attacking with two weapons."
+  },
+  "Victory Rush": {
+    "name": "Victory Rush",
+    "namePt": "Ímpeto de Vitória",
+    "descriptionPt": "Matar um oponente com uma arma de uma mão restaura 150 pontos de Vigor.",
+    "originalDesc": "Killing an opponent with a one-handed weapon replenishes 150 points of Stamina."
+  },
+  "Archery Mastery": {
+    "name": "Archery Mastery",
+    "namePt": "Maestria em Arquearia",
+    "descriptionPt": "Armas de longo alcance causam 1% a mais de dano e 5% a mais de dano crítico por nível em Arquearia.",
+    "originalDesc": "Ranged weapons do 1% more damage and 5% more critical damage per level of Archery."
+  },
+  "Far Shot (2)": {
+    "name": "Far Shot (2)",
+    "namePt": "Tiro Longo II",
+    "descriptionPt": "Armas de longo alcance causam até 40% a mais de dano a alvos além de 60 pés, com base na distância.",
+    "originalDesc": "Ranged weapons do up to 20/40% more damage to targets beyond 60 feet, based on distance."
+  },
+  "Eagle Eye": {
+    "name": "Eagle Eye",
+    "namePt": "Olho de Águia",
+    "descriptionPt": "Pressionar Bloquear enquanto mira aproxima sua visão.",
+    "originalDesc": "Pressing Block while aiming will zoom in your view."
+  },
+  "Steady Aim (2)": {
+    "name": "Steady Aim (2)",
+    "namePt": "Mira Firme II",
+    "descriptionPt": "Pressionar Bloquear enquanto mira aproxima sua visão e desacelera o tempo em 50%.",
+    "originalDesc": "Pressing Block while aiming will zoom in your view and slow time by 25/50%."
+  },
+  "Hunter's Discipline": {
+    "name": "Hunter's Discipline",
+    "namePt": "Disciplina do Caçador",
+    "descriptionPt": "Recupera o dobro de flechas e virotes de corpos abatidos.",
+    "originalDesc": "Recover twice as many arrows and bolts from dead bodies."
+  },
+  "Arrow to the Knee": {
+    "name": "Arrow to the Knee",
+    "namePt": "Flecha no Joelho",
+    "descriptionPt": "Armas de longo alcance derrubam alvos que estejam em disparada, desferindo um golpe crítico com 2 vezes o dano crítico.",
+    "originalDesc": "Ranged weapons knock targets down if they are sprinting, inflicting a critical strike for 2 times critical damage."
+  },
+  "Power Shot": {
+    "name": "Power Shot",
+    "namePt": "Disparo Poderoso",
+    "descriptionPt": "Armas de longo alcance têm 25% de chance de desestabilizar a maioria dos alvos.",
+    "originalDesc": "Ranged weapons have 25% chance to stagger most targets."
+  },
+  "Sneak Mastery": {
+    "name": "Sneak Mastery",
+    "namePt": "Maestria em Furtividade",
+    "descriptionPt": "Você fica 0,5% mais difícil de ser detectado em modo furtivo por nível em Furtividade.",
+    "originalDesc": "You are 0.5% harder to detect when sneaking per level of Sneak."
+  },
+  "Silent Movement (2)": {
+    "name": "Silent Movement (2)",
+    "namePt": "Movimento Silencioso II",
+    "descriptionPt": "O ruído de movimento é reduzido em 100%.",
+    "originalDesc": "Movement noise is reduced by 50/100%."
+  },
+  "Deadly Aim": {
+    "name": "Deadly Aim",
+    "namePt": "Mira Mortal",
+    "descriptionPt": "Ataques furtivos com arcos causam 50% a mais de dano.",
+    "originalDesc": "Sneak attacks with bows deal 50% more damage."
+  },
+  "Dodge Roll": {
+    "name": "Dodge Roll",
+    "namePt": "Rolamento de Esquiva",
+    "descriptionPt": "Executar um rolamento silencioso faz com que todos os ataques e feitiços recebidos errem você por um breve momento.",
+    "originalDesc": "Performing a silent roll briefly causes all incoming attacks and spells to miss."
+  },
+  "Point Blank Shot (2)": {
+    "name": "Point Blank Shot (2)",
+    "namePt": "Tiro à Queima-Roupa II",
+    "descriptionPt": "Armas de longo alcance causam até 40% a mais de dano a alvos a até 20 pés, com base na proximidade.",
+    "originalDesc": "Ranged weapons do up to 20/40% more damage to targets within 20 feet, based on proximity."
+  },
+  "Ranger": {
+    "name": "Ranger",
+    "namePt": "Patrulheiro",
+    "descriptionPt": "Permite mover-se em velocidade normal com o arco armado.",
+    "originalDesc": "Can move at full speed with a drawn bow."
+  },
+  "Quick Shot": {
+    "name": "Quick Shot",
+    "namePt": "Disparo Rápido",
+    "descriptionPt": "Permite puxar a corda do arco ou recarregar uma besta 30% mais rápido.",
+    "originalDesc": "Can draw a bow or reload a crossbow 30% faster."
+  },
+  "Pinning Shot": {
+    "name": "Pinning Shot",
+    "namePt": "Disparo Imobilizante",
+    "descriptionPt": "Armas de longo alcance reduzem a velocidade do alvo em 15% por acerto durante 15 segundos.",
+    "originalDesc": "Ranged weapons slow targets by 15% per hit for 15 seconds."
+  },
+  "Gore": {
+    "name": "Gore",
+    "namePt": "Cornada",
+    "descriptionPt": "Armas de longo alcance interrompem ataques de poder, empurrando o atacante para trás e desferindo um golpe crítico com 2 vezes o dano crítico.",
+    "originalDesc": "Ranged weapons interrupt power attacks, knocking the attacker back and inflicting a critical strike for 2 times critical damage."
+  },
+  "Fangs (2)": {
+    "name": "Fangs (2)",
+    "namePt": "Presas II",
+    "descriptionPt": "Adagas causam 20% a mais de dano se o alvo estiver envenenado ou sangrando.",
+    "originalDesc": "Daggers deal 10/20% more damage if the target is poisoned or bleeding."
+  },
+  "Dual Flurry (1)": {
+    "name": "Dual Flurry (1)",
+    "namePt": "Rajada Dupla I",
+    "descriptionPt": "Ataques com empunhadura dupla são 20% mais rápidos.",
+    "originalDesc": "Dual wielding attacks are 20/35% faster."
+  },
+  "Spitting Cobra": {
+    "name": "Spitting Cobra",
+    "namePt": "Cobra-Cuspidora",
+    "descriptionPt": "Ataques de poder com adagas causam sangramento em seres vivos por 30 segundos, desferindo um golpe crítico com 3 vezes o dano crítico.",
+    "originalDesc": "Power attacks with daggers bleed the living for 30 seconds, inflicting a critical strike for 3 times critical damage."
+  },
+  "Slow Metabolism (2)": {
+    "name": "Slow Metabolism (2)",
+    "namePt": "Metabolismo Lento II",
+    "descriptionPt": "Todas as poções e alimentos com efeitos benéficos duram três vezes mais tempo.",
+    "originalDesc": "All potions and food with beneficial effects last twice/three times as long."
+  },
+  "Concentrated Poison (3)": {
+    "name": "Concentrated Poison (3)",
+    "namePt": "Veneno Concentrado III",
+    "descriptionPt": "Venenos aplicados a armas duram por 6 acertos adicionais.",
+    "originalDesc": "Poisons applied to weapons last for 2/4/6 additional hits."
+  },
+  "Alkahest": {
+    "name": "Alkahest",
+    "namePt": "Alkahest",
+    "descriptionPt": "Ignora 50% da armadura ao atacar um alvo envenenado.",
+    "originalDesc": "Ignore 50% armor when attacking a poisoned target."
+  },
+  "Plague Doctor": {
+    "name": "Plague Doctor",
+    "namePt": "Médico da Peste",
+    "descriptionPt": "Oponentes próximos sofrem 25% de fraqueza a veneno e doenças.",
+    "originalDesc": "Nearby opponents get 25% weakness to poison and disease."
+  },
+  "Illusion Mastery": {
+    "name": "Illusion Mastery",
+    "namePt": "Maestria em Ilusão",
+    "descriptionPt": "Feitiços de Ilusão custam 0,5% a menos de Mágicka por nível em Ilusão.",
+    "originalDesc": "Cast Illusion spells for 0.5% less Magicka per level of Illusion."
+  },
+  "Quiet Casting": {
+    "name": "Quiet Casting",
+    "namePt": "Conjuração Silenciosa",
+    "descriptionPt": "Todos os feitiços e brados de qualquer escola de magia são silenciosos para os outros.",
+    "originalDesc": "All spells and shouts from any school of magic are silent to others."
+  },
+  "Blur": {
+    "name": "Blur",
+    "namePt": "Desfoque",
+    "descriptionPt": "Move-se 15% mais rápido enquanto invisível.",
+    "originalDesc": "Move 15% faster while invisible."
+  },
+  "Sneak Attack": {
+    "name": "Sneak Attack",
+    "namePt": "Ataque Furtivo",
+    "descriptionPt": "Ataques furtivos com armas de uma mão causam 100% a mais de dano.",
+    "originalDesc": "One-handed sneak attacks deal 100% more damage."
+  },
+  "Assassin's Blade": {
+    "name": "Assassin's Blade",
+    "namePt": "Lâmina do Assassino",
+    "descriptionPt": "Ataques furtivos com adagas causam 150% a mais de dano.",
+    "originalDesc": "Sneak attacks with daggers deal 150% more damage."
+  },
+  "Backstab": {
+    "name": "Backstab",
+    "namePt": "Apunhalada pelas Costas",
+    "descriptionPt": "Adagas causam 25% a mais de dano e dano crítico ao atacar pelas costas.",
+    "originalDesc": "Daggers deal 25% more damage and critical damage from behind."
+  },
+  "Shadow Warrior": {
+    "name": "Shadow Warrior",
+    "namePt": "Guerreiro das Sombras",
+    "descriptionPt": "Entrar em modo furtivo (recarga de 5 segundos) ou executar um rolamento silencioso em combate torna você invisível brevemente, forçando os oponentes a procurarem por você.",
+    "originalDesc": "Entering sneak mode (5 second cooldown) or performing a silent roll in combat briefly makes you invisible, forcing opponents to search for you."
+  },
+  "Cloak and Dagger": {
+    "name": "Cloak and Dagger",
+    "namePt": "Capa e Adaga",
+    "descriptionPt": "Ataques furtivos com adagas a partir da invisibilidade também desferem um golpe crítico com 6 vezes o dano crítico.",
+    "originalDesc": "Sneak attack with daggers from invisibility also inflict a critical strike for 6 times critical damage."
+  },
+  "Mystic Binding": {
+    "name": "Mystic Binding",
+    "namePt": "Vínculo Místico",
+    "descriptionPt": "Feitiços de Armas Vinculadas agora criam Armas Místicas, que causam mais dano.",
+    "originalDesc": "Bound Weapon spells now create Mystic Weapons instead, which deal more damage."
+  },
+  "Hollow Binding": {
+    "name": "Hollow Binding",
+    "namePt": "Vínculo do Vazio",
+    "descriptionPt": "Armas vinculadas cortam carne e espírito, reduzindo a resistência mágica em 25% por 5 segundos.",
+    "originalDesc": "Bound weapons cut through flesh and spirit, reducing magic resistance by 25% for 5 seconds."
+  },
+  "Void Brand": {
+    "name": "Void Brand",
+    "namePt": "Marca do Vazio",
+    "descriptionPt": "Armas vinculadas drenam 30 pontos de Mágicka e Vigor por segundo durante 5 segundos. Quando ambos se esgotam, drenam Vida.",
+    "originalDesc": "Bound weapons drain 30 points of Magicka and Stamina per second for 5 seconds. When both are depleted, drains Health instead."
+  },
+  "Atronach": {
+    "name": "Atronach",
+    "namePt": "O Atronach",
+    "descriptionPt": "30% de chance de absorver feitiços recebidos, restaurando sua Mágicka.",
+    "originalDesc": "30% chance to absorb incoming spells, replenishing your Magicka."
+  },
+  "Vigilant Ward (2)": {
+    "name": "Vigilant Ward (2)",
+    "namePt": "Barreira Vigilante II",
+    "descriptionPt": "Barreiras custam 80% a menos de Mágicka e reduzem o dano recebido em 60%.",
+    "originalDesc": "Wards cost 50/80% less Magicka and reduce incoming damage by 30/60%."
+  },
+  "Inspire (2)": {
+    "name": "Inspire (2)",
+    "namePt": "Inspirar II",
+    "descriptionPt": "Aliados vivos a até 15 pés recebem 10 pontos de cura por segundo.",
+    "originalDesc": "Nearby living allies within 15 feet are healed 5/10 points per second."
+  },
+  "Enduring Flame": {
+    "name": "Enduring Flame",
+    "namePt": "Chama Perene",
+    "descriptionPt": "Feitiços de cura concedem armadura equivalente a 4 vezes a sua magnitude enquanto você se concentra ou por 5 segundos após a conjuração.",
+    "originalDesc": "Healing spells grant armor equal to 4 times their magnitude while concentrating or for 5 seconds after casting."
+  },
+  "Anímage (2)": {
+    "name": "Anímage (2)",
+    "namePt": "Animago II",
+    "descriptionPt": "Feitiços e efeitos que afetam a mente funcionam em criaturas e pessoas de até 20 níveis mais altos, e em outros alvos de até 10 níveis mais altos.",
+    "originalDesc": "Mind affecting spells and effects work on creatures and people up to 10/20/40 levels higher, and other targets up to 5/10/20 levels higher."
+  },
+  "Alteration Dual Casting": {
+    "name": "Alteration Dual Casting",
+    "namePt": "Conjuração Dupla de Alteração",
+    "descriptionPt": "Lançar um feitiço de Alteração com ambas as mãos potencializa seus efeitos, aumentando o poder e o custo de conjuração.",
+    "originalDesc": "Dual casting an Alteration spell overcharges its effects, increasing power and casting cost."
+  },
+  "Magic Resistance (1)": {
+    "name": "Magic Resistance (1)",
+    "namePt": "Resistência Mágica I",
+    "descriptionPt": "Aumenta a Resistência Mágica em 10%.",
+    "originalDesc": "Increases Magic Resistance by 10/20/30%."
+  },
+  "Hethoth's Escape": {
+    "name": "Hethoth's Escape",
+    "namePt": "Fuga de Hethoth",
+    "descriptionPt": "Uma vez a cada 10 minutos, paralisa um atacante corpo a corpo que esteja prestes a causar dano letal a você.",
+    "originalDesc": "Once every 10 minutes, paralyzes a melee attacker that is about to deal lethal damage to you."
+  },
+  "Silent Roll (2)": {
+    "name": "Silent Roll (2)",
+    "namePt": "Rolamento Silencioso II",
+    "descriptionPt": "Disparar enquanto agachado executa um rolamento silencioso para a frente ao custo de 15 de Vigor. Você fica 100% mais difícil de ser detectado ao rolar.",
+    "originalDesc": "Sprinting while sneaking executes a silent forward roll for 15 Stamina. You are 100% harder to detect while rolling."
+  },
+  "Shadowcaster": {
+    "name": "Shadowcaster",
+    "namePt": "Conjurador das Sombras",
+    "descriptionPt": "Feitiços de Destruição são duas vezes mais poderosos contra alvos que não detectaram você.",
+    "originalDesc": "Destruction spells are twice as powerful against targets that are not detecting you."
+  },
+  "Mage Armor (1)": {
+    "name": "Mage Armor (1)",
+    "namePt": "Armadura Mágica I",
+    "descriptionPt": "Feitiços de proteção como Carne de Carvalho são 100% mais fortes se você não estiver usando armadura.",
+    "originalDesc": "Protection spells like Oakflesh are 100% stronger if not wearing armor."
+  },
+  "Mage Armor (2)": {
+    "name": "Mage Armor (2)",
+    "namePt": "Armadura Mágica II",
+    "descriptionPt": "Feitiços de proteção como Carne de Ferro são 150% mais fortes se você não estiver usando armadura.",
+    "originalDesc": "Protection spells like Ironflesh are 150% stronger if not wearing armor."
+  },
+  "Rune Mestre": {
+    "name": "Rune Mestre",
+    "namePt": "Mestre das Runas",
+    "descriptionPt": "Permite posicionar runas a qualquer distância, e as runas são 20% mais poderosas.",
+    "originalDesc": "Can place runes at any distance, and runes are 20% more powerful."
+  },
+  "Deafening Shock:": {
+    "name": "Deafening Shock:",
+    "namePt": "Choque Ensurdecedor",
+    "descriptionPt": "Feitiços elétricos têm 20% de chance de silenciar os alvos por 2 segundos.",
+    "originalDesc": "Shock spells have 20% chance to silence targets for 2 seconds."
+  },
+  "Oblivion Stone (1)": {
+    "name": "Oblivion Stone (1)",
+    "namePt": "Pedra do Oblivion I",
+    "descriptionPt": "Daedra e criaturas invocadas recebem 100 pontos de armadura e 25% de resistência mágica.",
+    "originalDesc": "Summoned daedra and creatures get 100 points of armor and 25% magic resistance."
+  },
+  "Rift Summoner (1)": {
+    "name": "Rift Summoner (1)",
+    "namePt": "Invocador da Fenda I",
+    "descriptionPt": "Permite invocar três vezes mais longe.",
+    "originalDesc": "Can summon three times as far away."
+  },
+  "Cushioned (1)": {
+    "name": "Cushioned (1)",
+    "namePt": "Amortecimento I",
+    "descriptionPt": "Você sofre metade do dano de queda se estiver vestindo apenas Armadura Pesada.",
+    "originalDesc": "You take half damage from falling if wearing all Heavy Armor."
+  },
+  "Heavy Armor Mestre": {
+    "name": "Heavy Armor Mestre",
+    "namePt": "Maestria em Armadura Pesada",
+    "descriptionPt": "O índice de armadura das peças de Armadura Pesada aumenta em 1% por nível em Armadura Pesada.",
+    "originalDesc": "Armor rating of Heavy Armor pieces increased by 1% per level of Heavy Armor."
+  },
+  "Overbearing Assault (1)": {
+    "name": "Overbearing Assault (1)",
+    "namePt": "Assalto Opressor I",
+    "descriptionPt": "Espadas de duas mãos reduzem o dano de ataque do alvo em 15% por 10 segundos.",
+    "originalDesc": "Greatswords reduce attack damage by 15% for 10 seconds."
+  },
+  "Raw Power (1)": {
+    "name": "Raw Power (1)",
+    "namePt": "Poder Bruto I",
+    "descriptionPt": "Feitiços de Destruição não elementais são 10% mais poderosos.",
+    "originalDesc": "Non-elemental Destruction spells are 10% more powerful."
+  },
+  "Denting Blows (1)": {
+    "name": "Denting Blows (1)",
+    "namePt": "Golpes Deformantes I",
+    "descriptionPt": "Maças reduzem a armadura do alvo em 100 pontos por 10 segundos.",
+    "originalDesc": "Maces reduce armor by 100 points for 10 seconds."
+  },
+  "Rebuke Undead": {
+    "name": "Rebuke Undead",
+    "namePt": "Repelir Mortos-Vivos",
+    "descriptionPt": "Feitiços solares e feitiços de Expulsar Mortos-Vivos são 25% mais poderosos.",
+    "originalDesc": "Sun spells and Turn Undead spells are 25% more powerful."
+  },
+  "One-Hand Mastery": {
+    "name": "One-Hand Mastery",
+    "namePt": "Maestria em Uma Mão",
+    "descriptionPt": "Armas de uma mão causam 1% a mais de dano e 5% a mais de dano crítico por nível em Uma Mão.",
+    "originalDesc": "One-handed weapons do 1% more damage and 5% more critical damage per level of One-Handed."
+  },
+  "Far Shot (1)": {
+    "name": "Far Shot (1)",
+    "namePt": "Tiro Longo I",
+    "descriptionPt": "Armas de longo alcance causam até 20% a mais de dano a alvos além de 60 pés, com base na distância.",
+    "originalDesc": "Ranged weapons do up to 20% more damage to targets beyond 60 feet, based on distance."
+  },
+  "Steady Aim (1)": {
+    "name": "Steady Aim (1)",
+    "namePt": "Mira Firme I",
+    "descriptionPt": "Pressionar Bloquear enquanto mira aproxima sua visão e desacelera o tempo em 25%.",
+    "originalDesc": "Pressing Block while aiming will zoom in your view and slow time by 25%."
+  },
+  "Silent Movement": {
+    "name": "Silent Movement",
+    "namePt": "Movimento Silencioso",
+    "descriptionPt": "O ruído de movimento é reduzido em 50%.",
+    "originalDesc": "Movement noise is reduced by 50%."
+  },
+  "Point Blank Shot (1)": {
+    "name": "Point Blank Shot (1)",
+    "namePt": "Tiro à Queima-Roupa I",
+    "descriptionPt": "Armas de longo alcance causam até 20% a mais de dano a alvos a até 20 pés, com base na proximidade.",
+    "originalDesc": "Ranged weapons do up to 20% more damage to targets within 20 feet, based on proximity."
+  },
+  "Fangs (1)": {
+    "name": "Fangs (1)",
+    "namePt": "Presas I",
+    "descriptionPt": "Adagas causam 10% a mais de dano se o alvo estiver envenenado ou sangrando.",
+    "originalDesc": "Daggers deal 10% more damage if the target is poisoned or bleeding."
+  },
+  "Concentrated Poison (1)": {
+    "name": "Concentrated Poison (1)",
+    "namePt": "Veneno Concentrado I",
+    "descriptionPt": "Venenos aplicados a armas duram por 2 acertos adicionais.",
+    "originalDesc": "Poisons applied to weapons last for 2 additional hits."
+  },
+  "Concentrated Poison (2)": {
+    "name": "Concentrated Poison (2)",
+    "namePt": "Veneno Concentrado II",
+    "descriptionPt": "Venenos aplicados a armas duram por 4 acertos adicionais.",
+    "originalDesc": "Poisons applied to weapons last for 4 additional hits."
+  },
+  "Silent Movement (1)": {
+    "name": "Silent Movement (1)",
+    "namePt": "Movimento Silencioso I",
+    "descriptionPt": "O ruído de movimento é reduzido em 50%.",
+    "originalDesc": "Movement noise is reduced by 50%."
+  },
+  "Inspire (1)": {
+    "name": "Inspire (1)",
+    "namePt": "Inspirar I",
+    "descriptionPt": "Aliados vivos a até 15 pés recebem 5 pontos de cura por segundo.",
+    "originalDesc": "Nearby living allies within 15 feet are healed 5 points per second."
+  },
+  "Anímage (1)": {
+    "name": "Anímage (1)",
+    "namePt": "Animago I",
+    "descriptionPt": "Feitiços e efeitos que afetam a mente funcionam em criaturas e pessoas de até 10 níveis mais altos, e em outros alvos de até 5 níveis mais altos.",
+    "originalDesc": "Mind affecting spells and effects work on creatures and people up to 10 levels higher, and other targets up to 5 levels higher."
+  },
+  "Silent Roll (1)": {
+    "name": "Silent Roll (1)",
+    "namePt": "Rolamento Silencioso I",
+    "descriptionPt": "Disparar enquanto agachado executa um rolamento silencioso para a frente ao custo de 15 de Vigor.",
+    "originalDesc": "Sprinting while sneaking executes a silent forward roll for 15 Stamina."
+  },
+  "Anímage (3)": {
+    "name": "Anímage (3)",
+    "namePt": "Animago III",
+    "descriptionPt": "Feitiços e efeitos que afetam a mente funcionam em criaturas e pessoas de até 40 níveis mais altos, e em outros alvos de até 20 níveis mais altos.",
+    "originalDesc": "Mind affecting spells and effects work on creatures and people up to 40 levels higher, and other targets up to 20 levels higher."
+  }
+}

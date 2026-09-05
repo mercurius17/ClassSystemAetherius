@@ -1,0 +1,3461 @@
+{
+  "elementalista": {
+    "id": "elementalista",
+    "key": "ELEMENTALISTA",
+    "name": "ELEMENTALISTA",
+    "fullName": "ELEMENTALISTA",
+    "archetype": "CONJURADORES",
+    "requiresWinterholdStudent": true,
+    "description": "O Elementalista é um tecelão das forças primordiais, capaz de canalizar o Fogo, o Gelo e o Trovão em perfeito equilíbrio. Embora não alcance a maestria absoluta de um especialista dedicado em um único elemento, sua força reside na versatilidade adaptativa: ele molda o campo de batalha adaptando seus feitiços à fraqueza de qualquer adversário, combinando a brutalidade do combate de proximidade com um arsenal elemental devastador.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Destruction Mastery",
+          "Alteration Mastery",
+          "One-Handed Mastery",
+          "Restoration Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Destruction Dual Casting",
+          "Mage Armor (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Augmented Flames (1)",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Destruição 30, Alteração 30, Restauração 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Augmented Frost (1)",
+          "Mage Armor (2)",
+          "Vigilant Ward (1)"
+        ],
+        "skills": "Destruição 40, Alteração 40, Restauração 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Augmented Shock (1)",
+          "Magic Resistance (2)"
+        ],
+        "skills": "Destruição 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Mage Armor (3)"
+        ],
+        "skills": "Destruição 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Restoration Dual Casting",
+          "Stability"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Ocato's Preparation",
+          "Ward Absorb"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Impact"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Flames",
+        "Frostbite",
+        "Sparks"
+      ],
+      "Aprendiz": [
+        "Ice Spike",
+        "Lightning Bolt",
+        "Burning Touch"
+      ],
+      "Adepto": [
+        "Fireball",
+        "Frost Cloak",
+        "Chain Lightning"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Chamas",
+        "namePt": "Chamas",
+        "nameOriginal": "Flames",
+        "tier": "Novato",
+        "description": "Dispara uma rajada contínua de fogo que causa 8 de dano por segundo. Alvos em chamas sofrem dano adicional residual.",
+        "descriptionPt": "Dispara uma rajada contínua de fogo que causa 8 de dano por segundo. Alvos em chamas sofrem dano adicional residual."
+      },
+      {
+        "name": "Mordedura de Gelo",
+        "namePt": "Mordedura de Gelo",
+        "nameOriginal": "Frostbite",
+        "tier": "Novato",
+        "description": "Dispara um jato contínuo de geada que causa 8 de dano por segundo à Vida e ao Vigor, desacelerando o alvo.",
+        "descriptionPt": "Dispara um jato contínuo de geada que causa 8 de dano por segundo à Vida e ao Vigor, desacelerando o alvo."
+      },
+      {
+        "name": "Faíscas",
+        "namePt": "Faíscas",
+        "nameOriginal": "Sparks",
+        "tier": "Novato",
+        "description": "Canaliza uma corrente de relâmpagos contínuos que causa 8 de dano de choque por segundo à Vida e à Mágicka.",
+        "descriptionPt": "Canaliza uma corrente de relâmpagos contínuos que causa 8 de dano de choque por segundo à Vida e à Mágicka."
+      },
+      {
+        "name": "Estaca de Gelo",
+        "namePt": "Estaca de Gelo",
+        "nameOriginal": "Ice Spike",
+        "tier": "Aprendiz",
+        "description": "Arremessa um espinho pontiagudo de gelo que causa 20 de dano de gelo à Vida e ao Vigor do inimigo.",
+        "descriptionPt": "Arremessa um espinho pontiagudo de gelo que causa 20 de dano de gelo à Vida e ao Vigor do inimigo."
+      },
+      {
+        "name": "Raio Relampejante",
+        "namePt": "Raio Relampejante",
+        "nameOriginal": "Lightning Bolt",
+        "tier": "Aprendiz",
+        "description": "Dispara um relâmpago veloz e concentrado que atinge o alvo instantaneamente com 20 de dano de choque à Vida e Mágicka.",
+        "descriptionPt": "Dispara um relâmpago veloz e concentrado que atinge o alvo instantaneamente com 20 de dano de choque à Vida e Mágicka."
+      },
+      {
+        "name": "Toque Flamejante",
+        "namePt": "Toque Flamejante",
+        "nameOriginal": "Burning Touch",
+        "tier": "Aprendiz",
+        "description": "Causa 30 de dano de fogo imediato a adversários em alcance de combate corpo a corpo.",
+        "descriptionPt": "Causa 30 de dano de fogo imediato a adversários em alcance de combate corpo a corpo."
+      },
+      {
+        "name": "Bola de Fogo",
+        "namePt": "Bola de Fogo",
+        "nameOriginal": "Fireball",
+        "tier": "Adepto",
+        "description": "Lança uma esfera explosiva de chamas que detona ao impacto causando 40 de dano de fogo em um amplo raio.",
+        "descriptionPt": "Lança uma esfera explosiva de chamas que detona ao impacto causando 40 de dano de fogo em um amplo raio."
+      },
+      {
+        "name": "Manto de Gelo",
+        "namePt": "Manto de Gelo",
+        "nameOriginal": "Frost Cloak",
+        "tier": "Adepto",
+        "description": "Por 60 segundos, envolve o conjurador em uma tempestade invernal que causa 8 de dano de gelo por segundo a inimigos próximos.",
+        "descriptionPt": "Por 60 segundos, envolve o conjurador em uma tempestade invernal que causa 8 de dano de gelo por segundo a inimigos próximos."
+      },
+      {
+        "name": "Relâmpago em Cadeia",
+        "namePt": "Relâmpago em Cadeia",
+        "nameOriginal": "Chain Lightning",
+        "tier": "Adepto",
+        "description": "Dispara uma poderosa descarga que causa 40 de dano de choque e salta para múltiplos inimigos próximos.",
+        "descriptionPt": "Dispara uma poderosa descarga que causa 40 de dano de choque e salta para múltiplos inimigos próximos."
+      },
+      {
+        "name": "Pele de Carvalho",
+        "namePt": "Pele de Carvalho",
+        "nameOriginal": "Oakflesh",
+        "tier": "Novato",
+        "description": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos.",
+        "descriptionPt": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos."
+      },
+      {
+        "name": "Pele de Pedra",
+        "namePt": "Pele de Pedra",
+        "nameOriginal": "Stoneflesh",
+        "tier": "Aprendiz",
+        "description": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos.",
+        "descriptionPt": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos."
+      },
+      {
+        "name": "Pele de Ferro",
+        "namePt": "Pele de Ferro",
+        "nameOriginal": "Ironflesh",
+        "tier": "Adepto",
+        "description": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos.",
+        "descriptionPt": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos."
+      },
+      {
+        "name": "Passo do Vento",
+        "namePt": "Passo do Vento",
+        "nameOriginal": "Windwalker",
+        "tier": "Aprendiz",
+        "description": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos.",
+        "descriptionPt": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos."
+      },
+      {
+        "name": "Luz Mágica",
+        "namePt": "Luz Mágica",
+        "nameOriginal": "Magelight",
+        "tier": "Aprendiz",
+        "description": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos.",
+        "descriptionPt": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos."
+      },
+      {
+        "name": "Carapaça Elétrica",
+        "namePt": "Carapaça Elétrica",
+        "nameOriginal": "Shock Shell",
+        "tier": "Adepto",
+        "description": "Aumenta a resistência a dano de Choque do conjurador em 50% por 120 segundos.",
+        "descriptionPt": "Aumenta a resistência a dano de Choque do conjurador em 50% por 120 segundos."
+      },
+      {
+        "name": "Barreira Firme",
+        "namePt": "Barreira Firme",
+        "nameOriginal": "Steadfast Ward",
+        "tier": "Aprendiz",
+        "description": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido.",
+        "descriptionPt": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido."
+      },
+      {
+        "name": "Barreira Maior",
+        "namePt": "Barreira Maior",
+        "nameOriginal": "Greater Ward",
+        "tier": "Adepto",
+        "description": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços.",
+        "descriptionPt": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "criomante": {
+    "id": "criomante",
+    "key": "CRIOMANTE",
+    "name": "CRIOMANTE",
+    "fullName": "CRIOMANTE",
+    "archetype": "CONJURADORES",
+    "requiresWinterholdStudent": true,
+    "description": "O Criomante abdica de qualquer outra manifestação mágica para se devotar inteiramente ao abraço gélido da morte. Senhor do zero absoluto, ele molda a geada e a tempestade de neve para desacelerar, congelar e estilhaçar seus inimigos. Envolto em barreiras de gelo e dominando feitiços de congelamento devastadores, ele transforma o campo de batalha em um túmulo congelado.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Destruction Mastery",
+          "Alteration Mastery",
+          "One-Handed Mastery",
+          "Restoration Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Destruction Dual Casting",
+          "Mage Armor (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Augmented Frost (1)",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Destruição 30, Alteração 30, Restauração 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Rune Mestre",
+          "Mage Armor (2)",
+          "Vigilant Ward (1)"
+        ],
+        "skills": "Destruição 40, Alteração 40, Restauração 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Chilling Frost",
+          "Magic Resistance (2)"
+        ],
+        "skills": "Destruição 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Augmented Frost (2)",
+          "Mage Armor (3)"
+        ],
+        "skills": "Destruição 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Winter's Grasp",
+          "Stability"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Ocato's Preparation",
+          "Ward Absorb"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Hellstorm"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Frostbite"
+      ],
+      "Aprendiz": [
+        "Ice Spike",
+        "Chilling Touch",
+        "Frost Rune"
+      ],
+      "Adepto": [
+        "Greater Frostbite",
+        "Frost Cloak",
+        "Ice Storm"
+      ],
+      "Especialista": [
+        "Wall of Frost",
+        "Icy Spear"
+      ],
+      "Mestre": [
+        "Blizzard"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Mordedura de Gelo",
+        "namePt": "Mordedura de Gelo",
+        "nameOriginal": "Frostbite",
+        "tier": "Novato",
+        "description": "Dispara um jato contínuo de geada que causa 8 de dano por segundo à Vida e ao Vigor, desacelerando o alvo.",
+        "descriptionPt": "Dispara um jato contínuo de geada que causa 8 de dano por segundo à Vida e ao Vigor, desacelerando o alvo."
+      },
+      {
+        "name": "Estaca de Gelo",
+        "namePt": "Estaca de Gelo",
+        "nameOriginal": "Ice Spike",
+        "tier": "Aprendiz",
+        "description": "Arremessa um espinho pontiagudo de gelo que causa 20 de dano de gelo à Vida e ao Vigor do inimigo.",
+        "descriptionPt": "Arremessa um espinho pontiagudo de gelo que causa 20 de dano de gelo à Vida e ao Vigor do inimigo."
+      },
+      {
+        "name": "Toque Congelante",
+        "namePt": "Toque Congelante",
+        "nameOriginal": "Chilling Touch",
+        "tier": "Aprendiz",
+        "description": "Aplica um frio sepulcral em combate corpo a corpo, causando 30 de dano de gelo à Vida e drenando o Vigor.",
+        "descriptionPt": "Aplica um frio sepulcral em combate corpo a corpo, causando 30 de dano de gelo à Vida e drenando o Vigor."
+      },
+      {
+        "name": "Runa de Gelo",
+        "namePt": "Runa de Gelo",
+        "nameOriginal": "Frost Rune",
+        "tier": "Aprendiz",
+        "description": "Grava uma runa gélida no solo que explode ao contato inimigo, causando 40 de dano de gelo em área e lentidão.",
+        "descriptionPt": "Grava uma runa gélida no solo que explode ao contato inimigo, causando 40 de dano de gelo em área e lentidão."
+      },
+      {
+        "name": "Geada Superior",
+        "namePt": "Geada Superior",
+        "nameOriginal": "Greater Frostbite",
+        "tier": "Adepto",
+        "description": "Projeta um vendaval gélido denso que inflige 20 de dano de gelo por segundo à Vida e ao Vigor dos oponentes.",
+        "descriptionPt": "Projeta um vendaval gélido denso que inflige 20 de dano de gelo por segundo à Vida e ao Vigor dos oponentes."
+      },
+      {
+        "name": "Manto de Gelo",
+        "namePt": "Manto de Gelo",
+        "nameOriginal": "Frost Cloak",
+        "tier": "Adepto",
+        "description": "Por 60 segundos, envolve o conjurador em uma tempestade invernal que causa 8 de dano de gelo por segundo a inimigos próximos.",
+        "descriptionPt": "Por 60 segundos, envolve o conjurador em uma tempestade invernal que causa 8 de dano de gelo por segundo a inimigos próximos."
+      },
+      {
+        "name": "Tempestade de Gelo",
+        "namePt": "Tempestade de Gelo",
+        "nameOriginal": "Ice Storm",
+        "tier": "Adepto",
+        "description": "Dispara uma espiral rodopiante de gelo que rasga os inimigos na trajetória causando 40 de dano de gelo à Vida e Vigor.",
+        "descriptionPt": "Dispara uma espiral rodopiante de gelo que rasga os inimigos na trajetória causando 40 de dano de gelo à Vida e Vigor."
+      },
+      {
+        "name": "Muralha de Gelo",
+        "namePt": "Muralha de Gelo",
+        "nameOriginal": "Wall of Frost",
+        "tier": "Especialista",
+        "description": "Ergue uma barreira de estilhaços glaciais no solo que causa 20 de dano de gelo por segundo a quem a atravessar.",
+        "descriptionPt": "Ergue uma barreira de estilhaços glaciais no solo que causa 20 de dano de gelo por segundo a quem a atravessar."
+      },
+      {
+        "name": "Lança Glacial",
+        "namePt": "Lança Glacial",
+        "nameOriginal": "Icy Spear",
+        "tier": "Especialista",
+        "description": "Arremessa uma lança maciça de puro gelo que empala o alvo causando 60 de dano de gelo e drenando o Vigor.",
+        "descriptionPt": "Arremessa uma lança maciça de puro gelo que empala o alvo causando 60 de dano de gelo e drenando o Vigor."
+      },
+      {
+        "name": "Nevasca",
+        "namePt": "Nevasca",
+        "nameOriginal": "Blizzard",
+        "tier": "Mestre",
+        "description": "Conjura uma nevasca devastadora ao redor do mago por 10 segundos, causando 20 de dano de gelo contínuo em área massiva.",
+        "descriptionPt": "Conjura uma nevasca devastadora ao redor do mago por 10 segundos, causando 20 de dano de gelo contínuo em área massiva."
+      },
+      {
+        "name": "Pele de Carvalho",
+        "namePt": "Pele de Carvalho",
+        "nameOriginal": "Oakflesh",
+        "tier": "Novato",
+        "description": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos.",
+        "descriptionPt": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos."
+      },
+      {
+        "name": "Pele de Ferro",
+        "namePt": "Pele de Ferro",
+        "nameOriginal": "Ironflesh",
+        "tier": "Adepto",
+        "description": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos.",
+        "descriptionPt": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos."
+      },
+      {
+        "name": "Passo do Vento",
+        "namePt": "Passo do Vento",
+        "nameOriginal": "Windwalker",
+        "tier": "Aprendiz",
+        "description": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos.",
+        "descriptionPt": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos."
+      },
+      {
+        "name": "Luz Mágica",
+        "namePt": "Luz Mágica",
+        "nameOriginal": "Magelight",
+        "tier": "Aprendiz",
+        "description": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos.",
+        "descriptionPt": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos."
+      },
+      {
+        "name": "Carapaça Glacial",
+        "namePt": "Carapaça Glacial",
+        "nameOriginal": "Frost Shell",
+        "tier": "Adepto",
+        "description": "Aumenta a resistência a dano de Gelo do conjurador em 50% por 120 segundos.",
+        "descriptionPt": "Aumenta a resistência a dano de Gelo do conjurador em 50% por 120 segundos."
+      },
+      {
+        "name": "Barreira Firme",
+        "namePt": "Barreira Firme",
+        "nameOriginal": "Steadfast Ward",
+        "tier": "Aprendiz",
+        "description": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido.",
+        "descriptionPt": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido."
+      },
+      {
+        "name": "Barreira Maior",
+        "namePt": "Barreira Maior",
+        "nameOriginal": "Greater Ward",
+        "tier": "Adepto",
+        "description": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços.",
+        "descriptionPt": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "eletromante": {
+    "id": "eletromante",
+    "key": "ELETROMANTE",
+    "name": "ELETROMANTE",
+    "fullName": "ELETROMANTE",
+    "archetype": "CONJURADORES",
+    "requiresWinterholdStudent": true,
+    "description": "O Eletromante abdica de qualquer outra manifestação mágica para se devotar inteiramente ao poder da tempestade. Senhor dos raios, ele molda a eletricidade para chocar, paralisar e desintegrar seus inimigos. Envolto em barreiras elétricas e dominando feitiços de choque devastadores, ele transforma o campo de batalha em uma tempestade implacável.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Destruction Mastery",
+          "Alteration Mastery",
+          "One-Handed Mastery",
+          "Restoration Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Destruction Dual Casting",
+          "Mage Armor (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Augmented Shock (1)",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Destruição 30, Alteração 30, Restauração 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Rune Mestre",
+          "Mage Armor (2)",
+          "Vigilant Ward (1)"
+        ],
+        "skills": "Destruição 40, Alteração 40, Restauração 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Deafening Shock:",
+          "Magic Resistance (2)"
+        ],
+        "skills": "Destruição 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Augmented Shock (2)",
+          "Mage Armor (3)"
+        ],
+        "skills": "Destruição 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Crackling Sphere",
+          "Stability"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Ocato's Preparation",
+          "Ward Absorb"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Hellstorm"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Sparks"
+      ],
+      "Aprendiz": [
+        "Lightning Bolt",
+        "Shocking Touch",
+        "Lightning Rune"
+      ],
+      "Adepto": [
+        "Greater Sparks",
+        "Lightning Cloak",
+        "Chain Lightning"
+      ],
+      "Especialista": [
+        "Wall of Storms",
+        "Thunderbolt"
+      ],
+      "Mestre": [
+        "Lightning Storm"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Faíscas",
+        "namePt": "Faíscas",
+        "nameOriginal": "Sparks",
+        "tier": "Novato",
+        "description": "Canaliza uma corrente de relâmpagos contínuos que causa 8 de dano de choque por segundo à Vida e à Mágicka.",
+        "descriptionPt": "Canaliza uma corrente de relâmpagos contínuos que causa 8 de dano de choque por segundo à Vida e à Mágicka."
+      },
+      {
+        "name": "Raio Relampejante",
+        "namePt": "Raio Relampejante",
+        "nameOriginal": "Lightning Bolt",
+        "tier": "Aprendiz",
+        "description": "Dispara um relâmpago veloz e concentrado que atinge o alvo instantaneamente com 20 de dano de choque à Vida e Mágicka.",
+        "descriptionPt": "Dispara um relâmpago veloz e concentrado que atinge o alvo instantaneamente com 20 de dano de choque à Vida e Mágicka."
+      },
+      {
+        "name": "Toque Elétrico",
+        "namePt": "Toque Elétrico",
+        "nameOriginal": "Shocking Touch",
+        "tier": "Aprendiz",
+        "description": "Descarrega alta voltagem a curta distância, causando 30 de dano elétrico à Vida e dizimando a Mágicka do oponente.",
+        "descriptionPt": "Descarrega alta voltagem a curta distância, causando 30 de dano elétrico à Vida e dizimando a Mágicka do oponente."
+      },
+      {
+        "name": "Runa de Eletricidade",
+        "namePt": "Runa de Eletricidade",
+        "nameOriginal": "Lightning Rune",
+        "tier": "Aprendiz",
+        "description": "Grava uma armadilha elétrica no chão que detona com a passagem inimiga causando 40 de dano de choque e desestabilização.",
+        "descriptionPt": "Grava uma armadilha elétrica no chão que detona com a passagem inimiga causando 40 de dano de choque e desestabilização."
+      },
+      {
+        "name": "Faíscas Superiores",
+        "namePt": "Faíscas Superiores",
+        "nameOriginal": "Greater Sparks",
+        "tier": "Adepto",
+        "description": "Canaliza uma torrente eletrificada de alta voltagem causando 20 de dano de choque por segundo à Vida e Mágicka.",
+        "descriptionPt": "Canaliza uma torrente eletrificada de alta voltagem causando 20 de dano de choque por segundo à Vida e Mágicka."
+      },
+      {
+        "name": "Manto da Tempestade",
+        "namePt": "Manto da Tempestade",
+        "nameOriginal": "Lightning Cloak",
+        "tier": "Adepto",
+        "description": "Por 60 segundos, arcos elétricos circundam o conjurador causando 8 de dano de choque por segundo a inimigos adjacentes.",
+        "descriptionPt": "Por 60 segundos, arcos elétricos circundam o conjurador causando 8 de dano de choque por segundo a inimigos adjacentes."
+      },
+      {
+        "name": "Relâmpago em Cadeia",
+        "namePt": "Relâmpago em Cadeia",
+        "nameOriginal": "Chain Lightning",
+        "tier": "Adepto",
+        "description": "Dispara uma poderosa descarga que causa 40 de dano de choque e salta para múltiplos inimigos próximos.",
+        "descriptionPt": "Dispara uma poderosa descarga que causa 40 de dano de choque e salta para múltiplos inimigos próximos."
+      },
+      {
+        "name": "Muralha da Tempestade",
+        "namePt": "Muralha da Tempestade",
+        "nameOriginal": "Wall of Storms",
+        "tier": "Especialista",
+        "description": "Eletrifica o solo criando uma cerca viva de raios que causa 20 de dano de choque contínuo por segundo a quem passar.",
+        "descriptionPt": "Eletrifica o solo criando uma cerca viva de raios que causa 20 de dano de choque contínuo por segundo a quem passar."
+      },
+      {
+        "name": "Trovão Fulminante",
+        "namePt": "Trovão Fulminante",
+        "nameOriginal": "Thunderbolt",
+        "tier": "Especialista",
+        "description": "Conjura um raio fulminante devastador que causa 60 de dano de choque instantâneo à Vida e Mágicka do alvo.",
+        "descriptionPt": "Conjura um raio fulminante devastador que causa 60 de dano de choque instantâneo à Vida e Mágicka do alvo."
+      },
+      {
+        "name": "Tempestade de Raios",
+        "namePt": "Tempestade de Raios",
+        "nameOriginal": "Lightning Storm",
+        "tier": "Mestre",
+        "description": "Canaliza um feixe contínuo cataclísmico que desintegra inimigos na mira causando 75 de dano de choque por segundo.",
+        "descriptionPt": "Canaliza um feixe contínuo cataclísmico que desintegra inimigos na mira causando 75 de dano de choque por segundo."
+      },
+      {
+        "name": "Pele de Carvalho",
+        "namePt": "Pele de Carvalho",
+        "nameOriginal": "Oakflesh",
+        "tier": "Novato",
+        "description": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos.",
+        "descriptionPt": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos."
+      },
+      {
+        "name": "Pele de Pedra",
+        "namePt": "Pele de Pedra",
+        "nameOriginal": "Stoneflesh",
+        "tier": "Adepto",
+        "description": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos.",
+        "descriptionPt": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos."
+      },
+      {
+        "name": "Passo do Vento",
+        "namePt": "Passo do Vento",
+        "nameOriginal": "Windwalker",
+        "tier": "Aprendiz",
+        "description": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos.",
+        "descriptionPt": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos."
+      },
+      {
+        "name": "Luz Mágica",
+        "namePt": "Luz Mágica",
+        "nameOriginal": "Magelight",
+        "tier": "Aprendiz",
+        "description": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos.",
+        "descriptionPt": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos."
+      },
+      {
+        "name": "Carapaça Elétrica",
+        "namePt": "Carapaça Elétrica",
+        "nameOriginal": "Shock Shell",
+        "tier": "Adepto",
+        "description": "Aumenta a resistência a dano de Choque do conjurador em 50% por 120 segundos.",
+        "descriptionPt": "Aumenta a resistência a dano de Choque do conjurador em 50% por 120 segundos."
+      },
+      {
+        "name": "Pele de Ferro",
+        "namePt": "Pele de Ferro",
+        "nameOriginal": "Ironflesh",
+        "tier": "Adepto",
+        "description": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos.",
+        "descriptionPt": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos."
+      },
+      {
+        "name": "Barreira Firme",
+        "namePt": "Barreira Firme",
+        "nameOriginal": "Steadfast Ward",
+        "tier": "Aprendiz",
+        "description": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido.",
+        "descriptionPt": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido."
+      },
+      {
+        "name": "Barreira Maior",
+        "namePt": "Barreira Maior",
+        "nameOriginal": "Greater Ward",
+        "tier": "Adepto",
+        "description": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços.",
+        "descriptionPt": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "piromante": {
+    "id": "piromante",
+    "key": "PIROMANTE",
+    "name": "PIROMANTE",
+    "fullName": "PIROMANTE",
+    "archetype": "CONJURADORES",
+    "requiresWinterholdStudent": true,
+    "description": "O Piromante é o avatar da destruição incandescente, um mago que entregou sua alma às chamas eternas. Ignorando todas as outras vertentes da magia elemental, ele domina a arte de reduzir tudo a cinzas. Capaz de conjurar desde ondas de calor sufocantes até tempestades de fogo apocalípticas, o Piromante prospera no caos da combustão e no pavor daqueles que queimam sob seu poder.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Destruction Mastery",
+          "Alteration Mastery",
+          "One-Handed Mastery",
+          "Restoration Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Destruction Dual Casting",
+          "Mage Armor (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Augmented Flames (1)",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Destruição 30, Alteração 30, Restauração 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Rune Mestre",
+          "Mage Armor (2)",
+          "Vigilant Ward (1)"
+        ],
+        "skills": "Destruição 40, Alteração 40, Restauração 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Devouring Flames",
+          "Magic Resistance (2)"
+        ],
+        "skills": "Destruição 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Augmented Flames (2)",
+          "Mage Armor (3)"
+        ],
+        "skills": "Destruição 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Scorched Earth",
+          "Stability"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Ocato's Preparation",
+          "Ward Absorb"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Hellstorm"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Flames"
+      ],
+      "Aprendiz": [
+        "Fire Bolt",
+        "Burning Touch",
+        "Fire Rune"
+      ],
+      "Adepto": [
+        "Greater Flames",
+        "Flame Cloak",
+        "Fireball"
+      ],
+      "Especialista": [
+        "Wall of Flames",
+        "Incinerate"
+      ],
+      "Mestre": [
+        "Firestorm"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Chamas",
+        "namePt": "Chamas",
+        "nameOriginal": "Flames",
+        "tier": "Novato",
+        "description": "Dispara uma rajada contínua de fogo que causa 8 de dano por segundo. Alvos em chamas sofrem dano adicional residual.",
+        "descriptionPt": "Dispara uma rajada contínua de fogo que causa 8 de dano por segundo. Alvos em chamas sofrem dano adicional residual."
+      },
+      {
+        "name": "Dardo Ígneo",
+        "namePt": "Dardo Ígneo",
+        "nameOriginal": "Firebolt",
+        "tier": "Aprendiz",
+        "description": "Dispara um projétil flamejante veloz que causa 20 de dano de fogo no impacto.",
+        "descriptionPt": "Dispara um projétil flamejante veloz que causa 20 de dano de fogo no impacto."
+      },
+      {
+        "name": "Toque Flamejante",
+        "namePt": "Toque Flamejante",
+        "nameOriginal": "Burning Touch",
+        "tier": "Aprendiz",
+        "description": "Causa 30 de dano de fogo imediato a adversários em alcance de combate corpo a corpo.",
+        "descriptionPt": "Causa 30 de dano de fogo imediato a adversários em alcance de combate corpo a corpo."
+      },
+      {
+        "name": "Runa de Fogo",
+        "namePt": "Runa de Fogo",
+        "nameOriginal": "Fire Rune",
+        "tier": "Aprendiz",
+        "description": "Grava uma armadilha rúnica no chão que explode quando um inimigo se aproxima, causando 40 de dano de fogo em área.",
+        "descriptionPt": "Grava uma armadilha rúnica no chão que explode quando um inimigo se aproxima, causando 40 de dano de fogo em área."
+      },
+      {
+        "name": "Chamas Superiores",
+        "namePt": "Chamas Superiores",
+        "nameOriginal": "Greater Flames",
+        "tier": "Adepto",
+        "description": "Libera uma torrente concentrada de fogo que causa 20 de dano de fogo por segundo.",
+        "descriptionPt": "Libera uma torrente concentrada de fogo que causa 20 de dano de fogo por segundo."
+      },
+      {
+        "name": "Manto de Chamas",
+        "namePt": "Manto de Chamas",
+        "nameOriginal": "Flame Cloak",
+        "tier": "Adepto",
+        "description": "Por 60 segundos, envolve o conjurador em fogo, causando 8 de dano de fogo por segundo a todos os inimigos próximos.",
+        "descriptionPt": "Por 60 segundos, envolve o conjurador em fogo, causando 8 de dano de fogo por segundo a todos os inimigos próximos."
+      },
+      {
+        "name": "Bola de Fogo",
+        "namePt": "Bola de Fogo",
+        "nameOriginal": "Fireball",
+        "tier": "Adepto",
+        "description": "Lança uma esfera explosiva de chamas que detona ao impacto causando 40 de dano de fogo em um amplo raio.",
+        "descriptionPt": "Lança uma esfera explosiva de chamas que detona ao impacto causando 40 de dano de fogo em um amplo raio."
+      },
+      {
+        "name": "Muralha de Chamas",
+        "namePt": "Muralha de Chamas",
+        "nameOriginal": "Wall of Flames",
+        "tier": "Especialista",
+        "description": "Pinta o solo com fogo persistente que causa 20 de dano por segundo a qualquer adversário que atravessar a barreira.",
+        "descriptionPt": "Pinta o solo com fogo persistente que causa 20 de dano por segundo a qualquer adversário que atravessar a barreira."
+      },
+      {
+        "name": "Incinerar",
+        "namePt": "Incinerar",
+        "nameOriginal": "Incinerate",
+        "tier": "Especialista",
+        "description": "Dispara uma poderosa labareda incandescente que causa 60 de dano de fogo massivo ao alvo.",
+        "descriptionPt": "Dispara uma poderosa labareda incandescente que causa 60 de dano de fogo massivo ao alvo."
+      },
+      {
+        "name": "Tempestade de Fogo",
+        "namePt": "Tempestade de Fogo",
+        "nameOriginal": "Firestorm",
+        "tier": "Mestre",
+        "description": "Libera uma detonação apocalíptica de chamas que causa até 100 de dano de fogo a todos os inimigos em uma área colossal.",
+        "descriptionPt": "Libera uma detonação apocalíptica de chamas que causa até 100 de dano de fogo a todos os inimigos em uma área colossal."
+      },
+      {
+        "name": "Pele de Carvalho",
+        "namePt": "Pele de Carvalho",
+        "nameOriginal": "Oakflesh",
+        "tier": "Novato",
+        "description": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos.",
+        "descriptionPt": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos."
+      },
+      {
+        "name": "Pele de Pedra",
+        "namePt": "Pele de Pedra",
+        "nameOriginal": "Stoneflesh",
+        "tier": "Adepto",
+        "description": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos.",
+        "descriptionPt": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos."
+      },
+      {
+        "name": "Passo do Vento",
+        "namePt": "Passo do Vento",
+        "nameOriginal": "Windwalker",
+        "tier": "Aprendiz",
+        "description": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos.",
+        "descriptionPt": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos."
+      },
+      {
+        "name": "Luz Mágica",
+        "namePt": "Luz Mágica",
+        "nameOriginal": "Magelight",
+        "tier": "Aprendiz",
+        "description": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos.",
+        "descriptionPt": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos."
+      },
+      {
+        "name": "Carapaça Ígnea",
+        "namePt": "Carapaça Ígnea",
+        "nameOriginal": "Flame Shell",
+        "tier": "Adepto",
+        "description": "Aumenta a resistência a dano de Fogo do conjurador em 50% por 120 segundos.",
+        "descriptionPt": "Aumenta a resistência a dano de Fogo do conjurador em 50% por 120 segundos."
+      },
+      {
+        "name": "Pele de Ferro",
+        "namePt": "Pele de Ferro",
+        "nameOriginal": "Ironflesh",
+        "tier": "Adepto",
+        "description": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos.",
+        "descriptionPt": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos."
+      },
+      {
+        "name": "Barreira Firme",
+        "namePt": "Barreira Firme",
+        "nameOriginal": "Steadfast Ward",
+        "tier": "Aprendiz",
+        "description": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido.",
+        "descriptionPt": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido."
+      },
+      {
+        "name": "Barreira Maior",
+        "namePt": "Barreira Maior",
+        "nameOriginal": "Greater Ward",
+        "tier": "Adepto",
+        "description": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços.",
+        "descriptionPt": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "invocador": {
+    "id": "invocador",
+    "key": "INVOCADOR",
+    "name": "INVOCADOR",
+    "fullName": "INVOCADOR",
+    "archetype": "CONJURADORES",
+    "requiresWinterholdStudent": true,
+    "description": "O Invocador é um arquiteto do plano cósmico, capaz de rasgar o tecido da realidade e subjugar os horrores de Oblivion à sua vontade. Comandando Atronachs como peças em um tabuleiro, ele nunca luta sozinho. Enquanto suas monárquicas criações elementais esmagam a linha de frente inimiga, o Invocador controla o combate à distância, seguro atrás de suas maquinações interdimensionais.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Conjuration Mastery",
+          "Alteration Mastery",
+          "Restoration Mastery",
+          "One-Handed Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Conjuration Dual Casting",
+          "Mage Armor (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Atromancy",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Conjuração 30, Alteração 30, Restauração 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Oblivion Stone (1)",
+          "Mage Armor (2)",
+          "Rift Summoner (1)"
+        ],
+        "skills": "Conjuração 40, Alteração 40, Restauração 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Rift Summoner (2)",
+          "Magic Resistance (2)"
+        ],
+        "skills": "Conjuração 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Elemental Potency",
+          "Mage Armor (3)"
+        ],
+        "skills": "Conjuração 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Vigilant Ward (1)",
+          "Oblivion Stone (2)"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Elemental Conflux",
+          "Ward Absorb"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Twin Souls"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Conjure Spectral Wolf",
+        "Bound Dagger",
+        "Flames",
+        "Frostbite",
+        "Sparks"
+      ],
+      "Aprendiz": [
+        "Conjure Flame Atronach"
+      ],
+      "Adepto": [
+        "Conjure Frost Atronach",
+        "Daedric Cure"
+      ],
+      "Especialista": [
+        "Conjure Storm Atronach"
+      ],
+      "Mestre": [
+        "Conjure Flame Monarch",
+        "Conjure Frost Monarch",
+        "Conjure Storm Monarch",
+        "Expel Daedra"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Invocar Lobo Espectral",
+        "namePt": "Invocar Lobo Espectral",
+        "nameOriginal": "Conjure Spectral Wolf",
+        "tier": "Novato",
+        "description": "Invoca um lobo fantasmagórico veloz por 60 segundos para perseguir e morder alvos distantes.",
+        "descriptionPt": "Invoca um lobo fantasmagórico veloz por 60 segundos para perseguir e morder alvos distantes."
+      },
+      {
+        "name": "Adaga Vinculada",
+        "namePt": "Adaga Vinculada",
+        "nameOriginal": "Bound Dagger",
+        "tier": "Novato",
+        "description": "Conjura uma lâmina espectral daédrica por 120 segundos, ideal para ataques furtivos silenciosos.",
+        "descriptionPt": "Conjura uma lâmina espectral daédrica por 120 segundos, ideal para ataques furtivos silenciosos."
+      },
+      {
+        "name": "Invocar Atronach da Chama",
+        "namePt": "Invocar Atronach da Chama",
+        "nameOriginal": "Conjure Flame Atronach",
+        "tier": "Aprendiz",
+        "description": "Invoca um ser elemental de fogo por 60 segundos que ataca com dardos flamejantes à distância.",
+        "descriptionPt": "Invoca um ser elemental de fogo por 60 segundos que ataca com dardos flamejantes à distância."
+      },
+      {
+        "name": "Invocar Atronach do Gelo",
+        "namePt": "Invocar Atronach do Gelo",
+        "nameOriginal": "Conjure Frost Atronach",
+        "tier": "Adepto",
+        "description": "Invoca um golém brutal de gelo resistente por 60 segundos para esmagar a linha de frente.",
+        "descriptionPt": "Invoca um golém brutal de gelo resistente por 60 segundos para esmagar a linha de frente."
+      },
+      {
+        "name": "Cura Daédrica",
+        "namePt": "Cura Daédrica",
+        "nameOriginal": "Daedric Cure",
+        "tier": "Adepto",
+        "description": "Restaura 20 pontos de Vida por segundo de todas as criaturas invocadas e zumbis reanimados próximos.",
+        "descriptionPt": "Restaura 20 pontos de Vida por segundo de todas as criaturas invocadas e zumbis reanimados próximos."
+      },
+      {
+        "name": "Invocar Atronach da Tempestade",
+        "namePt": "Invocar Atronach da Tempestade",
+        "nameOriginal": "Conjure Storm Atronach",
+        "tier": "Especialista",
+        "description": "Invoca um colosso elétrico flutuante por 60 segundos que bombardeia com relâmpagos em área.",
+        "descriptionPt": "Invoca um colosso elétrico flutuante por 60 segundos que bombardeia com relâmpagos em área."
+      },
+      {
+        "name": "Invocar Monarca da Chama",
+        "namePt": "Invocar Monarca da Chama",
+        "nameOriginal": "Conjure Flame Monarch",
+        "tier": "Mestre",
+        "description": "Invoca um monarca superior elemental de fogo por 60 segundos com poder de detonação duplicado.",
+        "descriptionPt": "Invoca um monarca superior elemental de fogo por 60 segundos com poder de detonação duplicado."
+      },
+      {
+        "name": "Invocar Monarca do Gelo",
+        "namePt": "Invocar Monarca do Gelo",
+        "nameOriginal": "Conjure Frost Monarch",
+        "tier": "Mestre",
+        "description": "Invoca um monarca superior de gelo por 60 segundos com armadura impenetrável e pisada congelante.",
+        "descriptionPt": "Invoca um monarca superior de gelo por 60 segundos com armadura impenetrável e pisada congelante."
+      },
+      {
+        "name": "Invocar Monarca da Tempestade",
+        "namePt": "Invocar Monarca da Tempestade",
+        "nameOriginal": "Conjure Storm Monarch",
+        "tier": "Mestre",
+        "description": "Invoca um monarca superior de tempestade por 60 segundos que desintegra pelotões com raios.",
+        "descriptionPt": "Invoca um monarca superior de tempestade por 60 segundos que desintegra pelotões com raios."
+      },
+      {
+        "name": "Expulsar Daedra Maior",
+        "namePt": "Expulsar Daedra Maior",
+        "nameOriginal": "Expel Daedra",
+        "tier": "Mestre",
+        "description": "Bane daedras poderosos até o nível 40 de volta para o Oblivion imediatamente.",
+        "descriptionPt": "Bane daedras poderosos até o nível 40 de volta para o Oblivion imediatamente."
+      },
+      {
+        "name": "Chamas",
+        "namePt": "Chamas",
+        "nameOriginal": "Flames",
+        "tier": "Novato",
+        "description": "Dispara uma rajada contínua de fogo que causa 8 de dano por segundo. Alvos em chamas sofrem dano adicional residual.",
+        "descriptionPt": "Dispara uma rajada contínua de fogo que causa 8 de dano por segundo. Alvos em chamas sofrem dano adicional residual."
+      },
+      {
+        "name": "Mordedura de Gelo",
+        "namePt": "Mordedura de Gelo",
+        "nameOriginal": "Frostbite",
+        "tier": "Novato",
+        "description": "Dispara um jato contínuo de geada que causa 8 de dano por segundo à Vida e ao Vigor, desacelerando o alvo.",
+        "descriptionPt": "Dispara um jato contínuo de geada que causa 8 de dano por segundo à Vida e ao Vigor, desacelerando o alvo."
+      },
+      {
+        "name": "Faíscas",
+        "namePt": "Faíscas",
+        "nameOriginal": "Sparks",
+        "tier": "Novato",
+        "description": "Canaliza uma corrente de relâmpagos contínuos que causa 8 de dano de choque por segundo à Vida e à Mágicka.",
+        "descriptionPt": "Canaliza uma corrente de relâmpagos contínuos que causa 8 de dano de choque por segundo à Vida e à Mágicka."
+      },
+      {
+        "name": "Pele de Carvalho",
+        "namePt": "Pele de Carvalho",
+        "nameOriginal": "Oakflesh",
+        "tier": "Novato",
+        "description": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos.",
+        "descriptionPt": "Aumenta o índice de armadura do conjurador em 40 pontos durante 60 segundos."
+      },
+      {
+        "name": "Pele de Pedra",
+        "namePt": "Pele de Pedra",
+        "nameOriginal": "Stoneflesh",
+        "tier": "Aprendiz",
+        "description": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos.",
+        "descriptionPt": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos."
+      },
+      {
+        "name": "Passo do Vento",
+        "namePt": "Passo do Vento",
+        "nameOriginal": "Windwalker",
+        "tier": "Adepto",
+        "description": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos.",
+        "descriptionPt": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos."
+      },
+      {
+        "name": "Luz Mágica",
+        "namePt": "Luz Mágica",
+        "nameOriginal": "Magelight",
+        "tier": "Adepto",
+        "description": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos.",
+        "descriptionPt": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos."
+      },
+      {
+        "name": "Carapaça Ígnea",
+        "namePt": "Carapaça Ígnea",
+        "nameOriginal": "Flame Shell",
+        "tier": "Adepto",
+        "description": "Aumenta a resistência a dano de Fogo do conjurador em 50% por 120 segundos.",
+        "descriptionPt": "Aumenta a resistência a dano de Fogo do conjurador em 50% por 120 segundos."
+      },
+      {
+        "name": "Pele de Ferro",
+        "namePt": "Pele de Ferro",
+        "nameOriginal": "Ironflesh",
+        "tier": "Adepto",
+        "description": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos.",
+        "descriptionPt": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos."
+      },
+      {
+        "name": "Barreira Firme",
+        "namePt": "Barreira Firme",
+        "nameOriginal": "Steadfast Ward",
+        "tier": "Aprendiz",
+        "description": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido.",
+        "descriptionPt": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido."
+      },
+      {
+        "name": "Barreira Maior",
+        "namePt": "Barreira Maior",
+        "nameOriginal": "Greater Ward",
+        "tier": "Adepto",
+        "description": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços.",
+        "descriptionPt": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "guardiao": {
+    "id": "guardiao",
+    "key": "GUARDIÃO",
+    "name": "GUARDIÃO",
+    "fullName": "GUARDIÃO",
+    "archetype": "GUERREIROS",
+    "requiresWinterholdStudent": false,
+    "description": "O Guardião é a fortaleza inabalável na linha de frente, o baluarte que separa os aliados da aniquilação. Revestido com armadura pesada e ostentando um escudo imponente, ele intercepta projéteis, absorve impactos devastadores e reprime qualquer avanço inimigo com golpes de escudo esmagadores. Onde o Guardião permanece de pé, a linha de defesa jamais cai.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Heavy Armor Mastery",
+          "Block Mastery",
+          "One-Handed Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Battle Fatigue",
+          "Disciplined Fighter"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Heavy Armor Fit",
+          "Cushioned (1)"
+        ],
+        "skills": "Bloqueio 30, Armadura Pesada 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Matching Heavy Set",
+          "Elemental Protection",
+          "Heavy Armor Training"
+        ],
+        "skills": "Uma-mão 30, Armadura Pesada 40, Bloqueio 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Magic Resistance (1)",
+          "Tower of Strength"
+        ],
+        "skills": "Uma-mão 40, Armadura Pesada 50, Bloqueio 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Deflect Arrows",
+          "Shield Charge"
+        ],
+        "skills": "Armadura Pesada 60, Bloqueio 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Magic Resistance (2)",
+          "Block Runner"
+        ],
+        "skills": "Bloqueio 70",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Stoneheart",
+          "Glancing Blows"
+        ],
+        "skills": "Bloqueio 80",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Face of the Mountain"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {},
+    "allSpellsList": [],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "berserker": {
+    "id": "berserker",
+    "key": "BERSERKER",
+    "name": "BERSERKER",
+    "fullName": "BERSERKER",
+    "archetype": "GUERREIROS",
+    "requiresWinterholdStudent": false,
+    "description": "O Berserker é uma força da natureza movida a sangue, adrenalina e fúria incontrolável. Com sua mobilidade brutal, ele empunha machados massivos com selvageria. Quanto mais sangra no combate, mais letal se torna, utilizando elixires alquímicos para catalisar sua raiva e mutilar seus oponentes antes que possam reagir.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Light Armor Mastery",
+          "Two-Handed Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Agility",
+          "Brutal Fighter"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Light Armor Fit",
+          "Mortal Wounds (1)"
+        ],
+        "skills": "Armadura Leve 30, Duas-Mãos 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Stimulants",
+          "Keen Senses",
+          "Death or Glory"
+        ],
+        "skills": "Armadura Leve 40, Duas-Mãos 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Light Armor Training",
+          "Ferocious Strength"
+        ],
+        "skills": "Armadura Leve 50, Duas-Mãos 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Slow Metabolism (1)",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Armadura Leve 60, Duas-Mãos 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Magic Resistance (2)",
+          "Adrenaline"
+        ],
+        "skills": "Duas-Mãos 70",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Wardancer",
+          "Hook Blade"
+        ],
+        "skills": "Duas-Mãos 80",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Rolling Charge"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {},
+    "allSpellsList": [],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "cavaleiro_negro": {
+    "id": "cavaleiro_negro",
+    "key": "CAVALEIRO NEGRO",
+    "name": "CAVALEIRO NEGRO",
+    "fullName": "CAVALEIRO NEGRO",
+    "archetype": "GUERREIROS",
+    "requiresWinterholdStudent": false,
+    "description": "O Cavaleiro Negro é um guerreiro sombrio que carrega o fardo da escuridão e a disciplina do aço. Com o poder avassalador de sua grande espada, ele avança inexoravelmente no campo de batalha. Sua presença exala pavor e sua lâmina traz o abraço sombrio para aqueles que ousam desafiar sua autoridade impiedosa.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Heavy Armor Mestre",
+          "Two-Handed Mastery",
+          "Destruction Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Battle Fatigue",
+          "Brutal Fighter"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Overbearing Assault (1)",
+          "Heavy Armor Fit"
+        ],
+        "skills": "Armadura Pesada 30, Duas-Mãos 30, Destruição 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Raw Power (1)",
+          "Death or Glory",
+          "Reap the Whirlwind"
+        ],
+        "skills": "Armadura Pesada 40, Duas-Mãos 40, Destruição 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Tower of Strength",
+          "Overbearing Assault (2)"
+        ],
+        "skills": "Armadura Pesada 50, Duas-Mãos 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Magic Resistance (1)",
+          "Heavy Armor Training",
+          "Raw Power (2)"
+        ],
+        "skills": "Armadura Pesada 60, Duas-Mãos 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Matching Heavy Set",
+          "Ferocious Strength"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Bear Hide",
+          "Magic Resistance (2)"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Crowd Pleaser"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Adepto": [
+        "Vampiric Bolt"
+      ],
+      "Mestre": [
+        "Scion’s Embrace"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Dardo Vampírico",
+        "namePt": "Dardo Vampírico",
+        "nameOriginal": "Vampiric Bolt",
+        "tier": "Especialista",
+        "description": "Dispara um raio de sangue sombrio que drena 40 pontos de Vida do alvo vivo, curando o conjurador.",
+        "descriptionPt": "Dispara um raio de sangue sombrio que drena 40 pontos de Vida do alvo vivo, curando o conjurador."
+      },
+      {
+        "name": "Abraço do Progenitor",
+        "namePt": "Abraço do Progenitor",
+        "nameOriginal": "Scion's Embrace",
+        "tier": "Mestre",
+        "description": "Por 60 segundos, suga continuamente 10 pontos de Vida por segundo de todos os inimigos vivos em combate corpo a corpo.",
+        "descriptionPt": "Por 60 segundos, suga continuamente 10 pontos de Vida por segundo de todos os inimigos vivos em combate corpo a corpo."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "paladino": {
+    "id": "paladino",
+    "key": "PALADINO",
+    "name": "PALADINO",
+    "fullName": "PALADINO",
+    "archetype": "GUERREIROS",
+    "requiresWinterholdStudent": false,
+    "description": "O Paladino é o bastião solar da justiça, um campeão sagrado ungido para erradicar o mal e proteger os inocentes. Envolto em armadura reluzente, ele combina o combate de proximidade com o poder purificador da magia divina. Sua luz radiante cura os feridos, fortalece os aliados e expurga os mortos-vivos e profanos com chamas sagradas.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Heavy Armor Mastery",
+          "One-Handed Mastery",
+          "Restoration Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Battle Fatigue",
+          "Disciplined Fighter"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Denting Blows (1)",
+          "Mercy"
+        ],
+        "skills": "Armadura Pesada 30, Uma-Mão 30, Restauração 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Tower of Strength",
+          "Respite",
+          "Rebuke Undead"
+        ],
+        "skills": "Armadura Pesada 40, Uma-Mão 40, Restauração 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Vigilant Ward (1)",
+          "Furious Strength"
+        ],
+        "skills": "Armadura Pesada 50, Restauração 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Denting Blows (2)",
+          "Inner Light (1)"
+        ],
+        "skills": "Armadura Pesada 60, Restauração 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Heavy Armor Training",
+          "Magic Resistance (1)"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Matching Heavy Set",
+          "Heavy Armor Fit"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Inspire"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Healing"
+      ],
+      "Aprendiz": [
+        "Turn Undead"
+      ],
+      "Adepto": [
+        "Circle of Life",
+        "Turn Greater Undead",
+        "Stendarr’s Aura",
+        "Greater Ward",
+        "Vampire’s Bane"
+      ],
+      "Mestre": [
+        "Sun Shard"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Cura Básica",
+        "namePt": "Cura Básica",
+        "nameOriginal": "Healing",
+        "tier": "Novato",
+        "description": "Canaliza energia sagrada para curar o conjurador em 10 pontos de Vida por segundo.",
+        "descriptionPt": "Canaliza energia sagrada para curar o conjurador em 10 pontos de Vida por segundo."
+      },
+      {
+        "name": "Expulsar Mortos-Vivos",
+        "namePt": "Expulsar Mortos-Vivos",
+        "nameOriginal": "Turn Undead",
+        "tier": "Aprendiz",
+        "description": "Faz com que mortos-vivos até o nível 10 fujam aterrorizados em pânico sagrado durante 30 segundos.",
+        "descriptionPt": "Faz com que mortos-vivos até o nível 10 fujam aterrorizados em pânico sagrado durante 30 segundos."
+      },
+      {
+        "name": "Círculo de Vitalidade",
+        "namePt": "Círculo de Vitalidade",
+        "nameOriginal": "Circle of Vitality",
+        "tier": "Adepto",
+        "description": "Cria uma zona consagrada no solo que regenera 10 pontos de Vida por segundo de todos os aliados dentro dela.",
+        "descriptionPt": "Cria uma zona consagrada no solo que regenera 10 pontos de Vida por segundo de todos os aliados dentro dela."
+      },
+      {
+        "name": "Expulsar Grandes Mortos-Vivos",
+        "namePt": "Expulsar Grandes Mortos-Vivos",
+        "nameOriginal": "Turn Greater Undead",
+        "tier": "Adepto",
+        "description": "Afugenta mortos-vivos poderosos até o nível 15 em uma ampla área durante 30 segundos.",
+        "descriptionPt": "Afugenta mortos-vivos poderosos até o nível 15 em uma ampla área durante 30 segundos."
+      },
+      {
+        "name": "Aura de Stendarr",
+        "namePt": "Aura de Stendarr",
+        "nameOriginal": "Stendarr's Aura",
+        "tier": "Adepto",
+        "description": "Envolve o paladino em uma emanação luminosa que queima mortos-vivos próximos em 8 de dano por segundo por 60 segundos.",
+        "descriptionPt": "Envolve o paladino em uma emanação luminosa que queima mortos-vivos próximos em 8 de dano por segundo por 60 segundos."
+      },
+      {
+        "name": "Barreira Maior",
+        "namePt": "Barreira Maior",
+        "nameOriginal": "Greater Ward",
+        "tier": "Adepto",
+        "description": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços.",
+        "descriptionPt": "Ergue uma barreira defensiva impenetrável que absorve e anula até 90 pontos de dano de feitiços."
+      },
+      {
+        "name": "Ruína dos Vampiros",
+        "namePt": "Ruína dos Vampiros",
+        "nameOriginal": "Vampire’s Bane",
+        "tier": "Adepto",
+        "description": "Detona uma rajada de radiação solar causando 40 de dano em área a vampiros e mortos-vivos.",
+        "descriptionPt": "Detona uma rajada de radiação solar causando 40 de dano em área a vampiros e mortos-vivos."
+      },
+      {
+        "name": "Fragmento Solar",
+        "namePt": "Fragmento Solar",
+        "nameOriginal": "Sun Shard",
+        "tier": "Mestre",
+        "description": "Manifesta uma réplica miniatura de um sol ardente por 30 segundos que queima mortos-vivos ao redor.",
+        "descriptionPt": "Manifesta uma réplica miniatura de um sol ardente por 30 segundos que queima mortos-vivos ao redor."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "mestre_espadachim": {
+    "id": "mestre_espadachim",
+    "key": "MESTRE ESPADACHIM",
+    "name": "MESTRE ESPADACHIM",
+    "fullName": "MESTRE ESPADACHIM",
+    "archetype": "GUERREIROS",
+    "requiresWinterholdStudent": false,
+    "description": "O Mestre Espadachim é a personificação da disciplina letal, um duelista purista que dedicou toda a sua existência à perfeição do caminho da lâmina. Rejeitando armaduras incômodas e artes mágicas, ele confia puramente em sua mobilidade extraordinária, reflexos cirúrgicos e uma sequência fluida e devastadora de estocadas e cortes impecáveis.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Light Armor Mastery",
+          "One-Handed Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Agility",
+          "Disciplined Fighter"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Light Armor Fit",
+          "Overpowering Assault (1)"
+        ],
+        "skills": "Armadura Leve 30, Uma-Mão 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Windrunner",
+          "Keen Senses",
+          "Furious Strength"
+        ],
+        "skills": "Armadura Leve 40, Uma-Mão 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Dual Flurry (1)",
+          "Evasive Sprint"
+        ],
+        "skills": "Armadura Leve 50, Uma-Mão 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Light Armor Training",
+          "Dual Flurry (2)",
+          "Wardancer"
+        ],
+        "skills": "Armadura Leve 60, Uma-Mão 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Valorous Charge",
+          "Dual Savagery"
+        ],
+        "skills": "Armadura Leve 70, Uma-Mão 70",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Execute",
+          "Bladedancer"
+        ],
+        "skills": "Armadura Leve 80, Uma-Mão 80",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Victory Rush",
+          "Untouchable"
+        ],
+        "skills": "Uma-Mão 100",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {},
+    "allSpellsList": [],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "arqueiro": {
+    "id": "arqueiro",
+    "key": "ARQUEIRO (SNIPER)",
+    "name": "ARQUEIRO",
+    "fullName": "ARQUEIRO (SNIPER)",
+    "archetype": "ESPECIALISTAS",
+    "requiresWinterholdStudent": false,
+    "description": "O Arqueiro é o fantasma da longa distância, um predador invisível que dita o destino do combate antes mesmo de ser detectado. Paciente e absurdamente preciso, ele calcula o vento e a distância para disparar flechas letais a partir das sombras. Para o Arqueiro, quanto maior a distância do alvo, mais inevitável e fatal é o impacto de seu disparo.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Archery Mastery",
+          "Light Armor Mastery",
+          "Sneak Mastery",
+          "One-Hand Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Far Shot (1)",
+          "Light Armor Fit"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Disciplined Fighter",
+          "Eagle Eye"
+        ],
+        "skills": "Armadura Leve 30, Arquearia 30, Furtividade 30, Uma-Mão 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Keen Senses",
+          "Hunter's Discipline"
+        ],
+        "skills": "Armadura Leve 40, Arquearia 40, Furtividade 40, Uma-Mão 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Far Shot (2)",
+          "Furious Strength"
+        ],
+        "skills": "Armadura Leve 50, Arquearia 50, Furtividade 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Wardancer",
+          "Silent Movement"
+        ],
+        "skills": "Armadura Leve 60, Arquearia 60, Furtividade 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Power Shot"
+        ],
+        "skills": "Arquearia 70",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Dodge Roll",
+          "Deadly Aim"
+        ],
+        "skills": "Arquearia 80",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Arrow to the Knee"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {},
+    "allSpellsList": [],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "ranger": {
+    "id": "ranger",
+    "key": "RANGER (CURTA DISTÂNCIA)",
+    "name": "RANGER",
+    "fullName": "RANGER (CURTA DISTÂNCIA)",
+    "archetype": "ESPECIALISTAS",
+    "requiresWinterholdStudent": false,
+    "description": "O Ranger é um combatente de escaramuça veloz e dinâmico, mestre em manter o controle do combate à meia e curta distância. Combinando arquearia rápida, mobilidade acrobática e o uso estratégico de tônicos e elixires, ele orbita os inimigos desferindo disparos contínuos enquanto se esquiva com graciosidade de qualquer contra-ataque.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Archery Mastery",
+          "One-Handed Mastery",
+          "Light Armor Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Point Blank Shot (1)",
+          "Disciplined Fighter"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Furious Strength",
+          "Agility",
+          "Stimulants"
+        ],
+        "skills": "Armadura Leve 30, Arquearia 30, Uma-Mão 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Light Armor Fit",
+          "Slow Metabolism (1)"
+        ],
+        "skills": "Armadura Leve 40, Arquearia 40, Uma-Mão 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Point Blank Shot (2)",
+          "Ranger"
+        ],
+        "skills": "Armadura Leve 50, Arquearia 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Gore",
+          "Wardancer",
+          "Light Armor Training"
+        ],
+        "skills": "Armadura Leve 60, Arquearia 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Adrenaline",
+          "Quick Shot"
+        ],
+        "skills": "Arquearia 70",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Pinning Shot",
+          "Arrow to the Knee"
+        ],
+        "skills": "Arquearia 80",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Untouchable"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {},
+    "allSpellsList": [],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "viper": {
+    "id": "viper",
+    "key": "VIPER (VENENO)",
+    "name": "VIPER",
+    "fullName": "VIPER (VENENO)",
+    "archetype": "ESPECIALISTAS",
+    "requiresWinterholdStudent": false,
+    "description": "O Viper é um mestre da guerra química e do combate insidioso. Especializado na utilização de toxinas letais, ele banha suas lâminas com venenos virulentos que corroem a carne, paralisam os músculos e queimam as entranhas do oponente a cada corte. Para o Viper, a verdadeira vitória ocorre segundos após o primeiro arranhão.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "One-Handed Mastery",
+          "Light Armor Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Agility",
+          "Disciplined Fighter"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Fangs (1)",
+          "Stimulants",
+          "Concentrated Poison (1)"
+        ],
+        "skills": "Armadura Leve 30, Uma-Mão 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Light Armor Fit",
+          "Slow Metabolism (1)"
+        ],
+        "skills": "Armadura Leve 40, Uma-Mão 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Fangs (2)",
+          "Concentrated Poison (2)",
+          "Dual Flurry (1)"
+        ],
+        "skills": "Armadura Leve 50, Uma-Mão 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Untouchable",
+          "Bladedancer"
+        ],
+        "skills": "Armadura Leve 60, Uma-Mão 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Alkahest",
+          "Slow Metabolism (2)"
+        ],
+        "skills": "Uma-Mão 70",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Plague Doctor",
+          "Spitting Cobra"
+        ],
+        "skills": "Uma-Mão 80",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Concentrated Poison (3)"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {},
+    "allSpellsList": [],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "assassino": {
+    "id": "assassino",
+    "key": "ASSASSINO",
+    "name": "ASSASSINO",
+    "fullName": "ASSASSINO",
+    "archetype": "ESPECIALISTAS",
+    "requiresWinterholdStudent": false,
+    "description": "O Assassino é a própria sombra encarnada, um mestre da infiltração que transforma o ocultamento e a ilusão em instrumentos de morte imediata. Movendo-se em silêncio absoluto e tornando-se invisível à vontade, ele surge nas costas de suas vítimas para desfazer suas vidas com um único golpe preciso antes de desaparecer novamente no caos.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "One-Handed Mastery",
+          "Light Armor Mastery",
+          "Illusion Mastery",
+          "Sneak Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Agility",
+          "Disciplined Fighter"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Valorous Charge",
+          "Sneak Attack",
+          "Silent Movement (1)"
+        ],
+        "skills": "Uma-Mão 30, Armadura Leve 30, Ilusão 30, Furtividade 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Light Armor Fit",
+          "Backstab"
+        ],
+        "skills": "Uma-Mão 40, Armadura Leve 40, Ilusão 40, Furtividade 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Windrunner",
+          "Silent Movement (2)"
+        ],
+        "skills": "Ilusão 50, Furtividade 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Blur",
+          "Assassin's Blade"
+        ],
+        "skills": "Ilusão 60, Furtividade 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Cloak and Dagger",
+          "Untouchable"
+        ],
+        "skills": "Furtividade 70",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Shadow Warrior",
+          "Quiet Casting"
+        ],
+        "skills": "Furtividade 80",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Victory Rush"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Especialista": [
+        "Invisibility"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Invisibilidade",
+        "namePt": "Invisibilidade",
+        "nameOriginal": "Invisibility",
+        "tier": "Especialista",
+        "description": "Torna o usuário completamente invisível por até 240 segundos ou até desferir um ataque ou interagir.",
+        "descriptionPt": "Torna o usuário completamente invisível por até 240 segundos ou até desferir um ataque ou interagir."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "anti_mago": {
+    "id": "anti_mago",
+    "key": "ANTI-MAGO",
+    "name": "ANTI-MAGO",
+    "fullName": "ANTI-MAGO",
+    "archetype": "ESPECIALISTAS",
+    "requiresWinterholdStudent": false,
+    "description": "O Anti-Mago é o pesadelo supremo de qualquer praticante das artes arcanas. Imbuído com barreiras de absorção mágica, alta resistência e mobilidade vertiginosa, ele anula os feitiços inimigos enquanto encurta a distância rapidamente. Empunhando lâminas vinculadas e manipulando a alteração, ele silencia e corta os conjuradores antes que consigam completar um único encantamento.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "One-Handed Mastery",
+          "Light Armor Mastery",
+          "Illusion Mastery",
+          "Alteration Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Agility",
+          "Disciplined Fighter",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Mystic Binding",
+          "Light Armor Fit"
+        ],
+        "skills": "Uma-Mão 30, Armadura Leve 30, Conjuração 30, Alteração 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Dual Flurry (1)",
+          "Magic Resistance (2)"
+        ],
+        "skills": "Uma-Mão 40, Armadura Leve 40, Conjuração 40, Alteração 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Windrunner",
+          "Hollow Binding"
+        ],
+        "skills": "Uma-Mão 50, Conjuração 50, Alteração 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Dual Flurry (2)",
+          "Void Brand"
+        ],
+        "skills": "Uma-Mão 60, Conjuração 60, Alteração 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Magic Resistance (3)",
+          "Void Brand"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Bladedancer",
+          "Atronach"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Untouchable"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Bound Dagger",
+        "Bound Shield"
+      ],
+      "Adepto": [
+        "Shadow Dance",
+        "Magic Barrier",
+        "Nightblade"
+      ],
+      "Poder": [
+        "Shadow Clone"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Adaga Vinculada",
+        "namePt": "Adaga Vinculada",
+        "nameOriginal": "Bound Dagger",
+        "tier": "Novato",
+        "description": "Conjura uma lâmina espectral daédrica por 120 segundos, ideal para ataques furtivos silenciosos.",
+        "descriptionPt": "Conjura uma lâmina espectral daédrica por 120 segundos, ideal para ataques furtivos silenciosos."
+      },
+      {
+        "name": "Escudo Vinculado",
+        "namePt": "Escudo Vinculado",
+        "nameOriginal": "Bound Shield",
+        "tier": "Aprendiz",
+        "description": "Materializa um escudo espectral de pura energia do Oblivion durante 120 segundos.",
+        "descriptionPt": "Materializa um escudo espectral de pura energia do Oblivion durante 120 segundos."
+      },
+      {
+        "name": "Trapaceiro Ilusório",
+        "namePt": "Trapaceiro Ilusório",
+        "nameOriginal": "Trickster",
+        "tier": "Mestre",
+        "description": "Cria 2 cópias espectrais ilusórias perfeitas de si mesmo durante 60 segundos para confundir e distrair adversários.",
+        "descriptionPt": "Cria 2 cópias espectrais ilusórias perfeitas de si mesmo durante 60 segundos para confundir e distrair adversários."
+      },
+      {
+        "name": "Dança das Sombras",
+        "namePt": "Dança das Sombras",
+        "nameOriginal": "Shadow Dance",
+        "tier": "Adepto",
+        "description": "Permite desferir um avanço relâmpago de 20 pés de distância consumindo 10 de Mágicka ao saltar.",
+        "descriptionPt": "Permite desferir um avanço relâmpago de 20 pés de distância consumindo 10 de Mágicka ao saltar."
+      },
+      {
+        "name": "Cúpula de Barreira Mágica",
+        "namePt": "Cúpula de Barreira Mágica",
+        "nameOriginal": "Magic Barrier",
+        "tier": "Adepto",
+        "description": "Ergue uma redoma de energia impenetrável ao redor do conjurador por 15 segundos bloqueando projéteis e ataques.",
+        "descriptionPt": "Ergue uma redoma de energia impenetrável ao redor do conjurador por 15 segundos bloqueando projéteis e ataques."
+      },
+      {
+        "name": "Lâmina Noturna",
+        "namePt": "Lâmina Noturna",
+        "nameOriginal": "Nightblade",
+        "tier": "Adepto",
+        "description": "Permite teleportar para um inimigo a até 50 pés de distância e desferir um ataque corpo a corpo surpresa devastador.",
+        "descriptionPt": "Permite teleportar para um inimigo a até 50 pés de distância e desferir um ataque corpo a corpo surpresa devastador."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "druida": {
+    "id": "druida",
+    "key": "DRUÍDA",
+    "name": "DRUÍDA",
+    "fullName": "DRUÍDA",
+    "archetype": "GUERREIROS",
+    "requiresWinterholdStudent": false,
+    "description": "O Druida vive em harmonia com os espíritos da natureza e seus animais, que lhe conferem poderio suficiente para controlar o campo de batalha.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Conjuration Mastery",
+          "Alteration Mastery",
+          "Restoration Mastery",
+          "One-Handed Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Conjuration Dual Casting",
+          "Mage Armor (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Restoration Dual Casting",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Conjuração 30, Alteração 30, Restauração 30, Uma-Mão 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Oblivion Stone (1)",
+          "Mage Armor (2)",
+          "Rift Summoner (1)"
+        ],
+        "skills": "Conjuração 40, Alteração 40, Restauração 40, Uma-Mão 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Rift Summoner (2)",
+          "Magic Resistance (2)"
+        ],
+        "skills": "Conjuração 50, Alteração 50, Restauração 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Mercy",
+          "Mage Armor (3)"
+        ],
+        "skills": "Conjuração 60, Alteração 60, Restauração 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Vigilant Ward (1)",
+          "Oblivion Stone (2)"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Inner Light (1)",
+          "Disciplined Fighter"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Twin Souls"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Create Water Totem",
+        "Conjure Spectral Wolf"
+      ],
+      "Aprendiz": [
+        "Conjure Spectral Dire Wolf",
+        "Stoneflesh",
+        "Magelight",
+        "Detect Life",
+        "Fast Healing",
+        "Steadfast Ward"
+      ],
+      "Adepto": [
+        "Conjure Spectral Sabre Cat",
+        "Equilibrium",
+        "Burden",
+        "Whirlwind Cloak",
+        "Circle of Strength",
+        "Circle of Wisdom"
+      ],
+      "Especialista": [
+        "Conjure Spectral Bear",
+        "Ebonyflesh"
+      ],
+      "Mestre": [
+        "Conjure Spectral Manbeast",
+        "Font of Strength"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Totem das Águas",
+        "namePt": "Totem das Águas",
+        "nameOriginal": "Create Water Totem",
+        "tier": "Novato",
+        "description": "Ergue um totem xamânico por 60 segundos que restaura 5 pontos de Vida por segundo dos aliados no entorno.",
+        "descriptionPt": "Ergue um totem xamânico por 60 segundos que restaura 5 pontos de Vida por segundo dos aliados no entorno."
+      },
+      {
+        "name": "Trapaceiro Ilusório",
+        "namePt": "Trapaceiro Ilusório",
+        "nameOriginal": "Trickster",
+        "tier": "Novato",
+        "description": "Cria 2 cópias espectrais ilusórias perfeitas de si mesmo durante 60 segundos para confundir e distrair adversários.",
+        "descriptionPt": "Cria 2 cópias espectrais ilusórias perfeitas de si mesmo durante 60 segundos para confundir e distrair adversários."
+      },
+      {
+        "name": "Invocar Lobo Espectral",
+        "namePt": "Invocar Lobo Espectral",
+        "nameOriginal": "Conjure Spectral Wolf",
+        "tier": "Aprendiz",
+        "description": "Invoca um lobo fantasmagórico veloz por 60 segundos para perseguir e morder alvos distantes.",
+        "descriptionPt": "Invoca um lobo fantasmagórico veloz por 60 segundos para perseguir e morder alvos distantes."
+      },
+      {
+        "name": "Invocar Tigre-dentes-de-sabre Espectral",
+        "namePt": "Invocar Tigre-dentes-de-sabre Espectral",
+        "nameOriginal": "Conjure Spectral Sabre Cat",
+        "tier": "Adepto",
+        "description": "Invoca um predador felino espectral voraz e ágil por 60 segundos que derruba oponentes.",
+        "descriptionPt": "Invoca um predador felino espectral voraz e ágil por 60 segundos que derruba oponentes."
+      },
+      {
+        "name": "Invocar Urso Espectral",
+        "namePt": "Invocar Urso Espectral",
+        "nameOriginal": "Conjure Spectral Bear",
+        "tier": "Especialista",
+        "description": "Invoca um urso espectral maciço por 60 segundos que golpeia com patadas atordoantes e alta vida.",
+        "descriptionPt": "Invoca um urso espectral maciço por 60 segundos que golpeia com patadas atordoantes e alta vida."
+      },
+      {
+        "name": "Invocar Fera Espectral",
+        "namePt": "Invocar Fera Espectral",
+        "nameOriginal": "Conjure Spectral Manbeast",
+        "tier": "Mestre",
+        "description": "Invoca uma abominação homem-fera espectral colossal com fúria implacável por 60 segundos.",
+        "descriptionPt": "Invoca uma abominação homem-fera espectral colossal com fúria implacável por 60 segundos."
+      },
+      {
+        "name": "Pele de Pedra",
+        "namePt": "Pele de Pedra",
+        "nameOriginal": "Stoneflesh",
+        "tier": "Aprendiz",
+        "description": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos.",
+        "descriptionPt": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos."
+      },
+      {
+        "name": "Luz Mágica",
+        "namePt": "Luz Mágica",
+        "nameOriginal": "Magelight",
+        "tier": "Aprendiz",
+        "description": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos.",
+        "descriptionPt": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos."
+      },
+      {
+        "name": "Detectar Vida",
+        "namePt": "Detectar Vida",
+        "nameOriginal": "Detect Life",
+        "tier": "Adepto",
+        "description": "Permite ao conjurador enxergar seres vivos através de paredes e obstáculos próximos enquanto canalizado.",
+        "descriptionPt": "Permite ao conjurador enxergar seres vivos através de paredes e obstáculos próximos enquanto canalizado."
+      },
+      {
+        "name": "Equilíbrio Vital",
+        "namePt": "Equilíbrio Vital",
+        "nameOriginal": "Equilibrium",
+        "tier": "Adepto",
+        "description": "Sacrifica 25 pontos de Vida por segundo do próprio conjurador para converter diretamente em Mágicka.",
+        "descriptionPt": "Sacrifica 25 pontos de Vida por segundo do próprio conjurador para converter diretamente em Mágicka."
+      },
+      {
+        "name": "Fardo Gravitacional",
+        "namePt": "Fardo Gravitacional",
+        "nameOriginal": "Burden",
+        "tier": "Adepto",
+        "description": "Sobrecarrega o alvo com peso mágico, diminuindo sua velocidade de movimento e ataque em 20% por 30 segundos.",
+        "descriptionPt": "Sobrecarrega o alvo com peso mágico, diminuindo sua velocidade de movimento e ataque em 20% por 30 segundos."
+      },
+      {
+        "name": "Manto do Turbilhão",
+        "namePt": "Manto do Turbilhão",
+        "nameOriginal": "Whirlwind Cloak",
+        "tier": "Adepto",
+        "description": "Por 60 segundos, ventos com força de furacão circundam o usuário e arremessam inimigos corpo a corpo pelos ares.",
+        "descriptionPt": "Por 60 segundos, ventos com força de furacão circundam o usuário e arremessam inimigos corpo a corpo pelos ares."
+      },
+      {
+        "name": "Cura Rápida",
+        "namePt": "Cura Rápida",
+        "nameOriginal": "Fast Healing",
+        "tier": "Aprendiz",
+        "description": "Restaura instantaneamente 50 pontos de Vida do conjurador.",
+        "descriptionPt": "Restaura instantaneamente 50 pontos de Vida do conjurador."
+      },
+      {
+        "name": "Barreira Firme",
+        "namePt": "Barreira Firme",
+        "nameOriginal": "Steadfast Ward",
+        "tier": "Aprendiz",
+        "description": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido.",
+        "descriptionPt": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido."
+      },
+      {
+        "name": "Círculo da Força",
+        "namePt": "Círculo da Força",
+        "nameOriginal": "Circle of Strength",
+        "tier": "Adepto",
+        "description": "Cria uma zona sagrada no solo que fortalece o Vigor e o dano físico de todos os aliados por 120 segundos.",
+        "descriptionPt": "Cria uma zona sagrada no solo que fortalece o Vigor e o dano físico de todos os aliados por 120 segundos."
+      },
+      {
+        "name": "Círculo da Sabedoria",
+        "namePt": "Círculo da Sabedoria",
+        "nameOriginal": "Circle of Wisdom",
+        "tier": "Adepto",
+        "description": "Cria uma zona rúnica que acelera a regeneração de Mágicka dos aliados dentro dela em 50% por 120 segundos.",
+        "descriptionPt": "Cria uma zona rúnica que acelera a regeneração de Mágicka dos aliados dentro dela em 50% por 120 segundos."
+      },
+      {
+        "name": "Fonte da Força",
+        "namePt": "Fonte da Força",
+        "nameOriginal": "Font of Strength",
+        "tier": "Mestre",
+        "description": "Cria uma fonte abençoada no chão que amplia a força física e a resistência dos guerreiros aliados.",
+        "descriptionPt": "Cria uma fonte abençoada no chão que amplia a força física e a resistência dos guerreiros aliados."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "curandeiro": {
+    "id": "curandeiro",
+    "key": "CURANDEIRO",
+    "name": "CURANDEIRO",
+    "fullName": "CURANDEIRO",
+    "archetype": "CONJURADORES",
+    "requiresWinterholdStudent": true,
+    "description": "O Curandeiro é o pilar de sustentação e a salvação de qualquer grupo no campo de batalha. Mestre incontestável da escola de Restauração, ele canaliza auras purificadoras, sana ferimentos mortais instantaneamente e concede bônus vitais aos seus aliados. Sua presença transforma um esquadrão prestes a rcar em uma força invencível e incansável.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Restoration Mastery",
+          "Destruction Mastery",
+          "One-Handed Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Restoration Dual Casting",
+          "Mage Armor (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Mercy",
+          "Disciplined Fighter"
+        ],
+        "skills": "Alteração 30, Restauração 30, Uma-Mão 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Inner Light (1)",
+          "Vigilant Ward (1)",
+          "Mage Armor (2)"
+        ],
+        "skills": "Alteração 40, Restauração 40, Uma-Mão 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Inner Light (2)",
+          "Inspire (1)"
+        ],
+        "skills": "Alteração 50, Restauração 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Magic Resistance (1)",
+          "Mage Armor (3)"
+        ],
+        "skills": "Alteração 60, Restauração 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Magic Resistance (2)",
+          "Vigilant Ward (2)"
+        ],
+        "skills": "Restauração 70",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Ward Absorb",
+          "Inspire (2)"
+        ],
+        "skills": "Restauração 80",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Enduring Flame"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Flames",
+        "Healing",
+        "Sunbeam"
+      ],
+      "Aprendiz": [
+        "Fast Healing",
+        "Heal Other",
+        "Steadfast Ward",
+        "Stoneflesh",
+        "Magelight",
+        "Detect Life",
+        "Dispel"
+      ],
+      "Adepto": [
+        "Ironflesh",
+        "Shock Shell",
+        "Greater Healing",
+        "Aura of Thorns",
+        "Close Greater Wounds"
+      ],
+      "Especialista": [
+        "Grand Ward",
+        "Circle of Protection",
+        "Mutagen",
+        "Aura of Thorns"
+      ],
+      "Mestre": [
+        "Font of Life"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Cura Básica",
+        "namePt": "Cura Básica",
+        "nameOriginal": "Healing",
+        "tier": "Novato",
+        "description": "Canaliza energia sagrada para curar o conjurador em 10 pontos de Vida por segundo.",
+        "descriptionPt": "Canaliza energia sagrada para curar o conjurador em 10 pontos de Vida por segundo."
+      },
+      {
+        "name": "Raio Solar",
+        "namePt": "Raio Solar",
+        "nameOriginal": "Sunbeam",
+        "tier": "Novato",
+        "description": "Dispara um feixe concentrado de luz celestial que causa 8 de dano por segundo a mortos-vivos.",
+        "descriptionPt": "Dispara um feixe concentrado de luz celestial que causa 8 de dano por segundo a mortos-vivos."
+      },
+      {
+        "name": "Cura Rápida",
+        "namePt": "Cura Rápida",
+        "nameOriginal": "Fast Healing",
+        "tier": "Aprendiz",
+        "description": "Restaura instantaneamente 50 pontos de Vida do conjurador.",
+        "descriptionPt": "Restaura instantaneamente 50 pontos de Vida do conjurador."
+      },
+      {
+        "name": "Curar Aliado",
+        "namePt": "Curar Aliado",
+        "nameOriginal": "Heal Other",
+        "tier": "Aprendiz",
+        "description": "Restaura instantaneamente 75 pontos de Vida do companheiro de equipe mirado.",
+        "descriptionPt": "Restaura instantaneamente 75 pontos de Vida do companheiro de equipe mirado."
+      },
+      {
+        "name": "Barreira Firme",
+        "namePt": "Barreira Firme",
+        "nameOriginal": "Steadfast Ward",
+        "tier": "Aprendiz",
+        "description": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido.",
+        "descriptionPt": "Ergue uma barreira defensiva resiliente que bloqueia até 60 pontos de dano mágico recebido."
+      },
+      {
+        "name": "Cura Superior",
+        "namePt": "Cura Superior",
+        "nameOriginal": "Greater Healing",
+        "tier": "Adepto",
+        "description": "Restaura 30 pontos de Vida por segundo para o conjurador e aliados próximos enquanto canalizado.",
+        "descriptionPt": "Restaura 30 pontos de Vida por segundo para o conjurador e aliados próximos enquanto canalizado."
+      },
+      {
+        "name": "Aura de Espinhos",
+        "namePt": "Aura de Espinhos",
+        "nameOriginal": "Aura of Thorns",
+        "tier": "Especialista",
+        "description": "O conjurador e aliados refletem 50 pontos de dano cortante aos atacantes corpo a corpo por 60 segundos.",
+        "descriptionPt": "O conjurador e aliados refletem 50 pontos de dano cortante aos atacantes corpo a corpo por 60 segundos."
+      },
+      {
+        "name": "Barreira Suprema",
+        "namePt": "Barreira Suprema",
+        "nameOriginal": "Grand Ward",
+        "tier": "Mestre",
+        "description": "Ergue um escudo protetor reforçado capaz de anular até 120 pontos de dano mágico de feitiços inimigos.",
+        "descriptionPt": "Ergue um escudo protetor reforçado capaz de anular até 120 pontos de dano mágico de feitiços inimigos."
+      },
+      {
+        "name": "Círculo de Proteção",
+        "namePt": "Círculo de Proteção",
+        "nameOriginal": "Circle of Protection",
+        "tier": "Mestre",
+        "description": "Cria um santuário sagrado no chão por 60 segundos que impede a entrada de mortos-vivos até nível 20.",
+        "descriptionPt": "Cria um santuário sagrado no chão por 60 segundos que impede a entrada de mortos-vivos até nível 20."
+      },
+      {
+        "name": "Mutagênico Restaurador",
+        "namePt": "Mutagênico Restaurador",
+        "nameOriginal": "Mutagen",
+        "tier": "Mestre",
+        "description": "Acelera o metabolismo celular restaurando 4 pontos de Vida por segundo durante 120 segundos.",
+        "descriptionPt": "Acelera o metabolismo celular restaurando 4 pontos de Vida por segundo durante 120 segundos."
+      },
+      {
+        "name": "Fonte de Vitalidade",
+        "namePt": "Fonte de Vitalidade",
+        "nameOriginal": "Font of Vitality",
+        "tier": "Mestre",
+        "description": "Cria uma fonte luminosa no solo por 120 segundos que concede regeneração constante aos companheiros.",
+        "descriptionPt": "Cria uma fonte luminosa no solo por 120 segundos que concede regeneração constante aos companheiros."
+      },
+      {
+        "name": "Chamas",
+        "namePt": "Chamas",
+        "nameOriginal": "Flames",
+        "tier": "Novato",
+        "description": "Dispara uma rajada contínua de fogo que causa 8 de dano por segundo. Alvos em chamas sofrem dano adicional residual.",
+        "descriptionPt": "Dispara uma rajada contínua de fogo que causa 8 de dano por segundo. Alvos em chamas sofrem dano adicional residual."
+      },
+      {
+        "name": "Pele de Pedra",
+        "namePt": "Pele de Pedra",
+        "nameOriginal": "Stoneflesh",
+        "tier": "Aprendiz",
+        "description": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos.",
+        "descriptionPt": "Endurece a pele do mago aumentando a armadura em 80 pontos durante 60 segundos."
+      },
+      {
+        "name": "Luz Mágica",
+        "namePt": "Luz Mágica",
+        "nameOriginal": "Magelight",
+        "tier": "Aprendiz",
+        "description": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos.",
+        "descriptionPt": "Dispara um orbe luminoso que se fixa no local de impacto ou alvo iluminando o ambiente por 300 segundos."
+      },
+      {
+        "name": "Detectar Vida",
+        "namePt": "Detectar Vida",
+        "nameOriginal": "Detect Life",
+        "tier": "Adepto",
+        "description": "Permite ao conjurador enxergar seres vivos através de paredes e obstáculos próximos enquanto canalizado.",
+        "descriptionPt": "Permite ao conjurador enxergar seres vivos através de paredes e obstáculos próximos enquanto canalizado."
+      },
+      {
+        "name": "Dissipar Magia",
+        "namePt": "Dissipar Magia",
+        "nameOriginal": "Dispel",
+        "tier": "Adepto",
+        "description": "Purifica o corpo do conjurador removendo imediatamente todas as penalidades e efeitos mágicos hostis.",
+        "descriptionPt": "Purifica o corpo do conjurador removendo imediatamente todas as penalidades e efeitos mágicos hostis."
+      },
+      {
+        "name": "Pele de Ferro",
+        "namePt": "Pele de Ferro",
+        "nameOriginal": "Ironflesh",
+        "tier": "Adepto",
+        "description": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos.",
+        "descriptionPt": "Fortalece o corpo com densidade de ferro, concedendo +120 de armadura durante 60 segundos."
+      },
+      {
+        "name": "Carapaça Elétrica",
+        "namePt": "Carapaça Elétrica",
+        "nameOriginal": "Shock Shell",
+        "tier": "Adepto",
+        "description": "Aumenta a resistência a dano de Choque do conjurador em 50% por 120 segundos.",
+        "descriptionPt": "Aumenta a resistência a dano de Choque do conjurador em 50% por 120 segundos."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  },
+  "trapaceiro": {
+    "id": "trapaceiro",
+    "key": "TRAPACEIRO",
+    "name": "TRAPACEIRO",
+    "fullName": "TRAPACEIRO",
+    "archetype": "ESPECIALISTAS",
+    "requiresWinterholdStudent": false,
+    "description": "O Trapaceiro é o mestre do caos e da imprevisibilidade, transformando o campo de batalha em seu parquinho pessoal de ilusões e distorções. Manipulando a gravidade, alterando o peso das armas inimigas, desarmando oponentes e teleportando-se no meio da bagunça, ele desestabiliza qualquer formação tática e leva os oponentes à loucura e ao colapso.",
+    "stages": [
+      {
+        "level": 1,
+        "stageNumber": 1,
+        "perks": [
+          "Illusion Mastery",
+          "Light Armor Mastery",
+          "Sneak Mastery",
+          "Alteration Mastery"
+        ],
+        "skills": "Todas 0",
+        "attributePoints": 15
+      },
+      {
+        "level": 5,
+        "stageNumber": 2,
+        "perks": [
+          "Anímage (1)",
+          "Agility",
+          "Magic Resistance (1)"
+        ],
+        "skills": "Todas 20",
+        "attributePoints": 15
+      },
+      {
+        "level": 10,
+        "stageNumber": 3,
+        "perks": [
+          "Silent Roll (1)",
+          "Evasive Sprint"
+        ],
+        "skills": "Alteração 30, Armadura Leve 30, Ilusão 30, Furtividade 30",
+        "attributePoints": 15
+      },
+      {
+        "level": 15,
+        "stageNumber": 4,
+        "perks": [
+          "Shadow Warrior",
+          "Anímage (2)"
+        ],
+        "skills": "Alteração 40, Armadura Leve 40, Ilusão 40, Furtividade 40",
+        "attributePoints": 15
+      },
+      {
+        "level": 20,
+        "stageNumber": 5,
+        "perks": [
+          "Windrunner",
+          "Alteration Dual Casting"
+        ],
+        "skills": "Alteração 50, Armadura Leve 50, Ilusão 50, Furtividade 50",
+        "attributePoints": 15
+      },
+      {
+        "level": 25,
+        "stageNumber": 6,
+        "perks": [
+          "Shadowcaster",
+          "Anímage (3)"
+        ],
+        "skills": "Alteração 60, Armadura Leve 60, Ilusão 60, Furtividade 60",
+        "attributePoints": 15
+      },
+      {
+        "level": 30,
+        "stageNumber": 7,
+        "perks": [
+          "Dodge Roll",
+          "Blur"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 35,
+        "stageNumber": 8,
+        "perks": [
+          "Hethoth's Escape",
+          "Stability"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      },
+      {
+        "level": 40,
+        "stageNumber": 9,
+        "perks": [
+          "Untouchable"
+        ],
+        "skills": "",
+        "attributePoints": 15
+      }
+    ],
+    "authorizedSpells": {
+      "Novato": [
+        "Unbound Atronach"
+      ],
+      "Aprendiz": [
+        "Bestow Gift",
+        "Switcheroo",
+        "Featherlight",
+        "Windwalker"
+      ],
+      "Adepto": [
+        "Teleportation",
+        "Burden",
+        "Disintegrate Weapon",
+        "Corrode Armor",
+        "Whirlwind Cloak"
+      ],
+      "Especialista": [
+        "Invisibility",
+        "Fade",
+        "Weakness to Fire",
+        "Weakness to Frost",
+        "Weakness to Shock",
+        "Weakness to Poison",
+        "Ash Cloud"
+      ],
+      "Mestre": [
+        "Mayhem",
+        "Armoreater",
+        "Cinder Storm",
+        "Weight of the World"
+      ]
+    },
+    "allSpellsList": [
+      {
+        "name": "Atronach Indomável",
+        "namePt": "Atronach Indomável",
+        "nameOriginal": "Unbound Atronach",
+        "tier": "Novato",
+        "description": "Invoca um atronach primal aleatório e descontrolado por 30 segundos com poder de destruição avassalador.",
+        "descriptionPt": "Invoca um atronach primal aleatório e descontrolado por 30 segundos com poder de destruição avassalador."
+      },
+      {
+        "name": "Invisibilidade",
+        "namePt": "Invisibilidade",
+        "nameOriginal": "Invisibility",
+        "tier": "Mestre",
+        "description": "Torna o usuário completamente invisível por até 240 segundos ou até desferir um ataque ou interagir.",
+        "descriptionPt": "Torna o usuário completamente invisível por até 240 segundos ou até desferir um ataque ou interagir."
+      },
+      {
+        "name": "Desvanecer",
+        "namePt": "Desvanecer",
+        "nameOriginal": "Fade",
+        "tier": "Mestre",
+        "description": "Faz com que o alvo desapareça visual e sonoramente por 30 segundos, não podendo ser visto ou ouvido.",
+        "descriptionPt": "Faz com que o alvo desapareça visual e sonoramente por 30 segundos, não podendo ser visto ou ouvido."
+      },
+      {
+        "name": "Caos Generalizado",
+        "namePt": "Caos Generalizado",
+        "nameOriginal": "Mayhem",
+        "tier": "Mestre",
+        "description": "Onda psíquica em área monumental que enlouquece seres vivos até nível 25 fazendo-os despedaçar uns aos outros.",
+        "descriptionPt": "Onda psíquica em área monumental que enlouquece seres vivos até nível 25 fazendo-os despedaçar uns aos outros."
+      },
+      {
+        "name": "Conceder Bênção",
+        "namePt": "Conceder Bênção",
+        "nameOriginal": "Bestow Gift",
+        "tier": "Aprendiz",
+        "description": "Permite transferir o efeito de um feitiço de auto-alvo diretamente para um companheiro de equipe.",
+        "descriptionPt": "Permite transferir o efeito de um feitiço de auto-alvo diretamente para um companheiro de equipe."
+      },
+      {
+        "name": "Troca Espacial",
+        "namePt": "Troca Espacial",
+        "nameOriginal": "Switcheroo",
+        "tier": "Aprendiz",
+        "description": "Troca instantaneamente de posição espacial com o alvo mirado, desorientando as linhas inimigas.",
+        "descriptionPt": "Troca instantaneamente de posição espacial com o alvo mirado, desorientando as linhas inimigas."
+      },
+      {
+        "name": "Leveza da Pluma",
+        "namePt": "Leveza da Pluma",
+        "nameOriginal": "Featherlight",
+        "tier": "Aprendiz",
+        "description": "Torna o corpo do conjurador leve como uma pluma por 30 segundos, anulando dano de queda e acelerando a corrida.",
+        "descriptionPt": "Torna o corpo do conjurador leve como uma pluma por 30 segundos, anulando dano de queda e acelerando a corrida."
+      },
+      {
+        "name": "Passo do Vento",
+        "namePt": "Passo do Vento",
+        "nameOriginal": "Windwalker",
+        "tier": "Adepto",
+        "description": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos.",
+        "descriptionPt": "Aumenta a velocidade de movimento do personagem em 10% durante 120 segundos."
+      },
+      {
+        "name": "Teletransporte",
+        "namePt": "Teletransporte",
+        "nameOriginal": "Teleportation",
+        "tier": "Adepto",
+        "description": "Dobra o espaço e teletransporta o conjurador instantaneamente para a posição apontada.",
+        "descriptionPt": "Dobra o espaço e teletransporta o conjurador instantaneamente para a posição apontada."
+      },
+      {
+        "name": "Fardo Gravitacional",
+        "namePt": "Fardo Gravitacional",
+        "nameOriginal": "Burden",
+        "tier": "Adepto",
+        "description": "Sobrecarrega o alvo com peso mágico, diminuindo sua velocidade de movimento e ataque em 20% por 30 segundos.",
+        "descriptionPt": "Sobrecarrega o alvo com peso mágico, diminuindo sua velocidade de movimento e ataque em 20% por 30 segundos."
+      },
+      {
+        "name": "Desintegrar Arma",
+        "namePt": "Desintegrar Arma",
+        "nameOriginal": "Disintegrate Weapon",
+        "tier": "Adepto",
+        "description": "Enfraquece a estrutura das armas do inimigo, reduzindo seu dano de ataque físico em 25% por 60 segundos.",
+        "descriptionPt": "Enfraquece a estrutura das armas do inimigo, reduzindo seu dano de ataque físico em 25% por 60 segundos."
+      },
+      {
+        "name": "Corroer Armadura",
+        "namePt": "Corroer Armadura",
+        "nameOriginal": "Corrode Armor",
+        "tier": "Adepto",
+        "description": "Aplica ácido mágico sobre o inimigo, reduzindo seu índice de armadura em 150 pontos por 60 segundos.",
+        "descriptionPt": "Aplica ácido mágico sobre o inimigo, reduzindo seu índice de armadura em 150 pontos por 60 segundos."
+      },
+      {
+        "name": "Manto do Turbilhão",
+        "namePt": "Manto do Turbilhão",
+        "nameOriginal": "Whirlwind Cloak",
+        "tier": "Adepto",
+        "description": "Por 60 segundos, ventos com força de furacão circundam o usuário e arremessam inimigos corpo a corpo pelos ares.",
+        "descriptionPt": "Por 60 segundos, ventos com força de furacão circundam o usuário e arremessam inimigos corpo a corpo pelos ares."
+      },
+      {
+        "name": "Vulnerabilidade ao Fogo",
+        "namePt": "Vulnerabilidade ao Fogo",
+        "nameOriginal": "Weakness to Fire",
+        "tier": "Mestre",
+        "description": "Reduz a resistência a dano de Fogo do inimigo em 50% durante 60 segundos.",
+        "descriptionPt": "Reduz a resistência a dano de Fogo do inimigo em 50% durante 60 segundos."
+      },
+      {
+        "name": "Vulnerabilidade ao Gelo",
+        "namePt": "Vulnerabilidade ao Gelo",
+        "nameOriginal": "Weakness to Frost",
+        "tier": "Especialista",
+        "description": "Reduz a resistência a dano de Gelo do inimigo em 50% durante 60 segundos.",
+        "descriptionPt": "Reduz a resistência a dano de Gelo do inimigo em 50% durante 60 segundos."
+      },
+      {
+        "name": "Vulnerabilidade ao Choque",
+        "namePt": "Vulnerabilidade ao Choque",
+        "nameOriginal": "Weakness to Shock",
+        "tier": "Especialista",
+        "description": "Reduz a resistência a dano de Choque do inimigo em 50% durante 60 segundos.",
+        "descriptionPt": "Reduz a resistência a dano de Choque do inimigo em 50% durante 60 segundos."
+      },
+      {
+        "name": "Vulnerabilidade ao Veneno",
+        "namePt": "Vulnerabilidade ao Veneno",
+        "nameOriginal": "Weakness to Poison",
+        "tier": "Especialista",
+        "description": "Reduz a resistência a venenos do inimigo em 50% durante 60 segundos.",
+        "descriptionPt": "Reduz a resistência a venenos do inimigo em 50% durante 60 segundos."
+      },
+      {
+        "name": "Nuvem de Cinzas",
+        "namePt": "Nuvem de Cinzas",
+        "nameOriginal": "Ash Cloud",
+        "tier": "Especialista",
+        "description": "Envolve os inimigos em uma nuvem de cinzas vulcânicas por 30 segundos, imobilizando-os em casulos.",
+        "descriptionPt": "Envolve os inimigos em uma nuvem de cinzas vulcânicas por 30 segundos, imobilizando-os em casulos."
+      },
+      {
+        "name": "Devorador de Armaduras",
+        "namePt": "Devorador de Armaduras",
+        "nameOriginal": "Armoreater",
+        "tier": "Mestre",
+        "description": "Corrói equipamentos de todos os inimigos em uma ampla área, reduzindo o índice de armadura em 300 pontos por 60 segundos.",
+        "descriptionPt": "Corrói equipamentos de todos os inimigos em uma ampla área, reduzindo o índice de armadura em 300 pontos por 60 segundos."
+      },
+      {
+        "name": "Tempestade de Cinzas",
+        "namePt": "Tempestade de Cinzas",
+        "nameOriginal": "Cinder Storm",
+        "tier": "Mestre",
+        "description": "Provoca uma erupção de cinzas em área colossal que petrifica múltiplos oponentes por 30 segundos.",
+        "descriptionPt": "Provoca uma erupção de cinzas em área colossal que petrifica múltiplos oponentes por 30 segundos."
+      },
+      {
+        "name": "Peso do Mundo",
+        "namePt": "Peso do Mundo",
+        "nameOriginal": "Weight of the World",
+        "tier": "Mestre",
+        "description": "Aumenta drasticamente a gravidade sobre os inimigos, reduzindo sua velocidade de ataque e movimento em 40%.",
+        "descriptionPt": "Aumenta drasticamente a gravidade sobre os inimigos, reduzindo sua velocidade de ataque e movimento em 40%."
+      }
+    ],
+    "spellsRPNotice": "Os feitiços desta classe não são concedidos automaticamente pelo sistema. Devem ser aprendidos através de Roleplay junto ao Colégio de Winterhold com os professores e livros mágicos."
+  }
+}

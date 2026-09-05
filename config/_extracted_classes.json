@@ -1,0 +1,2911 @@
+{
+  "classes": {
+    "ELEMENTALISTA": {
+      "name": "ELEMENTALISTA",
+      "description": "O Elementalista é um tecelão das forças primordiais, capaz de canalizar o Fogo, o Gelo e o Trovão em perfeito equilíbrio. Embora não alcance a maestria absoluta de um especialista dedicado em um único elemento, sua força reside na versatilidade adaptativa: ele molda o campo de batalha adaptando seus feitiços à fraqueza de qualquer adversário, combinando a brutalidade do combate de proximidade com um arsenal elemental devastador.",
+      "skills": [
+        {
+          "skill": "Destruição",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Restauração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "20.0"
+        }
+      ],
+      "perks": [
+        "Destruction Mastery",
+        "Destruction Dual Casting",
+        "Augmented Flames (1)",
+        "Augmented Frost (1)",
+        "Augmented Shock (1)",
+        "Impact",
+        "Alteration Mastery",
+        "Mage Armor (3)",
+        "Magic Resistance (2)",
+        "Stability",
+        "Ocato's Preparation",
+        "Restoration Mastery",
+        "Restoration Dual Casting",
+        "Vigilant Ward (1)",
+        "Ward Absorb",
+        "One-Handed Mastery"
+      ],
+      "spells": [
+        {
+          "name": "Flames",
+          "tier": "Novato",
+          "description": "Deals 8 Fire damage per second. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Frostbite",
+          "tier": "Novato",
+          "description": "Deals 8 Frost damage per second to Health and Stamina."
+        },
+        {
+          "name": "Sparks",
+          "tier": "Novato",
+          "description": "Deals 8 Shock damage per second to Health and Magicka."
+        },
+        {
+          "name": "Ice Spike",
+          "tier": "Aprendiz",
+          "description": "Deals 20 Frost damage to Health and Stamina."
+        },
+        {
+          "name": "Lightning Bolt",
+          "tier": "Aprendiz",
+          "description": "Deals 20 Shock damage to Health and Magicka."
+        },
+        {
+          "name": "Burning Touch",
+          "tier": "Aprendiz",
+          "description": "Deals 30 Fire damage to enemies in melee range. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Fireball",
+          "tier": "Adepto",
+          "description": "Deals 40 Fire damage in a large area. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Frost Cloak",
+          "tier": "Adepto",
+          "description": "For 60 seconds, nearby enemies take 8 Frost damage per second to Health and Stamina."
+        },
+        {
+          "name": "Chain Lightning",
+          "tier": "Adepto",
+          "description": "Deals 40 Shock damage to Health and Magicka in a large area."
+        },
+        {
+          "name": "Oakflesh",
+          "tier": "Novato",
+          "description": "Your Armor Rating is increased by 40 for 120 seconds."
+        },
+        {
+          "name": "Stoneflesh",
+          "tier": "Aprendiz",
+          "description": "Your Armor Rating is increased by 80 for 120 seconds."
+        },
+        {
+          "name": "Ironflesh",
+          "tier": "Adepto",
+          "description": "Your Armor Rating is increased by 120 for 120 seconds."
+        },
+        {
+          "name": "Windwalker",
+          "tier": "Aprendiz",
+          "description": "Your Movement Speed is increased by 10% for 120 seconds."
+        },
+        {
+          "name": "Magelight",
+          "tier": "Aprendiz",
+          "description": "You create a hovering orb of light that lasts for 300 seconds and lands wherever you are pointing."
+        },
+        {
+          "name": "Shock Shell",
+          "tier": "Adepto",
+          "description": "Your Shock Resistance is increased by 50% for 120 seconds."
+        },
+        {
+          "name": "Steadfast Ward",
+          "tier": "Aprendiz",
+          "description": "Negates up to 60 points of spell damage."
+        },
+        {
+          "name": "Greater Ward",
+          "tier": "Adepto",
+          "description": "Negates up to 90 points of spell damage."
+        }
+      ]
+    },
+    "CRIOMANTE": {
+      "name": "CRIOMANTE",
+      "description": "O Criomante abdica de qualquer outra manifestação mágica para se devotar inteiramente ao abraço gélido da morte. Senhor do zero absoluto, ele molda a geada e a tempestade de neve para desacelerar, congelar e estilhaçar seus inimigos. Envolto em barreiras de gelo e dominando feitiços de congelamento devastadores, ele transforma o campo de batalha em um túmulo congelado.",
+      "skills": [
+        {
+          "skill": "Destruição",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Restauração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "20.0"
+        }
+      ],
+      "perks": [
+        "Destruction Mastery",
+        "Destruction Dual Casting",
+        "Rune Mestre (1)",
+        "Augmented Frost (2)",
+        "Chilling Frost",
+        "Winter's Grasp",
+        "Hellstorm",
+        "Alteration Mastery",
+        "Mage Armor (3)",
+        "Magic Resistance (2)",
+        "Stability",
+        "Ocato's Preparation",
+        "Restoration Mastery",
+        "Vigilant Ward (1)",
+        "Ward Absorb",
+        "One-Handed Mastery"
+      ],
+      "spells": [
+        {
+          "name": "Frostbite",
+          "tier": "Novato",
+          "description": "Deals 8 Frost damage per second to Health and Stamina."
+        },
+        {
+          "name": "Ice Spike",
+          "tier": "Aprendiz",
+          "description": "Deals 20 Frost damage to Health and Stamina."
+        },
+        {
+          "name": "Chilling Touch",
+          "tier": "",
+          "description": "Deals 30 Frost damage to Health and Stamina to enemies in melee range."
+        },
+        {
+          "name": "Frost Rune",
+          "tier": "",
+          "description": "Creates a rune on the ground that explodes when enemies approach, dealing 40 Frost damage to Health and Stamina"
+        },
+        {
+          "name": "Greater Frostbite",
+          "tier": "Adepto",
+          "description": "Deals 20 Frost damage per second to Health and Stamina."
+        },
+        {
+          "name": "Frost Cloak",
+          "tier": "",
+          "description": "For 60 seconds, nearby enemies take 8 Frost damage per second to Health and Stamina."
+        },
+        {
+          "name": "Ice Storm",
+          "tier": "",
+          "description": "Deals 40 Frost damage to Health and Stamina in a large area."
+        },
+        {
+          "name": "Wall of Frost",
+          "tier": "Especialista",
+          "description": "Creates a wall that deals 20 Frost damage per second to Health and Stamina."
+        },
+        {
+          "name": "Icy Spear",
+          "tier": "",
+          "description": "Deals 60 Frost damage to Health and Stamina."
+        },
+        {
+          "name": "Blizzard",
+          "tier": "Mestre",
+          "description": "Deals 20 Frost damage to Health and Stamina per second in a massive area for 10 seconds."
+        },
+        {
+          "name": "Oakflesh",
+          "tier": "Novato",
+          "description": "Your Armor Rating is increased by 40 for 120 seconds."
+        },
+        {
+          "name": "Ironflesh",
+          "tier": "Adepto",
+          "description": "Your Armor Rating is increased by 120 for 120 seconds."
+        },
+        {
+          "name": "Windwalker",
+          "tier": "",
+          "description": "Your Movement Speed is increased by 10% for 120 seconds."
+        },
+        {
+          "name": "Magelight",
+          "tier": "",
+          "description": "You create a hovering orb of light that lasts for 300 seconds and lands wherever you are pointing."
+        },
+        {
+          "name": "Frost Shell",
+          "tier": "Adepto",
+          "description": "Your Frost Resistance is increased by 50% for 120 seconds."
+        },
+        {
+          "name": "Steadfast Ward",
+          "tier": "Aprendiz",
+          "description": "Negates up to 60 points of spell damage."
+        },
+        {
+          "name": "Greater Ward",
+          "tier": "Adepto",
+          "description": "Negates up to 90 points of spell damage."
+        }
+      ]
+    },
+    "ELETROMANTE": {
+      "name": "ELETROMANTE",
+      "description": "O Eletromante abdica de qualquer outra manifestação mágica para se devotar inteiramente ao poder da tempestade. Senhor dos raios, ele molda a eletricidade para chocar, paralisar e desintegrar seus inimigos. Envolto em barreiras elétricas e dominando feitiços de choque devastadores, ele transforma o campo de batalha em uma tempestade implacável.",
+      "skills": [
+        {
+          "skill": "Destruição",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Restauração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "20.0"
+        }
+      ],
+      "perks": [
+        "Destruction Mastery",
+        "Destruction Dual Casting",
+        "Rune Mestre (1)",
+        "Augmented Shock (2)",
+        "Deafening Shock",
+        "Crackling Sphere",
+        "Hellstorm",
+        "Alteration Mastery",
+        "Mage Armor (3)",
+        "Magic Resistance (2)",
+        "Stability",
+        "Ocato's Preparation",
+        "Restoration Mastery",
+        "Vigilant Ward (1)",
+        "Ward Absorb",
+        "One-Handed Mastery"
+      ],
+      "spells": [
+        {
+          "name": "Sparks",
+          "tier": "Novato",
+          "description": "Deals 8 Shock damage per second to Health and Magicka."
+        },
+        {
+          "name": "Lightning Bolt",
+          "tier": "Aprendiz",
+          "description": "Deals 20 Shock damage to Health and Magicka."
+        },
+        {
+          "name": "Shocking Touch",
+          "tier": "",
+          "description": "Deals 30 Shock damage to Health and Magicka to enemies in melee range."
+        },
+        {
+          "name": "Lightning Rune",
+          "tier": "",
+          "description": "Creates a rune on the ground that explodes when enemies approach, dealing 40 Shock damage to Health and Magicka"
+        },
+        {
+          "name": "Greater Sparks",
+          "tier": "Adepto",
+          "description": "Deals 20 Shock damage per second to Health and Magicka."
+        },
+        {
+          "name": "Lightning Cloak",
+          "tier": "",
+          "description": "For 60 seconds, nearby enemies take 8 Shock damage per second to Health and Magicka."
+        },
+        {
+          "name": "Chain Lightning",
+          "tier": "",
+          "description": "Deals 40 Shock damage to Health and Magicka in a large area."
+        },
+        {
+          "name": "Wall of Storms",
+          "tier": "Especialista",
+          "description": "Creates a wall that deals 20 Shock damage per second to Health and Magicka."
+        },
+        {
+          "name": "Thunderbolt",
+          "tier": "",
+          "description": "Deals 60 Shock damage to Health and Magicka."
+        },
+        {
+          "name": "Lightning Storm",
+          "tier": "Mestre",
+          "description": "Deals 20 Shock damage to Health and Magicka per second in a massive area for 10 seconds."
+        },
+        {
+          "name": "Oakflesh",
+          "tier": "Novato",
+          "description": "Your Armor Rating is increased by 40 for 120 seconds."
+        },
+        {
+          "name": "Stoneflesh",
+          "tier": "Adepto",
+          "description": "Your Armor Rating is increased by 80 for 120 seconds."
+        },
+        {
+          "name": "Windwalker",
+          "tier": "",
+          "description": "Your Movement Speed is increased by 10% for 120 seconds."
+        },
+        {
+          "name": "Magelight",
+          "tier": "",
+          "description": "You create a hovering orb of light that lasts for 300 seconds and lands wherever you are pointing."
+        },
+        {
+          "name": "Shock Shell",
+          "tier": "Adepto",
+          "description": "Your Shock Resistance is increased by 50% for 120 seconds."
+        },
+        {
+          "name": "Ironflesh",
+          "tier": "",
+          "description": "Your Armor Rating is increased by 120 for 120 seconds."
+        },
+        {
+          "name": "Steadfast Ward",
+          "tier": "Aprendiz",
+          "description": "Negates up to 60 points of spell damage."
+        },
+        {
+          "name": "Greater Ward",
+          "tier": "Adepto",
+          "description": "Negates up to 90 points of spell damage."
+        }
+      ]
+    },
+    "PIROMANTE": {
+      "name": "PIROMANTE",
+      "description": "O Piromante é o avatar da destruição incandescente, um mago que entregou sua alma às chamas eternas. Ignorando todas as outras vertentes da magia elemental, ele domina a arte de reduzir tudo a cinzas. Capaz de conjurar desde ondas de calor sufocantes até tempestades de fogo apocalípticas, o Piromante prospera no caos da combustão e no pavor daqueles que queimam sob seu poder.",
+      "skills": [
+        {
+          "skill": "Destruição",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Restauração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "20.0"
+        }
+      ],
+      "perks": [
+        "Destruction Mastery",
+        "Destruction Dual Casting",
+        "Rune Mestre (1)",
+        "Augmented Flames (2)",
+        "Devouring Flames",
+        "Scorched Earth",
+        "Hellstorm",
+        "Alteration Mastery",
+        "Mage Armor (3)",
+        "Magic Resistance (2)",
+        "Stability",
+        "Ocato's Preparation",
+        "Restoration Mastery",
+        "Vigilant Ward (1)",
+        "Ward Absorb",
+        "One-Handed Mastery"
+      ],
+      "spells": [
+        {
+          "name": "Flames",
+          "tier": "Novato",
+          "description": "Deals 8 Fire damage per second. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Firebolt",
+          "tier": "Aprendiz",
+          "description": "Deals 20 Fire damage. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Burning Touch",
+          "tier": "",
+          "description": "Deals 30 Fire damage to enemies in melee range. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Fire Rune",
+          "tier": "",
+          "description": "Creates a rune on the ground that explodes when enemies approach, dealing 40 Fire damage. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Greater Flames",
+          "tier": "Adepto",
+          "description": "Deals 20 Fire damage per second. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Flame Cloak",
+          "tier": "",
+          "description": "For 60 seconds, nearby enemies take 8 Fire damage per second. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Fireball",
+          "tier": "",
+          "description": "Deals 40 Fire damage in a large area. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Wall of Flames",
+          "tier": "Especialista",
+          "description": "Creates a wall that deals 20 Fire damage per second. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Incinerate",
+          "tier": "",
+          "description": "Deals 60 Fire damage. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Firestorm",
+          "tier": "Mestre",
+          "description": "Deals up to 100 Fire damage in a massive area. Nearby targets take extra damage. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Oakflesh",
+          "tier": "Novato",
+          "description": "Your Armor Rating is increased by 40 for 120 seconds."
+        },
+        {
+          "name": "Stoneflesh",
+          "tier": "Adepto",
+          "description": "Your Armor Rating is increased by 80 for 120 seconds."
+        },
+        {
+          "name": "Windwalker",
+          "tier": "",
+          "description": "Your Movement Speed is increased by 10% for 120 seconds."
+        },
+        {
+          "name": "Magelight",
+          "tier": "",
+          "description": "You create a hovering orb of light that lasts for 300 seconds and lands wherever you are pointing."
+        },
+        {
+          "name": "Flame Shell",
+          "tier": "Adepto",
+          "description": "Your Fire Resistance is increased by 50% for 120 seconds."
+        },
+        {
+          "name": "Ironflesh",
+          "tier": "",
+          "description": "Your Armor Rating is increased by 120 for 120 seconds."
+        },
+        {
+          "name": "Steadfast Ward",
+          "tier": "Aprendiz",
+          "description": "Negates up to 60 points of spell damage."
+        },
+        {
+          "name": "Greater Ward",
+          "tier": "Adepto",
+          "description": "Negates up to 90 points of spell damage."
+        }
+      ]
+    },
+    "INVOCADOR": {
+      "name": "INVOCADOR",
+      "description": "O Invocador é um arquiteto do plano cósmico, capaz de rasgar o tecido da realidade e subjugar os horrores de Oblivion à sua vontade. Comandando Atronachs como peças em um tabuleiro, ele nunca luta sozinho. Enquanto suas monárquicas criações elementais esmagam a linha de frente inimiga, o Invocador controla o combate à distância, seguro atrás de suas maquinações interdimensionais.",
+      "skills": [
+        {
+          "skill": "Conjuração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Destruição",
+          "level": ""
+        },
+        {
+          "skill": "Alteração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Restauração",
+          "level": "40.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "20.0"
+        }
+      ],
+      "perks": [
+        "Conjuration Mastery",
+        "Conjuration Dual Casting",
+        "Atromancy",
+        "Rift Summoner (2)",
+        "Oblivion Stone (2)",
+        "Grand Conjurer (1)",
+        "Elemental Potency",
+        "Elemental Conflux",
+        "Twin Souls",
+        "Alteration Mastery",
+        "Mage Armor (3)",
+        "Magic Resistance (2)",
+        "Restoration Mastery",
+        "Vigilant Ward (1)",
+        "Ward Absorb",
+        "One-Handed Mastery"
+      ],
+      "spells": [
+        {
+          "name": "Conjure Spectral Wolf",
+          "tier": "Novato",
+          "description": "Summons a Spectral Wolf for 60 seconds."
+        },
+        {
+          "name": "Bound Dagger",
+          "tier": "Novato",
+          "description": "Summons a Bound Dagger for 120 seconds."
+        },
+        {
+          "name": "Conjure Flame Atronach",
+          "tier": "Aprendiz",
+          "description": "Summons a Flame Atronach for 60 seconds."
+        },
+        {
+          "name": "Conjure Frost Atronach",
+          "tier": "Adepto",
+          "description": "Summons a Frost Atronach for 60 seconds."
+        },
+        {
+          "name": "Daedric Cure",
+          "tier": "Adepto",
+          "description": "Restores 20 Health per second to nearby summoned creatures and reanimated zombies."
+        },
+        {
+          "name": "Conjure Storm Atronach",
+          "tier": "Especialista",
+          "description": "Summons a Storm Atronach for 60 seconds."
+        },
+        {
+          "name": "Conjure Flame Monarch",
+          "tier": "Mestre",
+          "description": "Summons a Flame Monarch for 60 seconds."
+        },
+        {
+          "name": "Conjure Frost Monarch",
+          "tier": "Mestre",
+          "description": "Summons a Frost Monarch for 60 seconds."
+        },
+        {
+          "name": "Conjure Storm Monarch",
+          "tier": "Mestre",
+          "description": "Summons a Storm Monarch for 60 seconds."
+        },
+        {
+          "name": "Expel Daedra",
+          "tier": "Mestre",
+          "description": "Daedra up to level 40 are sent back to Oblivion."
+        },
+        {
+          "name": "Flames",
+          "tier": "Novato",
+          "description": "Deals 8 Fire damage per second. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Frostbite",
+          "tier": "Novato",
+          "description": "Deals 8 Frost damage per second to Health and Stamina."
+        },
+        {
+          "name": "Sparks",
+          "tier": "Novato",
+          "description": "Deals 8 Shock damage per second to Health and Magicka."
+        },
+        {
+          "name": "Oakflesh",
+          "tier": "Novato",
+          "description": "Your Armor Rating is increased by 40 for 120 seconds."
+        },
+        {
+          "name": "Stoneflesh",
+          "tier": "Aprendiz",
+          "description": "Your Armor Rating is increased by 80 for 120 seconds."
+        },
+        {
+          "name": "Windwalker",
+          "tier": "Adepto",
+          "description": "Your Movement Speed is increased by 10% for 120 seconds."
+        },
+        {
+          "name": "Magelight",
+          "tier": "Adepto",
+          "description": "You create a hovering orb of light that lasts for 300 seconds and lands wherever you are pointing."
+        },
+        {
+          "name": "Flame Shell",
+          "tier": "Adepto",
+          "description": "Your Fire Resistance is increased by 50% for 120 seconds."
+        },
+        {
+          "name": "Ironflesh",
+          "tier": "Adepto",
+          "description": "Your Armor Rating is increased by 120 for 120 seconds."
+        },
+        {
+          "name": "Steadfast Ward",
+          "tier": "Aprendiz",
+          "description": "Negates up to 60 points of spell damage."
+        },
+        {
+          "name": "Greater Ward",
+          "tier": "Adepto",
+          "description": "Negates up to 90 points of spell damage."
+        }
+      ]
+    },
+    "GUARDIÃO": {
+      "name": "GUARDIÃO",
+      "description": "O Guardião é a fortaleza inabalável na linha de frente, o baluarte que separa os aliados da aniquilação. Revestido com armadura pesada e ostentando um escudo imponente, ele intercepta projéteis, absorve impactos devastadores e reprime qualquer avanço inimigo com golpes de escudo esmagadores. Onde o Guardião permanece de pé, a linha de defesa jamais cai.",
+      "skills": [
+        {
+          "skill": "Armadura Pesada",
+          "level": "60.0"
+        },
+        {
+          "skill": "Bloqueio",
+          "level": "80.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "40.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "0.0"
+        }
+      ],
+      "perks": [
+        "Heavy Armor Mastery",
+        "Cushioned (2)",
+        "Battle Fatigue",
+        "Heavy Armor Fit",
+        "Tower of Strength",
+        "Matching Heavy Set",
+        "Elemental Defense",
+        "Glancing Blows",
+        "Face of the Mountain",
+        "Block Mastery",
+        "Deflect Arrows",
+        "Elemental Protection",
+        "Power Bash",
+        "Shield Charge",
+        "Block Runner",
+        "Stoneheart",
+        "One-Handed Mastery",
+        "Disciplined Fighter",
+        "Magic Resistance (3)"
+      ],
+      "spells": []
+    },
+    "BERSERKER": {
+      "name": "BERSERKER",
+      "description": "O Berserker é uma força da natureza movida a sangue, adrenalina e fúria incontrolável. Com sua mobilidade brutal, ele empunha machados massivos com selvageria. Quanto mais sangra no combate, mais letal se torna, utilizando elixires alquímicos para catalisar sua raiva e mutilar seus oponentes antes que possam reagir.",
+      "skills": [
+        {
+          "skill": "Armadura Leve",
+          "level": "60.0"
+        },
+        {
+          "skill": "Duas-Mãos",
+          "level": "80.0"
+        },
+        {
+          "skill": "Alquimia",
+          "level": "0.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "0.0"
+        }
+      ],
+      "perks": [
+        "Light Armor Mastery",
+        "Agility",
+        "Light Armor Fit",
+        "Keen Senses",
+        "Light Armor Training",
+        "Wardancer",
+        "Two-Handed Mastery",
+        "Brutal Fighter",
+        "Mortal Wounds (1)",
+        "Death or Glory",
+        "Ferocious Strength",
+        "Hook Blade",
+        "Rolling Charge",
+        "Stimulants",
+        "Slow Metabolism (1)",
+        "Adrenaline",
+        "Magic Resistance (3)"
+      ],
+      "spells": []
+    },
+    "CAVALEIRO NEGRO": {
+      "name": "CAVALEIRO NEGRO",
+      "description": "O Cavaleiro Negro é um guerreiro sombrio que carrega o fardo da escuridão e a disciplina do aço. Com o poder avassalador de sua grande espada, ele avança inexoravelmente no campo de batalha. Sua presença exala pavor e sua lâmina traz o abraço sombrio para aqueles que ousam desafiar sua autoridade impiedosa.",
+      "skills": [
+        {
+          "skill": "Armadura Pesada",
+          "level": "60.0"
+        },
+        {
+          "skill": "Duas-Mãos",
+          "level": "60.0"
+        },
+        {
+          "skill": "Destruição",
+          "level": "40.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "0.0"
+        }
+      ],
+      "perks": [
+        "Magic Resistance (3)",
+        "Battle Fatigue",
+        "Heavy Armor Fit",
+        "Reap the Whirlwind",
+        "Tower of Strength",
+        "Heavy Armor Training",
+        "Matching Heavy Set",
+        "Two-Handed Mastery",
+        "Brutal Fighter",
+        "Overbearing Assault (2)",
+        "Death or Glory",
+        "Ferocious Strength",
+        "Bear Hide",
+        "Crowd Pleaser",
+        "Destruction Mastery",
+        "Raw Power (2)",
+        "Magic Resistance (3)"
+      ],
+      "spells": [
+        {
+          "name": "Vampiric Bolt",
+          "tier": "Especialista",
+          "description": "Absorbs 40 Health from living targets."
+        },
+        {
+          "name": "Scion's Embrace",
+          "tier": "Mestre",
+          "description": "For 60 seconds, absorbs 10 Health from living enemies in melee range."
+        }
+      ]
+    },
+    "PALADINO": {
+      "name": "PALADINO",
+      "description": "O Paladino é o bastião solar da justiça, um campeão sagrado ungido para erradicar o mal e proteger os inocentes. Envolto em armadura reluzente, ele combina o combate de proximidade com o poder purificador da magia divina. Sua luz radiante cura os feridos, fortalece os aliados e expurga os mortos-vivos e profanos com chamas sagradas.",
+      "skills": [
+        {
+          "skill": "Armadura Pesada",
+          "level": "60.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "40.0"
+        },
+        {
+          "skill": "Restauração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "0.0"
+        }
+      ],
+      "perks": [
+        "Heavy Armor Mastery",
+        "Battle Fatigue",
+        "Heavy Armor Fit",
+        "Tower of Strength",
+        "Heavy Armor Training",
+        "Matching Heavy Set",
+        "One-Handed Mastery",
+        "Disciplined Fighter",
+        "Denting Blows (2)",
+        "Furious Strength",
+        "Restoration Mastery",
+        "Mercy",
+        "Inspire",
+        "Inner Light (1)",
+        "Respite",
+        "Vigilant Ward (1)",
+        "Inner Light (2)",
+        "Magic Resistance (3)"
+      ],
+      "spells": [
+        {
+          "name": "Healing",
+          "tier": "Novato",
+          "description": "Restores 10 Health per second."
+        },
+        {
+          "name": "Turn Undead",
+          "tier": "Aprendiz",
+          "description": "Undead up to level 10 are turned for 30 seconds."
+        },
+        {
+          "name": "Circle of Vitality",
+          "tier": "Adepto",
+          "description": "Creates a circle on the ground that lasts for 120 seconds. Restores 10 Health per second inside the circle."
+        },
+        {
+          "name": "Turn Greater Undead",
+          "tier": "Adepto",
+          "description": "Undead up to level 15 in a large area are turned for 30 seconds."
+        },
+        {
+          "name": "Stendarr's Aura",
+          "tier": "Adepto",
+          "description": "For 60 seconds, undead in melee range take 8 damage per second. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Greater Ward",
+          "tier": "Adepto",
+          "description": "Negates up to 90 points of spell damage."
+        },
+        {
+          "name": "Vampire’s Bane",
+          "tier": "Adepto",
+          "description": "Deals 40 damage to the undead in a large area. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Sun Shard",
+          "tier": "Mestre",
+          "description": "Summon a blazing miniature sun for 30 seconds that turns night into day and burns nearby undead for 12 damage per second."
+        }
+      ]
+    },
+    "MESTRE ESPADACHIM": {
+      "name": "MESTRE ESPADACHIM",
+      "description": "O Mestre Espadachim é a personificação da disciplina letal, um duelista purista que dedicou toda a sua existência à perfeição do caminho da lâmina. Rejeitando armaduras incômodas e artes mágicas, ele confia puramente em sua mobilidade extraordinária, reflexos cirúrgicos e uma sequência fluida e devastadora de estocadas e cortes impecáveis.",
+      "skills": [
+        {
+          "skill": "Armadura Leve",
+          "level": "80.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "100.0"
+        }
+      ],
+      "perks": [
+        "Light Armor Mastery",
+        "Agility",
+        "Light Armor Fit",
+        "Windrunner",
+        "Keen Senses",
+        "Light Armor Training",
+        "Evasive Sprint",
+        "Wardancer",
+        "Untouchable",
+        "One-Handed Mastery",
+        "Disciplined Fighter",
+        "Overpowering Assault (1)",
+        "Dual Flurry (2)",
+        "Furious Strength",
+        "Valorous Charge",
+        "Dual Savagery",
+        "Execute",
+        "Bladedancer",
+        "Victory Rush"
+      ],
+      "spells": []
+    },
+    "ARQUEIRO (SNIPER)": {
+      "name": "ARQUEIRO (SNIPER)",
+      "description": "O Arqueiro é o fantasma da longa distância, um predador invisível que dita o destino do combate antes mesmo de ser detectado. Paciente e absurdamente preciso, ele calcula o vento e a distância para disparar flechas letais a partir das sombras. Para o Arqueiro, quanto maior a distância do alvo, mais inevitável e fatal é o impacto de seu disparo.",
+      "skills": [
+        {
+          "skill": "Arquearia",
+          "level": "80.0"
+        },
+        {
+          "skill": "Armadura Leve",
+          "level": "60.0"
+        },
+        {
+          "skill": "Furtividade",
+          "level": "60.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "40.0"
+        }
+      ],
+      "perks": [
+        "Archery Mastery",
+        "Far Shot (2)",
+        "Eagle Eye",
+        "Steady Aim (2)",
+        "Hunter's Discipline",
+        "Arrow to the Knee",
+        "Power Shot",
+        "Light Armor Mastery",
+        "Light Armor Fit",
+        "Keen Senses",
+        "Wardancer",
+        "Sneak Mastery",
+        "Silent Movement (2)",
+        "Deadly Aim",
+        "Dodge Roll",
+        "One-Handed Mastery",
+        "Disciplined Fighter",
+        "Furious Strength"
+      ],
+      "spells": []
+    },
+    "RANGER (CURTA DISTÂNCIA)": {
+      "name": "RANGER (CURTA DISTÂNCIA)",
+      "description": "O Ranger é um combatente de escaramuça veloz e dinâmico, mestre em manter o controle do combate à meia e curta distância. Combinando arquearia rápida, mobilidade acrobática e o uso estratégico de tônicos e elixires, ele orbita os inimigos desferindo disparos contínuos enquanto se esquiva com graciosidade de qualquer contra-ataque.",
+      "skills": [
+        {
+          "skill": "Arquearia",
+          "level": "80.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "40.0"
+        },
+        {
+          "skill": "Armadura Leve",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alquimia",
+          "level": "0.0"
+        }
+      ],
+      "perks": [
+        "Archery Mastery",
+        "Point Blank Shot (2)",
+        "Arrow to the Knee",
+        "Ranger",
+        "Quick Shot",
+        "Pinning Shot",
+        "Gore",
+        "One-Handed Mastery",
+        "Disciplined Fighter",
+        "Furious Strength",
+        "Light Armor Mastery",
+        "Agility",
+        "Light Armor Fit",
+        "Wardancer",
+        "Light Armor Training",
+        "Untouchable",
+        "Stimulants",
+        "Slow Metabolism (1)",
+        "Adrenaline"
+      ],
+      "spells": []
+    },
+    "VIPER (VENENO)": {
+      "name": "VIPER (VENENO)",
+      "description": "O Viper é um mestre da guerra química e do combate insidioso. Especializado na utilização de toxinas letais, ele banha suas lâminas com venenos virulentos que corroem a carne, paralisam os músculos e queimam as entranhas do oponente a cada corte. Para o Viper, a verdadeira vitória ocorre segundos após o primeiro arranhão.",
+      "skills": [
+        {
+          "skill": "Uma-Mão",
+          "level": "80.0"
+        },
+        {
+          "skill": "Armadura Leve",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alquimia",
+          "level": "0.0"
+        },
+        {
+          "skill": "Arquearia",
+          "level": "0.0"
+        }
+      ],
+      "perks": [
+        "One-Handed Mastery",
+        "Disciplined Fighter",
+        "Fangs (2)",
+        "Dual Flurry (1)",
+        "Bladedancer",
+        "Spitting Cobra",
+        "Light Armor Mastery",
+        "Agility",
+        "Light Armor Fit",
+        "Untouchable",
+        "Stimulants",
+        "Slow Metabolism (2)",
+        "Adrenaline",
+        "Concentrated Poison (3)",
+        "Alkahest",
+        "Plague Doctor"
+      ],
+      "spells": []
+    },
+    "ASSASSINO": {
+      "name": "ASSASSINO",
+      "description": "O Assassino é a própria sombra encarnada, um mestre da infiltração que transforma o ocultamento e a ilusão em instrumentos de morte imediata. Movendo-se em silêncio absoluto e tornando-se invisível à vontade, ele surge nas costas de suas vítimas para desfazer suas vidas com um único golpe preciso antes de desaparecer novamente no caos.",
+      "skills": [
+        {
+          "skill": "Uma-Mão",
+          "level": "40.0"
+        },
+        {
+          "skill": "Armadura Leve",
+          "level": "40.0"
+        },
+        {
+          "skill": "Ilusão",
+          "level": "60.0"
+        },
+        {
+          "skill": "Furtividade",
+          "level": "80.0"
+        }
+      ],
+      "perks": [
+        "One-Handed Mastery",
+        "Disciplined Fighter",
+        "Valorous Charge",
+        "Victory Rush",
+        "Light Armor Mastery",
+        "Agility",
+        "Light Armor Fit",
+        "Untouchable",
+        "Windrunner",
+        "Illusion Mastery",
+        "Quiet Casting",
+        "Blur",
+        "Sneak Mastery",
+        "Sneak Attack",
+        "Silent Movement (2)",
+        "Assassin's Blade",
+        "Backstab",
+        "Shadow Warrior",
+        "Cloak and Dagger"
+      ],
+      "spells": [
+        {
+          "name": "Invisibility",
+          "tier": "Especialista",
+          "description": "For 30 seconds, you cannot be seen or heard. Activating an object or attacking will break this spell."
+        }
+      ]
+    },
+    "ANTI-MAGO": {
+      "name": "ANTI-MAGO",
+      "description": "O Anti-Mago é o pesadelo supremo de qualquer praticante das artes arcanas. Imbuído com barreiras de absorção mágica, alta resistência e mobilidade vertiginosa, ele anula os feitiços inimigos enquanto encurta a distância rapidamente. Empunhando lâminas vinculadas e manipulando a alteração, ele silencia e corta os conjuradores antes que consigam completar um único encantamento.",
+      "skills": [
+        {
+          "skill": "Conjuração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "60.0"
+        },
+        {
+          "skill": "Armadura Leve",
+          "level": "40.0"
+        },
+        {
+          "skill": "Ilusão",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Destruição",
+          "level": "0.0"
+        }
+      ],
+      "perks": [
+        "Mystic Binding",
+        "Hollow Binding",
+        "Void Brand",
+        "One-Handed Mastery",
+        "Disciplined Fighter",
+        "Bladedancer",
+        "Dual Flurry (2)",
+        "Light Armor Mastery",
+        "Agility",
+        "Light Armor Fit",
+        "Untouchable",
+        "Windrunner",
+        "Wardancer",
+        "Illusion Mastery",
+        "Alteration Mastery",
+        "Magic Resistance (3)",
+        "Atronach"
+      ],
+      "spells": [
+        {
+          "name": "Bound Dagger",
+          "tier": "Novato",
+          "description": "Summons a Bound Dagger for 120 seconds."
+        },
+        {
+          "name": "Bound Shield",
+          "tier": "Aprendiz",
+          "description": "Summons a Bound Shield for 120 seconds."
+        },
+        {
+          "name": "Trickster",
+          "tier": "Mestre",
+          "description": "Create 2 phantom copies of yourself for 60 seconds. The copies have the same weapons, armor, and spells as you, but are only half as strong."
+        },
+        {
+          "name": "Shadow Dance",
+          "tier": "Adepto",
+          "description": "Able to perform a 20 foot dash for 10 Magicka by jumping, if the path is clear. Lasts 60 seconds."
+        },
+        {
+          "name": "Magic Barrier",
+          "tier": "Adepto",
+          "description": "Create an impenetrable dome of energy around you for 30 seconds that prevents anything from passing in or out."
+        },
+        {
+          "name": "Nightblade",
+          "tier": "Adepto",
+          "description": "Able to melee attack from up to 50 feet to perform a dash attack, converting 50% of your Magicka into bonus magic damage on hit. Lasts 60 seconds. (X damage)"
+        }
+      ]
+    },
+    "DRUÍDA": {
+      "name": "DRUÍDA",
+      "description": "O Druida vive em harmonia com os espíritos da natureza e seus animais, que lhe conferem poderio suficiente para controlar o campo de batalha.",
+      "skills": [
+        {
+          "skill": "Conjuração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Restauração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "40.0"
+        }
+      ],
+      "perks": [
+        "Conjuration Mastery",
+        "Conjuration Dual Casting",
+        "Rift Summoner (2)",
+        "Oblivion Stone (2)",
+        "Twin Souls",
+        "Alteration Mastery",
+        "Mage Armor (3)",
+        "Magic Resistance (2)",
+        "Restoration Mastery",
+        "Restoration Dual Casting",
+        "Mercy",
+        "Vigilant Ward (1)",
+        "Inner Light (1)",
+        "One-Handed Mastery",
+        "Disciplined Fighter"
+      ],
+      "spells": [
+        {
+          "name": "Create Water Totem",
+          "tier": "Novato",
+          "description": "Create a Totem for 60 seconds that heals 5 points of Health and Magicka per second and cures disease."
+        },
+        {
+          "name": "Trickster",
+          "tier": "Novato",
+          "description": "Create 2 phantom copies of yourself for 60 seconds. The copies have the same weapons, armor, and spells as you, but are only half as strong."
+        },
+        {
+          "name": "Conjure Spectral Wolf",
+          "tier": "Aprendiz",
+          "description": "Summons a Spectral Wolf for 60 seconds."
+        },
+        {
+          "name": "Conjure Spectral Sabre Cat",
+          "tier": "Adepto",
+          "description": "Summons a Spectral Sabre Cat for 60 seconds."
+        },
+        {
+          "name": "Conjure Spectral Bear",
+          "tier": "Especialista",
+          "description": "Summons a Spectral Bear for 60 seconds."
+        },
+        {
+          "name": "Conjure Spectral Manbeast",
+          "tier": "Mestre",
+          "description": "Summons a Spectral Manbeast for 60 seconds."
+        },
+        {
+          "name": "Stoneflesh",
+          "tier": "Aprendiz",
+          "description": "Your Armor Rating is increased by 80 for 120 seconds."
+        },
+        {
+          "name": "Magelight",
+          "tier": "Aprendiz",
+          "description": "You create a hovering orb of light that lasts for 300 seconds and lands wherever you are pointing."
+        },
+        {
+          "name": "Detect Life",
+          "tier": "Adepto",
+          "description": "You can see nearby living targets through walls."
+        },
+        {
+          "name": "Equilibrium",
+          "tier": "Adepto",
+          "description": "Sacrifices Health to restore a moderate amount of Magicka and Stamina."
+        },
+        {
+          "name": "Burden",
+          "tier": "Adepto",
+          "description": "Reduces enemy Movement Speed and Attack Speed by 25% for 60 seconds."
+        },
+        {
+          "name": "Whirlwind Cloak",
+          "tier": "Adepto",
+          "description": "For 60 seconds, enemies in melee range have a chance to be knocked down."
+        },
+        {
+          "name": "Fast Healing",
+          "tier": "Aprendiz",
+          "description": "Restores 20 Health per second."
+        },
+        {
+          "name": "Steadfast Ward",
+          "tier": "Aprendiz",
+          "description": "Negates up to 60 points of spell damage."
+        },
+        {
+          "name": "Circle of Strength",
+          "tier": "Adepto",
+          "description": "Creates a circle on the ground that lasts for 120 seconds. Stamina regenerates 50% faster inside the circle."
+        },
+        {
+          "name": "Circle of Wisdom",
+          "tier": "Adepto",
+          "description": "Creates a circle on the ground that lasts for 120 seconds. Magicka regenerates 50% faster inside the circle."
+        },
+        {
+          "name": "Font of Strength",
+          "tier": "Mestre",
+          "description": "Creates a circle on the ground that lasts for 120 seconds. Stamina regenerates twice as fast inside the circle."
+        }
+      ]
+    },
+    "CURANDEIRO": {
+      "name": "CURANDEIRO",
+      "description": "O Curandeiro é o pilar de sustentação e a salvação de qualquer grupo no campo de batalha. Mestre incontestável da escola de Restauração, ele canaliza auras purificadoras, sana ferimentos mortais instantaneamente e concede bônus vitais aos seus aliados. Sua presença transforma um esquadrão prestes a rcar em uma força invencível e incansável.",
+      "skills": [
+        {
+          "skill": "Restauração",
+          "level": "80.0"
+        },
+        {
+          "skill": "Destruição",
+          "level": "20.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Uma-Mão",
+          "level": "40.0"
+        }
+      ],
+      "perks": [
+        "Restoration Mastery",
+        "Restoration Dual Casting",
+        "Inner Light (2)",
+        "Vigilant Ward (2)",
+        "Inner Light (2)",
+        "Inspire (2)",
+        "Ward Absorb",
+        "Enduring Flame",
+        "Destruction Mastery",
+        "Alteration Mastery",
+        "Mage Armor (3)",
+        "Magic Resistance (2)",
+        "Magic Resistance (3)",
+        "One-Handed Mastery"
+      ],
+      "spells": [
+        {
+          "name": "Healing",
+          "tier": "Novato",
+          "description": "Restores 10 Health per second."
+        },
+        {
+          "name": "Sunbeam",
+          "tier": "Novato",
+          "description": "Deals 8 damage per second to the undead. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Fast Healing",
+          "tier": "Aprendiz",
+          "description": "Restores 20 Health per second."
+        },
+        {
+          "name": "Heal Other",
+          "tier": "Aprendiz",
+          "description": "Restores 40 Health to living targets."
+        },
+        {
+          "name": "Steadfast Ward",
+          "tier": "Aprendiz",
+          "description": "Negates up to 60 points of spell damage."
+        },
+        {
+          "name": "Greater Healing",
+          "tier": "Adepto",
+          "description": "Restores 30 Health per second to yourself and nearby living allies."
+        },
+        {
+          "name": "Aura of Thorns",
+          "tier": "Especialista",
+          "description": "Caster and living or undead allies reflect 50 fire and sun damage in melee. Release to heal 100 points."
+        },
+        {
+          "name": "Grand Ward",
+          "tier": "Mestre",
+          "description": "Negates up to 120 points of spell damage."
+        },
+        {
+          "name": "Circle of Protection",
+          "tier": "Mestre",
+          "description": "Creates a circle on the ground that lasts for 60 seconds. Undead up to level 20 inside the circle are turned for 30 seconds."
+        },
+        {
+          "name": "Mutagen",
+          "tier": "Mestre",
+          "description": "Restores 4 Health per second for 120 seconds."
+        },
+        {
+          "name": "Font of Vitality",
+          "tier": "Mestre",
+          "description": "Creates a circle on the ground that lasts for 120 seconds. Restores 20 Health per second inside the circle."
+        },
+        {
+          "name": "Flames",
+          "tier": "Novato",
+          "description": "Deals 8 Fire damage per second. Targets on fire take extra damage over time."
+        },
+        {
+          "name": "Stoneflesh",
+          "tier": "Aprendiz",
+          "description": "Your Armor Rating is increased by 80 for 120 seconds."
+        },
+        {
+          "name": "Magelight",
+          "tier": "Aprendiz",
+          "description": "You create a hovering orb of light that lasts for 300 seconds and lands wherever you are pointing."
+        },
+        {
+          "name": "Detect Life",
+          "tier": "Adepto",
+          "description": "You can see nearby living targets through walls."
+        },
+        {
+          "name": "Dispel",
+          "tier": "Adepto",
+          "description": "You dispel all magical effects on yourself."
+        },
+        {
+          "name": "Ironflesh",
+          "tier": "Adepto",
+          "description": "Your Armor Rating is increased by 120 for 120 seconds."
+        },
+        {
+          "name": "Shock Shell",
+          "tier": "Adepto",
+          "description": "Your Shock Resistance is increased by 50% for 120 seconds."
+        }
+      ]
+    },
+    "TRAPACEIRO": {
+      "name": "TRAPACEIRO",
+      "description": "O Trapaceiro é o mestre do caos e da imprevisibilidade, transformando o campo de batalha em seu parquinho pessoal de ilusões e distorções. Manipulando a gravidade, alterando o peso das armas inimigas, desarmando oponentes e teleportando-se no meio da bagunça, ele desestabiliza qualquer formação tática e leva os oponentes à loucura e ao colapso.",
+      "skills": [
+        {
+          "skill": "Conjuração",
+          "level": "20.0"
+        },
+        {
+          "skill": "Ilusão",
+          "level": "60.0"
+        },
+        {
+          "skill": "Alteração",
+          "level": "60.0"
+        },
+        {
+          "skill": "Armadura Leve",
+          "level": "60.0"
+        },
+        {
+          "skill": "Furtividade",
+          "level": "60.0"
+        }
+      ],
+      "perks": [
+        "Illusion Mastery",
+        "Anímage (2)",
+        "Quiet Casting",
+        "Blur",
+        "Alteration Mastery",
+        "Alteration Dual Casting",
+        "Magic Resistance (1)",
+        "Stability",
+        "Hethoth's Escape",
+        "Light Armor Mastery",
+        "Agility",
+        "Windrunner",
+        "Evasive Sprint",
+        "Untouchable",
+        "Sneak Mastery",
+        "Silent Roll (2)",
+        "Dodge Roll",
+        "Shadowcaster",
+        "Shadow Warrior"
+      ],
+      "spells": [
+        {
+          "name": "Unbound Atronach",
+          "tier": "Novato",
+          "description": "Conjure a random wild atronach for 30 seconds that will attack anyone nearby. Does not count against your summoning limit."
+        },
+        {
+          "name": "Invisibility",
+          "tier": "Mestre",
+          "description": "For 30 seconds, you cannot be seen or heard. Activating an object or attacking will break this spell."
+        },
+        {
+          "name": "Fade",
+          "tier": "Mestre",
+          "description": "For 30 seconds, your target cannot be seen or heard. Activating an object or attacking will break this spell."
+        },
+        {
+          "name": "Mayhem",
+          "tier": "Mestre",
+          "description": "Living targets up to level 25 in a massive area will attack anyone nearby for 30 seconds."
+        },
+        {
+          "name": "Bestow Gift",
+          "tier": "Aprendiz",
+          "description": "Cast on an ally while holding a self-targeted spell in your other hand to cast that spell on them. Consumes magicka equal to the selected spell cost."
+        },
+        {
+          "name": "Switcheroo",
+          "tier": "Aprendiz",
+          "description": "Swap places with the target, if they can be moved. Also works on intact corpses."
+        },
+        {
+          "name": "Featherlight",
+          "tier": "Aprendiz",
+          "description": "Become light as a feather for 30 seconds, allowing you to walk on water and float down safely from high places."
+        },
+        {
+          "name": "Windwalker",
+          "tier": "Adepto",
+          "description": "Your Movement Speed is increased by 10% for 120 seconds."
+        },
+        {
+          "name": "Teleportation",
+          "tier": "Adepto",
+          "description": "Teleport to the target location."
+        },
+        {
+          "name": "Burden",
+          "tier": "Adepto",
+          "description": "Reduces enemy Movement Speed and Attack Speed by 25% for 60 seconds."
+        },
+        {
+          "name": "Disintegrate Weapon",
+          "tier": "Adepto",
+          "description": "Reduces enemy weapon damage by 25% for 60 seconds."
+        },
+        {
+          "name": "Corrode Armor",
+          "tier": "Adepto",
+          "description": "Reduces enemy Armor Rating by 150 for 60 seconds."
+        },
+        {
+          "name": "Whirlwind Cloak",
+          "tier": "Adepto",
+          "description": "For 60 seconds, enemies in melee range have a chance to be knocked down."
+        },
+        {
+          "name": "Weakness to Fire",
+          "tier": "Mestre",
+          "description": "You reduce enemy Fire Resistance by 50% for 60 seconds."
+        },
+        {
+          "name": "Weakness to Frost",
+          "tier": "Especialista",
+          "description": "You reduce enemy Frost Resistance by 50% for 60 seconds."
+        },
+        {
+          "name": "Weakness to Shock",
+          "tier": "Especialista",
+          "description": "You reduce enemy Shock Resistance by 50% for 60 seconds."
+        },
+        {
+          "name": "Weakness to Poison",
+          "tier": "Especialista",
+          "description": "You reduce enemy Poison Resistance by 50% for 60 seconds."
+        },
+        {
+          "name": "Ash Cloud",
+          "tier": "Especialista",
+          "description": "Encases enemies in a large area in ash for 30 seconds. Attacking the enemy will break this spell."
+        },
+        {
+          "name": "Armoreater",
+          "tier": "Mestre",
+          "description": "Reduces enemy Armor Rating in a large area by 300 for 60 seconds."
+        },
+        {
+          "name": "Cinder Storm",
+          "tier": "Mestre",
+          "description": "Encases enemies in a massive area in ash for 30 seconds. Attacking the enemy will break this spell."
+        },
+        {
+          "name": "Weight of the World",
+          "tier": "Mestre",
+          "description": "Reduces enemy Movement Speed and Attack Speed in a large area by 50% for 60 seconds."
+        }
+      ]
+    }
+  },
+  "all_perks": {
+    "Destruction Mastery": "Cast Destruction spells for 0.5% less Magicka per level of Destruction.",
+    "Destruction Dual Casting": "Dual casting a Destruction spell overcharges its effects, increasing power and casting cost.",
+    "Augmented Flames (1)": "Fire spells and effects are 20/40% more powerful.",
+    "Augmented Frost (1)": "Frost spells and effects are 20/40% more powerful.",
+    "Augmented Shock (1)": "Shock spells and effects are 20/40% more powerful.",
+    "Impact": "Projectile based Destruction spells have 30% chance to stagger their targets when dual cast.",
+    "Alteration Mastery": "Cast Alteration spells for 0.5% less Magicka per level of Alteration.",
+    "Mage Armor (3)": "Protection spells like Stoneflesh are 100/150/200% stronger if not wearing armor.",
+    "Magic Resistance (2)": "Increases Magic Resistance by 10/20/30%.",
+    "Stability": "Alteration spells and effects last 25% longer.",
+    "Ocato's Preparation": "When entering combat, automatically activates the most effective magical armor spell you know.",
+    "Restoration Mastery": "Cast Restoration spells for 0.5% less Magicka per level of Restoration.",
+    "Restoration Dual Casting": "Dual casting a Restoration spell overcharges its effects, increasing power and casting cost.",
+    "Vigilant Ward (1)": "Wards cost 50/80% less Magicka and reduce incoming damage by 30/60%.",
+    "Ward Absorb": "When your ward blocks a spell, you gain Magicka equal to 30% of that spell's cost.",
+    "One-Handed Mastery": "One-handed weapons do 1% more damage and 5% more critical damage per level of One-Handed.",
+    "Rune Mestre (1)": "Can place runes three times as far away/at any distance, and runes are 10/20% more powerful.",
+    "Augmented Frost (2)": "Augmented Frost (2): Frost spells and effects are 20/40% more powerful.",
+    "Chilling Frost": "Frost spells reduce attack speed by 20% and inflict 15% weakness to frost for 10 seconds.",
+    "Winter's Grasp": "Frost spells freeze targets below 20% Health in a block of ice for 5 seconds.",
+    "Hellstorm": "Deal 50% more elemental damage to targets that are ignited, frozen, silenced or levitated by other Destruction perks.",
+    "Augmented Shock (2)": "Augmented Shock (2): Shock spells and effects are 20/40% more powerful.",
+    "Deafening Shock": "Shock spells have 20% chance to silence targets for 2 seconds.",
+    "Crackling Sphere": "Shock spells have 20% chance to levitate targets for 2 seconds.",
+    "Augmented Flames (2)": "Fire spells and effects are 20/40% more powerful.",
+    "Devouring Flames": "Fire spells ignite targets below 20% Health, dealing extra damage for 5 seconds.",
+    "Scorched Earth": "Fire spells burn their victims to cinders, leaving a pyre that ignites opponents, dealing extra damage for 10 seconds.",
+    "Conjuration Mastery": "Cast Conjuration spells for 0.5% less Magicka per level of Conjuration.",
+    "Conjuration Dual Casting": "Dual casting a Conjuration spell overcharges its effects, increasing duration and casting cost.",
+    "Atromancy": "Summoned daedra and creatures last twice as long.",
+    "Rift Summoner (2)": "Can summon three times as far away/at any distance.",
+    "Oblivion Stone (2)": "Summoned daedra and creatures get 100/200 points of armor and 25/50% magic resistance.",
+    "Grand Conjurer (1)": "Can reanimate, banish or command targets up to 15 levels higher.",
+    "Elemental Potency": "Atronach summoning spells now call higher level Potent Atronachs with improved elemental attacks.",
+    "Elemental Conflux": "While near an allied atronach, gain a 20% bonus to matching elemental spells and effects, and 50 matching elemental damage to bound weapons.",
+    "Twin Souls": "You can summon or reanimate an additional minion.",
+    "Heavy Armor Mastery": "Armor rating of Heavy Armor pieces increased by 1% per level of Heavy Armor.",
+    "Cushioned (2)": "You take half damage from falling if wearing all Heavy Armor.",
+    "Battle Fatigue": "Take up to 20% less attack damage from opponents with low Stamina if wearing all Heavy Armor.",
+    "Heavy Armor Fit": "Armor rating of Heavy Armor pieces increased by 15% if wearing all Heavy Armor.",
+    "Tower of Strength": "Take 25% less damage from power attacks and bashes if wearing all Heavy Armor.",
+    "Matching Heavy Set": "Armor rating of Heavy Armor pieces increased by 15% if wearing a matched set of 3 or more Heavy Armor pieces.",
+    "Elemental Defense": "Take 15% less elemental damage if wearing all Heavy Armor.",
+    "Glancing Blows": "Immune to weapon specific perks such as Denting Blows and Mortal Wounds if wearing all Heavy Armor.",
+    "Face of the Mountain": "Taking an incoming power attack or bash in all Heavy Armor always staggers the attacker with 25% chance to knock them down.",
+    "Block Mastery": "Blocking is 0.5% more effective per level of Block.",
+    "Deflect Arrows": "Arrows do 25% less damage while blocking. Arrows that hit a shield do no damage.",
+    "Elemental Protection": "Blocking with a shield reduces elemental damage taken by 50%.",
+    "Power Bash": "Able to do a power bash by holding down Attack while blocking.",
+    "Shield Charge": "Able to sprint with a shield raised, knocking opponents down for 15 points of Stamina per second.",
+    "Block Runner": "Can move at full speed while blocking.",
+    "Stoneheart": "Can't be staggered by power attacks and bashes while blocking.",
+    "Disciplined Fighter": "One-handed power attacks cost 25% less Stamina.",
+    "Magic Resistance (3)": "Increases Magic Resistance by 10/20/30%.",
+    "Light Armor Mastery": "Armor rating of Light Armor pieces increased by 1% per level of Light Armor.",
+    "Agility": "Regenerate an additional 2% of your maximum Stamina per second if wearing all Light Armor.",
+    "Light Armor Fit": "Armor rating of Light Armor pieces increased by 15% if wearing all Light Armor.",
+    "Keen Senses": "Other Light Armor perks no longer require a helmet. Armor rating of Light Armor pieces increased by 20% if not wearing a helmet.",
+    "Light Armor Training": "Light Armor weighs nothing and doesn't slow you down when worn.",
+    "Wardancer": "Your attacks deal 20% more damage and critical damage in all Light Armor. Taking an unblocked hit disables this effect for 10 seconds.",
+    "Two-Handed Mastery": "Two-handed weapons do 1% more damage and 5% more critical damage per level of Two-Handed.",
+    "Brutal Fighter": "Two-handed power attacks cost 25% less Stamina.",
+    "Mortal Wounds (1)": "Two-handed weapons wound the living for 10 seconds. Deal 10% more attack damage to wounded targets.",
+    "Death or Glory": "Two-handed power attacks deal up to 100% more damage below half Health. Damage increases as your Health decreases.",
+    "Ferocious Strength": "Two-handed power attacks do 0.1% more damage per point of Stamina. Unlocks decapitations.",
+    "Hook Blade": "Power attacks with battleaxes smash through a block, inflicting a critical strike for 3 times critical damage and knocking the target down.",
+    "Rolling Charge": "Build up speed during a long distance sprinting power attack, inflicting a critical strike for 4 times critical damage if enough speed is accumulated.",
+    "Stimulants": "Regenerate an extra 2% of your total Magicka and Stamina per second under the effects of a beneficial potion or food.",
+    "Slow Metabolism (1)": "All potions and food with beneficial effects last twice as long.",
+    "Adrenaline": "Move 10% faster under the effects of a beneficial potion or food.",
+    "Reap the Whirlwind": "Taking an incoming hit in all Heavy Armor grants 20% extra attack damage and critical damage against the attacker for 5 seconds.",
+    "Heavy Armor Training": "Heavy Armor weighs nothing and doesn't slow you down when worn.",
+    "Overbearing Assault (2)": "Greatswords reduce attack damage by 15/20% for 10 seconds.",
+    "Bear Hide": "Take 30% less attack damage during your two-handed power attack.",
+    "Crowd Pleaser": "Killing an opponent with a two-handed weapon raises two-handed damage by 20% for 20 seconds.",
+    "Raw Power (2)": "Non-elemental Destruction spells are 10/20% more powerful.",
+    "Denting Blows (2)": "Maces reduce armor by 100/150 points for 10 seconds.",
+    "Furious Strength": "One-handed power attacks do 0.1% more damage per point of Stamina. Unlocks decapitations.",
+    "Mercy": "Restoration spells are up to 50% more effective if the recipient's remaining Health is low.",
+    "Inspire": "Nearby living allies within 15 feet are healed 5/10 points per second.",
+    "Inner Light (1)": "Regenerate an extra 1/2% of your total Magicka per second.",
+    "Respite": "Healing spells also restore Stamina.",
+    "Inner Light (2)": "Turn Undead spells reduce undead below 35% Health to ashes.",
+    "Windrunner": "Move 10% faster if wearing all Light Armor.",
+    "Evasive Sprint": "While sprinting in all Light Armor, take 50% less attack damage and weight does not affect Stamina drain.",
+    "Untouchable": "Move an additional 15% faster in combat in all Light Armor. Taking an unblocked hit disables this effect for 10 seconds.",
+    "Overpowering Assault (1)": "",
+    "Dual Flurry (2)": "Dual wielding attacks are 20/35% faster.",
+    "Valorous Charge": "Can do a one-handed sprinting power attack for up to 50% more damage and critical damage to high Health opponents.",
+    "Dual Savagery": "Dual wielding power attacks deal 50% more damage and stagger 50% more.",
+    "Execute": "Power attacks with a sword execute targets below 20% Health, inflicting a critical strike for 10 times critical damage.",
+    "Bladedancer": "Take 30% less attack damage while power attacking with two weapons.",
+    "Victory Rush": "Killing an opponent with a one-handed weapon replenishes 150 points of Stamina.",
+    "Archery Mastery": "Ranged weapons do 1% more damage and 5% more critical damage per level of Archery.",
+    "Far Shot (2)": "Ranged weapons do up to 20/40% more damage to targets beyond 60 feet, based on distance.",
+    "Eagle Eye": "Pressing Block while aiming will zoom in your view.",
+    "Steady Aim (2)": "Pressing Block while aiming will zoom in your view and slow time by 25/50%.",
+    "Hunter's Discipline": "Recover twice as many arrows and bolts from dead bodies.",
+    "Arrow to the Knee": "Ranged weapons knock targets down if they are sprinting, inflicting a critical strike for 2 times critical damage.",
+    "Power Shot": "Ranged weapons have 25% chance to stagger most targets.",
+    "Sneak Mastery": "You are 0.5% harder to detect when sneaking per level of Sneak.",
+    "Silent Movement (2)": "Movement noise is reduced by 50/100%.",
+    "Deadly Aim": "Sneak attacks with bows deal 50% more damage.",
+    "Dodge Roll": "Performing a silent roll briefly causes all incoming attacks and spells to miss.",
+    "Point Blank Shot (2)": "Ranged weapons do up to 20/40% more damage to targets within 20 feet, based on proximity.",
+    "Ranger": "Can move at full speed with a drawn bow.",
+    "Quick Shot": "Can draw a bow or reload a crossbow 30% faster.",
+    "Pinning Shot": "Ranged weapons slow targets by 15% per hit for 15 seconds.",
+    "Gore": "Ranged weapons interrupt power attacks, knocking the attacker back and inflicting a critical strike for 2 times critical damage.",
+    "Fangs (2)": "Daggers deal 10/20% more damage if the target is poisoned or bleeding.",
+    "Dual Flurry (1)": "Dual wielding attacks are 20/35% faster.",
+    "Spitting Cobra": "Power attacks with daggers bleed the living for 30 seconds, inflicting a critical strike for 3 times critical damage.",
+    "Slow Metabolism (2)": "All potions and food with beneficial effects last twice/three times as long.",
+    "Concentrated Poison (3)": "Poisons applied to weapons last for 2/4/6 additional hits.",
+    "Alkahest": "Ignore 50% armor when attacking a poisoned target.",
+    "Plague Doctor": "Nearby opponents get 25% weakness to poison and disease.",
+    "Illusion Mastery": "Cast Illusion spells for 0.5% less Magicka per level of Illusion.",
+    "Quiet Casting": "All spells and shouts from any school of magic are silent to others.",
+    "Blur": "Move 15% faster while invisible.",
+    "Sneak Attack": "One-handed sneak attacks deal 100% more damage.",
+    "Assassin's Blade": "Sneak attacks with daggers deal 150% more damage.",
+    "Backstab": "Daggers deal 25% more damage and critical damage from behind.",
+    "Shadow Warrior": "Entering sneak mode (5 second cooldown) or performing a silent roll in combat briefly makes you invisible, forcing opponents to search for you.",
+    "Cloak and Dagger": "Sneak attack with daggers from invisibility also inflict a critical strike for 6 times critical damage.",
+    "Mystic Binding": "Bound Weapon spells now create Mystic Weapons instead, which deal more damage.",
+    "Hollow Binding": "Bound weapons cut through flesh and spirit, reducing magic resistance by 25% for 5 seconds.",
+    "Void Brand": "Bound weapons drain 30 points of Magicka and Stamina per second for 5 seconds. When both are depleted, drains Health instead.",
+    "Atronach": "30% chance to absorb incoming spells, replenishing your Magicka.",
+    "Vigilant Ward (2)": "Wards cost 50/80% less Magicka and reduce incoming damage by 30/60%.",
+    "Inspire (2)": "Nearby living allies within 15 feet are healed 5/10 points per second.",
+    "Enduring Flame": "Healing spells grant armor equal to 4 times their magnitude while concentrating or for 5 seconds after casting.",
+    "Anímage (2)": "Mind affecting spells and effects work on creatures and people up to 10/20/40 levels higher, and other targets up to 5/10/20 levels higher.",
+    "Alteration Dual Casting": "Dual casting an Alteration spell overcharges its effects, increasing power and casting cost.",
+    "Magic Resistance (1)": "Increases Magic Resistance by 10/20/30%.",
+    "Hethoth's Escape": "Once every 10 minutes, paralyzes a melee attacker that is about to deal lethal damage to you.",
+    "Silent Roll (2)": "Sprinting while sneaking executes a silent forward roll for 15 Stamina. You are 100% harder to detect while rolling.",
+    "Shadowcaster": "Destruction spells are twice as powerful against targets that are not detecting you."
+  },
+  "prog_perks": {
+    "ELEMENTALISTA": {
+      "0": [
+        "Destruction Mastery",
+        "Alteration Mastery",
+        "One-Handed Mastery",
+        "Restoration Mastery"
+      ],
+      "5": [
+        "Destruction Dual Casting",
+        "Mage Armor (1)"
+      ],
+      "10": [
+        "Augmented Flames (1)",
+        "Magic Resistance (1)"
+      ],
+      "15": [
+        "Augmented Frost (1)",
+        "Mage Armor (2)",
+        "Vigilant Ward (1)"
+      ],
+      "20": [
+        "Augmented Shock (1)",
+        "Magic Resistance (2)"
+      ],
+      "25": [
+        "Mage Armor (3)"
+      ],
+      "30": [
+        "Restoration Dual Casting",
+        "Stability"
+      ],
+      "35": [
+        "Ocato's Preparation",
+        "Ward Absorb"
+      ],
+      "40": [
+        "Impact"
+      ]
+    },
+    "CRIOMANTE": {
+      "0": [
+        "Destruction Mastery",
+        "Alteration Mastery",
+        "One-Handed Mastery",
+        "Restoration Mastery"
+      ],
+      "5": [
+        "Destruction Dual Casting",
+        "Mage Armor (1)"
+      ],
+      "10": [
+        "Augmented Frost (1)",
+        "Magic Resistance (1)"
+      ],
+      "15": [
+        "Rune Mestre",
+        "Mage Armor (2)",
+        "Vigilant Ward (1)"
+      ],
+      "20": [
+        "Chilling Frost",
+        "Magic Resistance (2)"
+      ],
+      "25": [
+        "Augmented Frost (2)",
+        "Mage Armor (3)"
+      ],
+      "30": [
+        "Winter's Grasp",
+        "Stability"
+      ],
+      "35": [
+        "Ocato's Preparation",
+        "Ward Absorb"
+      ],
+      "40": [
+        "Hellstorm"
+      ]
+    },
+    "ELETROMANTE": {
+      "0": [
+        "Destruction Mastery",
+        "Alteration Mastery",
+        "One-Handed Mastery",
+        "Restoration Mastery"
+      ],
+      "5": [
+        "Destruction Dual Casting",
+        "Mage Armor (1)"
+      ],
+      "10": [
+        "Augmented Shock (1)",
+        "Magic Resistance (1)"
+      ],
+      "15": [
+        "Rune Mestre",
+        "Mage Armor (2)",
+        "Vigilant Ward (1)"
+      ],
+      "20": [
+        "Deafening Shock:",
+        "Magic Resistance (2)"
+      ],
+      "25": [
+        "Augmented Shock (2)",
+        "Mage Armor (3)"
+      ],
+      "30": [
+        "Crackling Sphere",
+        "Stability"
+      ],
+      "35": [
+        "Ocato's Preparation",
+        "Ward Absorb"
+      ],
+      "40": [
+        "Hellstorm"
+      ]
+    },
+    "PIROMANTE": {
+      "0": [
+        "Destruction Mastery",
+        "Alteration Mastery",
+        "One-Handed Mastery",
+        "Restoration Mastery"
+      ],
+      "5": [
+        "Destruction Dual Casting",
+        "Mage Armor (1)"
+      ],
+      "10": [
+        "Augmented Flames (1)",
+        "Magic Resistance (1)"
+      ],
+      "15": [
+        "Rune Mestre",
+        "Mage Armor (2)",
+        "Vigilant Ward (1)"
+      ],
+      "20": [
+        "Devouring Flames",
+        "Magic Resistance (2)"
+      ],
+      "25": [
+        "Augmented Flames (2)",
+        "Mage Armor (3)"
+      ],
+      "30": [
+        "Scorched Earth",
+        "Stability"
+      ],
+      "35": [
+        "Ocato's Preparation",
+        "Ward Absorb"
+      ],
+      "40": [
+        "Hellstorm"
+      ]
+    },
+    "INVOCADOR": {
+      "0": [
+        "Conjuration Mastery",
+        "Alteration Mastery",
+        "Restoration Mastery",
+        "One-Handed Mastery"
+      ],
+      "5": [
+        "Conjuration Dual Casting",
+        "Mage Armor (1)"
+      ],
+      "10": [
+        "Atromancy",
+        "Magic Resistance (1)"
+      ],
+      "15": [
+        "Oblivion Stone (1)",
+        "Mage Armor (2)",
+        "Rift Summoner (1)"
+      ],
+      "20": [
+        "Rift Summoner (2)",
+        "Magic Resistance (2)"
+      ],
+      "25": [
+        "Elemental Potency",
+        "Mage Armor (3)"
+      ],
+      "30": [
+        "Vigilant Ward (1)",
+        "Oblivion Stone (2)"
+      ],
+      "35": [
+        "Elemental Conflux",
+        "Ward Absorb"
+      ],
+      "40": [
+        "Twin Souls"
+      ]
+    },
+    "GUARDIÃO": {
+      "0": [
+        "Heavy Armor Mastery",
+        "Block Mastery",
+        "One-Handed Mastery"
+      ],
+      "5": [
+        "Battle Fatigue",
+        "Disciplined Fighter"
+      ],
+      "10": [
+        "Heavy Armor Fit",
+        "Cushioned (1)"
+      ],
+      "15": [
+        "Matching Heavy Set",
+        "Elemental Protection",
+        "Heavy Armor Training"
+      ],
+      "20": [
+        "Magic Resistance (1)",
+        "Tower of Strength"
+      ],
+      "25": [
+        "Deflect Arrows",
+        "Shield Charge"
+      ],
+      "30": [
+        "Magic Resistance (2)",
+        "Block Runner"
+      ],
+      "35": [
+        "Stoneheart",
+        "Glancing Blows"
+      ],
+      "40": [
+        "Face of the Mountain"
+      ]
+    },
+    "BERSERKER": {
+      "0": [
+        "Light Armor Mastery",
+        "Two-Handed Mastery"
+      ],
+      "5": [
+        "Agility",
+        "Brutal Fighter"
+      ],
+      "10": [
+        "Light Armor Fit",
+        "Mortal Wounds (1)"
+      ],
+      "15": [
+        "Stimulants",
+        "Keen Senses",
+        "Death or Glory"
+      ],
+      "20": [
+        "Light Armor Training",
+        "Ferocious Strength"
+      ],
+      "25": [
+        "Slow Metabolism (1)",
+        "Magic Resistance (1)"
+      ],
+      "30": [
+        "Magic Resistance (2)",
+        "Adrenaline"
+      ],
+      "35": [
+        "Wardancer",
+        "Hook Blade"
+      ],
+      "40": [
+        "Rolling Charge"
+      ]
+    },
+    "CAVALEIRO NEGRO": {
+      "0": [
+        "Heavy Armor Mestre",
+        "Two-Handed Mastery",
+        "Destruction Mastery"
+      ],
+      "5": [
+        "Battle Fatigue",
+        "Brutal Fighter"
+      ],
+      "10": [
+        "Overbearing Assault (1)",
+        "Heavy Armor Fit"
+      ],
+      "15": [
+        "Raw Power (1)",
+        "Death or Glory",
+        "Reap the Whirlwind"
+      ],
+      "20": [
+        "Tower of Strength",
+        "Overbearing Assault (2)"
+      ],
+      "25": [
+        "Magic Resistance (1)",
+        "Heavy Armor Training",
+        "Raw Power (2)"
+      ],
+      "30": [
+        "Matching Heavy Set",
+        "Ferocious Strength"
+      ],
+      "35": [
+        "Bear Hide",
+        "Magic Resistance (2)"
+      ],
+      "40": [
+        "Crowd Pleaser"
+      ]
+    },
+    "PALADINO": {
+      "0": [
+        "Heavy Armor Mastery",
+        "One-Handed Mastery",
+        "Restoration Mastery"
+      ],
+      "5": [
+        "Battle Fatigue",
+        "Disciplined Fighter"
+      ],
+      "10": [
+        "Denting Blows (1)",
+        "Mercy"
+      ],
+      "15": [
+        "Tower of Strength",
+        "Respite",
+        "Rebuke Undead"
+      ],
+      "20": [
+        "Vigilant Ward (1)",
+        "Furious Strength"
+      ],
+      "25": [
+        "Denting Blows (2)",
+        "Inner Light (1)"
+      ],
+      "30": [
+        "Heavy Armor Training",
+        "Magic Resistance (1)"
+      ],
+      "35": [
+        "Matching Heavy Set",
+        "Heavy Armor Fit"
+      ],
+      "40": [
+        "Inspire"
+      ]
+    },
+    "MESTRE ESPADACHIM": {
+      "0": [
+        "Light Armor Mastery",
+        "One-Handed Mastery"
+      ],
+      "5": [
+        "Agility",
+        "Disciplined Fighter"
+      ],
+      "10": [
+        "Light Armor Fit",
+        "Overpowering Assault (1)"
+      ],
+      "15": [
+        "Windrunner",
+        "Keen Senses",
+        "Furious Strength"
+      ],
+      "20": [
+        "Dual Flurry (1)",
+        "Evasive Sprint"
+      ],
+      "25": [
+        "Light Armor Training",
+        "Dual Flurry (2)",
+        "Wardancer"
+      ],
+      "30": [
+        "Valorous Charge",
+        "Dual Savagery"
+      ],
+      "35": [
+        "Execute",
+        "Bladedancer"
+      ],
+      "40": [
+        "Victory Rush",
+        "Untouchable"
+      ]
+    },
+    "ARQUEIRO (SNIPER)": {
+      "0": [
+        "Archery Mastery",
+        "Light Armor Mastery",
+        "Sneak Mastery",
+        "One-Hand Mastery"
+      ],
+      "5": [
+        "Far Shot (1)",
+        "Light Armor Fit"
+      ],
+      "10": [
+        "Disciplined Fighter",
+        "Eagle Eye"
+      ],
+      "15": [
+        "Keen Senses",
+        "Steady Aim (1)",
+        "Hunter's Discipline"
+      ],
+      "20": [
+        "Far Shot (2)",
+        "Furious Strength"
+      ],
+      "25": [
+        "Wardancer",
+        "Silent Movement"
+      ],
+      "30": [
+        "Power Shot",
+        "Steady Aim (2)"
+      ],
+      "35": [
+        "Dodge Roll",
+        "Deadly Aim"
+      ],
+      "40": [
+        "Arrow to the Knee"
+      ]
+    },
+    "RANGER (CURTA DISTÂNCIA)": {
+      "0": [
+        "Archery Mastery",
+        "One-Handed Mastery",
+        "Light Armor Mastery"
+      ],
+      "5": [
+        "Point Blank Shot (1)",
+        "Disciplined Fighter"
+      ],
+      "10": [
+        "Furious Strength",
+        "Agility",
+        "Stimulants"
+      ],
+      "15": [
+        "Light Armor Fit",
+        "Slow Metabolism (1)"
+      ],
+      "20": [
+        "Point Blank Shot (2)",
+        "Ranger"
+      ],
+      "25": [
+        "Gore",
+        "Wardancer",
+        "Light Armor Training"
+      ],
+      "30": [
+        "Adrenaline",
+        "Quick Shot"
+      ],
+      "35": [
+        "Pinning Shot",
+        "Arrow to the Knee"
+      ],
+      "40": [
+        "Untouchable"
+      ]
+    },
+    "VIPER (VENENO)": {
+      "0": [
+        "One-Handed Mastery",
+        "Light Armor Mastery"
+      ],
+      "5": [
+        "Agility",
+        "Disciplined Fighter"
+      ],
+      "10": [
+        "Fangs (1)",
+        "Stimulants",
+        "Concentrated Poison (1)"
+      ],
+      "15": [
+        "Light Armor Fit",
+        "Slow Metabolism (1)"
+      ],
+      "20": [
+        "Fangs (2)",
+        "Concentrated Poison (2)",
+        "Dual Flurry (1)"
+      ],
+      "25": [
+        "Untouchable",
+        "Bladedancer"
+      ],
+      "30": [
+        "Alkahest",
+        "Slow Metabolism (2)"
+      ],
+      "35": [
+        "Plague Doctor",
+        "Spitting Cobra"
+      ],
+      "40": [
+        "Concentrated Poison (3)"
+      ]
+    },
+    "ASSASSINO": {
+      "0": [
+        "One-Handed Mastery",
+        "Light Armor Mastery",
+        "Illusion Mastery",
+        "Sneak Mastery"
+      ],
+      "5": [
+        "Agility",
+        "Disciplined Fighter"
+      ],
+      "10": [
+        "Valorous Charge",
+        "Sneak Attack",
+        "Silent Movement (1)"
+      ],
+      "15": [
+        "Light Armor Fit",
+        "Backstab"
+      ],
+      "20": [
+        "Windrunner",
+        "Silent Movement (2)"
+      ],
+      "25": [
+        "Blur",
+        "Assassin's Blade"
+      ],
+      "30": [
+        "Cloak and Dagger",
+        "Untouchable"
+      ],
+      "35": [
+        "Shadow Warrior",
+        "Quiet Casting"
+      ],
+      "40": [
+        "Victory Rush"
+      ]
+    },
+    "ANTI-MAGO": {
+      "0": [
+        "One-Handed Mastery",
+        "Light Armor Mastery",
+        "Illusion Mastery",
+        "Alteration Mastery"
+      ],
+      "5": [
+        "Agility",
+        "Disciplined Fighter",
+        "Magic Resistance (1)"
+      ],
+      "10": [
+        "Mystic Binding",
+        "Light Armor Fit"
+      ],
+      "15": [
+        "Dual Flurry (1)",
+        "Magic Resistance (2)"
+      ],
+      "20": [
+        "Windrunner",
+        "Hollow Binding"
+      ],
+      "25": [
+        "Dual Flurry (2)",
+        "Void Brand"
+      ],
+      "30": [
+        "Magic Resistance (3)",
+        "Void Brand"
+      ],
+      "35": [
+        "Bladedancer",
+        "Atronach"
+      ],
+      "40": [
+        "Untouchable"
+      ]
+    },
+    "DRUÍDA": {
+      "0": [
+        "Conjuration Mastery",
+        "Alteration Mastery",
+        "Restoration Mastery",
+        "One-Handed Mastery"
+      ],
+      "5": [
+        "Conjuration Dual Casting",
+        "Mage Armor (1)"
+      ],
+      "10": [
+        "Restoration Dual Casting",
+        "Magic Resistance (1)"
+      ],
+      "15": [
+        "Oblivion Stone (1)",
+        "Mage Armor (2)",
+        "Rift Summoner (1)"
+      ],
+      "20": [
+        "Rift Summoner (2)",
+        "Magic Resistance (2)"
+      ],
+      "25": [
+        "Mercy",
+        "Mage Armor (3)"
+      ],
+      "30": [
+        "Vigilant Ward (1)",
+        "Oblivion Stone (2)"
+      ],
+      "35": [
+        "Inner Light (1)",
+        "Disciplined Fighter"
+      ],
+      "40": [
+        "Twin Souls"
+      ]
+    },
+    "CURANDEIRO": {
+      "0": [
+        "Restoration Mastery",
+        "Destruction Mastery",
+        "One-Handed Mastery"
+      ],
+      "5": [
+        "Restoration Dual Casting",
+        "Mage Armor (1)"
+      ],
+      "10": [
+        "Mercy",
+        "Disciplined Fighter"
+      ],
+      "15": [
+        "Inner Light (1)",
+        "Vigilant Ward (1)",
+        "Mage Armor (2)"
+      ],
+      "20": [
+        "Inner Light (2)",
+        "Inspire (1)"
+      ],
+      "25": [
+        "Magic Resistance (1)",
+        "Mage Armor (3)"
+      ],
+      "30": [
+        "Magic Resistance (2)",
+        "Vigilant Ward (2)"
+      ],
+      "35": [
+        "Ward Absorb",
+        "Inspire (2)"
+      ],
+      "40": [
+        "Enduring Flame"
+      ]
+    },
+    "TRAPACEIRO": {
+      "0": [
+        "Illusion Mastery",
+        "Light Armor Mastery",
+        "Sneak Mastery",
+        "Alteration Mastery"
+      ],
+      "5": [
+        "Anímage (1)",
+        "Agility",
+        "Magic Resistance (1)"
+      ],
+      "10": [
+        "Silent Roll (1)",
+        "Evasive Sprint"
+      ],
+      "15": [
+        "Shadow Warrior",
+        "Anímage (2)"
+      ],
+      "20": [
+        "Windrunner",
+        "Alteration Dual Casting"
+      ],
+      "25": [
+        "Shadowcaster",
+        "Anímage (3)"
+      ],
+      "30": [
+        "Dodge Roll",
+        "Blur"
+      ],
+      "35": [
+        "Hethoth's Escape",
+        "Stability"
+      ],
+      "40": [
+        "Untouchable"
+      ]
+    }
+  },
+  "prog_spells": {
+    "ELEMENTALISTA": {
+      "Novato": [
+        "Flames",
+        "Frostbite",
+        "Sparks"
+      ],
+      "Aprendiz": [
+        "Ice Spike",
+        "Lightning Bolt",
+        "Burning Touch"
+      ],
+      "Adepto": [
+        "Fireball",
+        "Frost Cloak",
+        "Chain Lightning"
+      ]
+    },
+    "CRIOMANTE": {
+      "Novato": [
+        "Frostbite"
+      ],
+      "Aprendiz": [
+        "Ice Spike",
+        "Chilling Touch",
+        "Frost Rune"
+      ],
+      "Adepto": [
+        "Greater Frostbite",
+        "Frost Cloak",
+        "Ice Storm"
+      ],
+      "Especialista": [
+        "Wall of Frost",
+        "Icy Spear"
+      ],
+      "Mestre": [
+        "Blizzard"
+      ]
+    },
+    "ELETROMANTE": {
+      "Novato": [
+        "Sparks"
+      ],
+      "Aprendiz": [
+        "Lightning Bolt",
+        "Shocking Touch",
+        "Lightning Rune"
+      ],
+      "Adepto": [
+        "Greater Sparks",
+        "Lightning Cloak",
+        "Chain Lightning"
+      ],
+      "Especialista": [
+        "Wall of Storms",
+        "Thunderbolt"
+      ],
+      "Mestre": [
+        "Lightning Storm"
+      ]
+    },
+    "PIROMANTE": {
+      "Novato": [
+        "Flames"
+      ],
+      "Aprendiz": [
+        "Fire Bolt",
+        "Burning Touch",
+        "Fire Rune"
+      ],
+      "Adepto": [
+        "Greater Flames",
+        "Flame Cloak",
+        "Fireball"
+      ],
+      "Especialista": [
+        "Wall of Flames",
+        "Incinerate"
+      ],
+      "Mestre": [
+        "Firestorm"
+      ]
+    },
+    "INVOCADOR": {
+      "Novato": [
+        "Conjure Spectral Wolf",
+        "Bound Dagger",
+        "Flames",
+        "Frostbite",
+        "Sparks"
+      ],
+      "Aprendiz": [
+        "Conjure Flame Atronach"
+      ],
+      "Adepto": [
+        "Conjure Frost Atronach",
+        "Daedric Cure"
+      ],
+      "Especialista": [
+        "Conjure Storm Atronach"
+      ],
+      "Mestre": [
+        "Conjure Flame Monarch",
+        "Conjure Frost Monarch",
+        "Conjure Storm Monarch",
+        "Expel Daedra"
+      ]
+    },
+    "GUARDIÃO": {},
+    "BERSERKER": {},
+    "CAVALEIRO NEGRO": {
+      "Adepto": [
+        "Vampiric Bolt"
+      ],
+      "Mestre": [
+        "Scion’s Embrace"
+      ]
+    },
+    "PALADINO": {
+      "Novato": [
+        "Healing"
+      ],
+      "Aprendiz": [
+        "Turn Undead"
+      ],
+      "Adepto": [
+        "Circle of Life",
+        "Turn Greater Undead",
+        "Stendarr’s Aura",
+        "Greater Ward",
+        "Vampire’s Bane"
+      ],
+      "Mestre": [
+        "Sun Shard"
+      ]
+    },
+    "MESTRE ESPADACHIM": {},
+    "ARQUEIRO (SNIPER)": {},
+    "RANGER (CURTA DISTÂNCIA)": {},
+    "VIPER (VENENO)": {},
+    "ASSASSINO": {
+      "Especialista": [
+        "Invisibility"
+      ]
+    },
+    "ANTI-MAGO": {
+      "Novato": [
+        "Bound Dagger",
+        "Bound Shield"
+      ],
+      "Adepto": [
+        "Shadow Dance",
+        "Magic Barrier",
+        "Nightblade"
+      ],
+      "Poder": [
+        "Shadow Clone"
+      ]
+    },
+    "DRUÍDA": {
+      "Novato": [
+        "Create Water Totem",
+        "Conjure Spectral Wolf"
+      ],
+      "Aprendiz": [
+        "Conjure Spectral Dire Wolf",
+        "Stoneflesh",
+        "Magelight",
+        "Detect Life",
+        "Fast Healing",
+        "Steadfast Ward"
+      ],
+      "Adepto": [
+        "Conjure Spectral Sabre Cat",
+        "Equilibrium",
+        "Burden",
+        "Whirlwind Cloak",
+        "Circle of Strength",
+        "Circle of Wisdom"
+      ],
+      "Especialista": [
+        "Conjure Spectral Bear",
+        "Ebonyflesh"
+      ],
+      "Mestre": [
+        "Conjure Spectral Manbeast",
+        "Font of Strength"
+      ]
+    },
+    "CURANDEIRO": {
+      "Novato": [
+        "Flames",
+        "Healing",
+        "Sunbeam"
+      ],
+      "Aprendiz": [
+        "Fast Healing",
+        "Heal Other",
+        "Steadfast Ward",
+        "Stoneflesh",
+        "Magelight",
+        "Detect Life",
+        "Dispel"
+      ],
+      "Adepto": [
+        "Ironflesh",
+        "Shock Shell",
+        "Greater Healing",
+        "Aura of Thorns",
+        "Close Greater Wounds"
+      ],
+      "Especialista": [
+        "Grand Ward",
+        "Circle of Protection",
+        "Mutagen",
+        "Aura of Thorns"
+      ],
+      "Mestre": [
+        "Font of Life"
+      ]
+    },
+    "TRAPACEIRO": {
+      "Novato": [
+        "Unbound Atronach"
+      ],
+      "Aprendiz": [
+        "Bestow Gift",
+        "Switcheroo",
+        "Featherlight",
+        "Windwalker"
+      ],
+      "Adepto": [
+        "Teleportation",
+        "Burden",
+        "Disintegrate Weapon",
+        "Corrode Armor",
+        "Whirlwind Cloak"
+      ],
+      "Especialista": [
+        "Invisibility",
+        "Fade",
+        "Weakness to Fire",
+        "Weakness to Frost",
+        "Weakness to Shock",
+        "Weakness to Poison",
+        "Ash Cloud"
+      ],
+      "Mestre": [
+        "Mayhem",
+        "Armoreater",
+        "Cinder Storm",
+        "Weight of the World"
+      ]
+    }
+  },
+  "prog_skills": {
+    "ELEMENTALISTA": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Destruição 30, Alteração 30, Restauração 30",
+      "15": "Destruição 40, Alteração 40, Restauração 40",
+      "20": "Destruição 50",
+      "25": "Destruição 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "CRIOMANTE": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Destruição 30, Alteração 30, Restauração 30",
+      "15": "Destruição 40, Alteração 40, Restauração 40",
+      "20": "Destruição 50",
+      "25": "Destruição 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "ELETROMANTE": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Destruição 30, Alteração 30, Restauração 30",
+      "15": "Destruição 40, Alteração 40, Restauração 40",
+      "20": "Destruição 50",
+      "25": "Destruição 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "PIROMANTE": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Destruição 30, Alteração 30, Restauração 30",
+      "15": "Destruição 40, Alteração 40, Restauração 40",
+      "20": "Destruição 50",
+      "25": "Destruição 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "INVOCADOR": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Conjuração 30, Alteração 30, Restauração 30",
+      "15": "Conjuração 40, Alteração 40, Restauração 40",
+      "20": "Conjuração 50",
+      "25": "Conjuração 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "GUARDIÃO": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Bloqueio 30, Armadura Pesada 30",
+      "15": "Uma-mão 30, Armadura Pesada 40, Bloqueio 40",
+      "20": "Uma-mão 40, Armadura Pesada 50, Bloqueio 50",
+      "25": "Armadura Pesada 60, Bloqueio 60",
+      "30": "Bloqueio 70",
+      "35": "Bloqueio 80",
+      "40": ""
+    },
+    "BERSERKER": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Armadura Leve 30, Duas-Mãos 30",
+      "15": "Armadura Leve 40, Duas-Mãos 40",
+      "20": "Armadura Leve 50, Duas-Mãos 50",
+      "25": "Armadura Leve 60, Duas-Mãos 60",
+      "30": "Duas-Mãos 70",
+      "35": "Duas-Mãos 80",
+      "40": ""
+    },
+    "CAVALEIRO NEGRO": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Armadura Pesada 30, Duas-Mãos 30, Destruição 30",
+      "15": "Armadura Pesada 40, Duas-Mãos 40, Destruição 40",
+      "20": "Armadura Pesada 50, Duas-Mãos 50",
+      "25": "Armadura Pesada 60, Duas-Mãos 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "PALADINO": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Armadura Pesada 30, Uma-Mão 30, Restauração 30",
+      "15": "Armadura Pesada 40, Uma-Mão 40, Restauração 40",
+      "20": "Armadura Pesada 50, Restauração 50",
+      "25": "Armadura Pesada 60, Restauração 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "MESTRE ESPADACHIM": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Armadura Leve 30, Uma-Mão 30",
+      "15": "Armadura Leve 40, Uma-Mão 40",
+      "20": "Armadura Leve 50, Uma-Mão 50",
+      "25": "Armadura Leve 60, Uma-Mão 60",
+      "30": "Armadura Leve 70, Uma-Mão 70",
+      "35": "Armadura Leve 80, Uma-Mão 80",
+      "40": "Uma-Mão 100"
+    },
+    "ARQUEIRO (SNIPER)": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Armadura Leve 30, Arquearia 30, Furtividade 30, Uma-Mão 30",
+      "15": "Armadura Leve 40, Arquearia 40, Furtividade 40, Uma-Mão 40",
+      "20": "Armadura Leve 50, Arquearia 50, Furtividade 50",
+      "25": "Armadura Leve 60, Arquearia 60, Furtividade 60",
+      "30": "Arquearia 70",
+      "35": "Arquearia 80",
+      "40": ""
+    },
+    "RANGER (CURTA DISTÂNCIA)": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Armadura Leve 30, Arquearia 30, Uma-Mão 30",
+      "15": "Armadura Leve 40, Arquearia 40, Uma-Mão 40",
+      "20": "Armadura Leve 50, Arquearia 50",
+      "25": "Armadura Leve 60, Arquearia 60",
+      "30": "Arquearia 70",
+      "35": "Arquearia 80",
+      "40": ""
+    },
+    "VIPER (VENENO)": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Armadura Leve 30, Uma-Mão 30",
+      "15": "Armadura Leve 40, Uma-Mão 40",
+      "20": "Armadura Leve 50, Uma-Mão 50",
+      "25": "Armadura Leve 60, Uma-Mão 60",
+      "30": "Uma-Mão 70",
+      "35": "Uma-Mão 80",
+      "40": ""
+    },
+    "ASSASSINO": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Uma-Mão 30, Armadura Leve 30, Ilusão 30, Furtividade 30",
+      "15": "Uma-Mão 40, Armadura Leve 40, Ilusão 40, Furtividade 40",
+      "20": "Ilusão 50, Furtividade 50",
+      "25": "Ilusão 60, Furtividade 60",
+      "30": "Furtividade 70",
+      "35": "Furtividade 80",
+      "40": ""
+    },
+    "ANTI-MAGO": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Uma-Mão 30, Armadura Leve 30, Conjuração 30, Alteração 30",
+      "15": "Uma-Mão 40, Armadura Leve 40, Conjuração 40, Alteração 40",
+      "20": "Uma-Mão 50, Conjuração 50, Alteração 50",
+      "25": "Uma-Mão 60, Conjuração 60, Alteração 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "DRUÍDA": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Conjuração 30, Alteração 30, Restauração 30, Uma-Mão 30",
+      "15": "Conjuração 40, Alteração 40, Restauração 40, Uma-Mão 40",
+      "20": "Conjuração 50, Alteração 50, Restauração 50",
+      "25": "Conjuração 60, Alteração 60, Restauração 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    },
+    "CURANDEIRO": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Alteração 30, Restauração 30, Uma-Mão 30",
+      "15": "Alteração 40, Restauração 40, Uma-Mão 40",
+      "20": "Alteração 50, Restauração 50",
+      "25": "Alteração 60, Restauração 60",
+      "30": "Restauração 70",
+      "35": "Restauração 80",
+      "40": ""
+    },
+    "TRAPACEIRO": {
+      "0": "Todas 0",
+      "5": "Todas 20",
+      "10": "Alteração 30, Armadura Leve 30, Ilusão 30, Furtividade 30",
+      "15": "Alteração 40, Armadura Leve 40, Ilusão 40, Furtividade 40",
+      "20": "Alteração 50, Armadura Leve 50, Ilusão 50, Furtividade 50",
+      "25": "Alteração 60, Armadura Leve 60, Ilusão 60, Furtividade 60",
+      "30": "",
+      "35": "",
+      "40": ""
+    }
+  }
+}

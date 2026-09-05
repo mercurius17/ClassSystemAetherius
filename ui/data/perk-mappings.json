@@ -1,0 +1,2756 @@
+{
+  "Destruction Mastery": {
+    "name": "Destruction Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DestructionMastery",
+      "DestructionMastery",
+      "Perk_DestructionMastery",
+      "Destruction Mastery"
+    ]
+  },
+  "Destruction Dual Casting": {
+    "name": "Destruction Dual Casting",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DestructionDualCasting",
+      "DestructionDualCasting",
+      "Perk_DestructionDualCasting",
+      "Destruction Dual Casting"
+    ]
+  },
+  "Augmented Flames (1)": {
+    "name": "Augmented Flames (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AugmentedFlames1",
+      "AugmentedFlames1",
+      "Perk_AugmentedFlames1",
+      "Augmented Flames (1)"
+    ]
+  },
+  "Augmented Frost (1)": {
+    "name": "Augmented Frost (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AugmentedFrost1",
+      "AugmentedFrost1",
+      "Perk_AugmentedFrost1",
+      "Augmented Frost (1)"
+    ]
+  },
+  "Augmented Shock (1)": {
+    "name": "Augmented Shock (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AugmentedShock1",
+      "AugmentedShock1",
+      "Perk_AugmentedShock1",
+      "Augmented Shock (1)"
+    ]
+  },
+  "Impact": {
+    "name": "Impact",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Impact",
+      "Impact",
+      "Perk_Impact",
+      "Impact"
+    ]
+  },
+  "Alteration Mastery": {
+    "name": "Alteration Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AlterationMastery",
+      "AlterationMastery",
+      "Perk_AlterationMastery",
+      "Alteration Mastery"
+    ]
+  },
+  "Mage Armor (3)": {
+    "name": "Mage Armor (3)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MageArmor3",
+      "MageArmor3",
+      "Perk_MageArmor3",
+      "Mage Armor (3)"
+    ]
+  },
+  "Magic Resistance (2)": {
+    "name": "Magic Resistance (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MagicResistance2",
+      "MagicResistance2",
+      "Perk_MagicResistance2",
+      "Magic Resistance (2)"
+    ]
+  },
+  "Stability": {
+    "name": "Stability",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Stability",
+      "Stability",
+      "Perk_Stability",
+      "Stability"
+    ]
+  },
+  "Ocato's Preparation": {
+    "name": "Ocato's Preparation",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_OcatosPreparation",
+      "OcatosPreparation",
+      "Perk_OcatosPreparation",
+      "Ocato's Preparation"
+    ]
+  },
+  "Restoration Mastery": {
+    "name": "Restoration Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RestorationMastery",
+      "RestorationMastery",
+      "Perk_RestorationMastery",
+      "Restoration Mastery"
+    ]
+  },
+  "Restoration Dual Casting": {
+    "name": "Restoration Dual Casting",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RestorationDualCasting",
+      "RestorationDualCasting",
+      "Perk_RestorationDualCasting",
+      "Restoration Dual Casting"
+    ]
+  },
+  "Vigilant Ward (1)": {
+    "name": "Vigilant Ward (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_VigilantWard1",
+      "VigilantWard1",
+      "Perk_VigilantWard1",
+      "Vigilant Ward (1)"
+    ]
+  },
+  "Ward Absorb": {
+    "name": "Ward Absorb",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_WardAbsorb",
+      "WardAbsorb",
+      "Perk_WardAbsorb",
+      "Ward Absorb"
+    ]
+  },
+  "One-Handed Mastery": {
+    "name": "One-Handed Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_One_HandedMastery",
+      "One_HandedMastery",
+      "Perk_One_HandedMastery",
+      "One-Handed Mastery"
+    ]
+  },
+  "Rune Mestre (1)": {
+    "name": "Rune Mestre (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RuneMestre1",
+      "RuneMestre1",
+      "Perk_RuneMestre1",
+      "Rune Mestre (1)"
+    ]
+  },
+  "Augmented Frost (2)": {
+    "name": "Augmented Frost (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AugmentedFrost2",
+      "AugmentedFrost2",
+      "Perk_AugmentedFrost2",
+      "Augmented Frost (2)"
+    ]
+  },
+  "Chilling Frost": {
+    "name": "Chilling Frost",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ChillingFrost",
+      "ChillingFrost",
+      "Perk_ChillingFrost",
+      "Chilling Frost"
+    ]
+  },
+  "Winter's Grasp": {
+    "name": "Winter's Grasp",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_WintersGrasp",
+      "WintersGrasp",
+      "Perk_WintersGrasp",
+      "Winter's Grasp"
+    ]
+  },
+  "Hellstorm": {
+    "name": "Hellstorm",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Hellstorm",
+      "Hellstorm",
+      "Perk_Hellstorm",
+      "Hellstorm"
+    ]
+  },
+  "Augmented Shock (2)": {
+    "name": "Augmented Shock (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AugmentedShock2",
+      "AugmentedShock2",
+      "Perk_AugmentedShock2",
+      "Augmented Shock (2)"
+    ]
+  },
+  "Deafening Shock": {
+    "name": "Deafening Shock",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DeafeningShock",
+      "DeafeningShock",
+      "Perk_DeafeningShock",
+      "Deafening Shock"
+    ]
+  },
+  "Crackling Sphere": {
+    "name": "Crackling Sphere",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_CracklingSphere",
+      "CracklingSphere",
+      "Perk_CracklingSphere",
+      "Crackling Sphere"
+    ]
+  },
+  "Augmented Flames (2)": {
+    "name": "Augmented Flames (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AugmentedFlames2",
+      "AugmentedFlames2",
+      "Perk_AugmentedFlames2",
+      "Augmented Flames (2)"
+    ]
+  },
+  "Devouring Flames": {
+    "name": "Devouring Flames",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DevouringFlames",
+      "DevouringFlames",
+      "Perk_DevouringFlames",
+      "Devouring Flames"
+    ]
+  },
+  "Scorched Earth": {
+    "name": "Scorched Earth",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ScorchedEarth",
+      "ScorchedEarth",
+      "Perk_ScorchedEarth",
+      "Scorched Earth"
+    ]
+  },
+  "Conjuration Mastery": {
+    "name": "Conjuration Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ConjurationMastery",
+      "ConjurationMastery",
+      "Perk_ConjurationMastery",
+      "Conjuration Mastery"
+    ]
+  },
+  "Conjuration Dual Casting": {
+    "name": "Conjuration Dual Casting",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ConjurationDualCasting",
+      "ConjurationDualCasting",
+      "Perk_ConjurationDualCasting",
+      "Conjuration Dual Casting"
+    ]
+  },
+  "Atromancy": {
+    "name": "Atromancy",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Atromancy",
+      "Atromancy",
+      "Perk_Atromancy",
+      "Atromancy"
+    ]
+  },
+  "Rift Summoner (2)": {
+    "name": "Rift Summoner (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RiftSummoner2",
+      "RiftSummoner2",
+      "Perk_RiftSummoner2",
+      "Rift Summoner (2)"
+    ]
+  },
+  "Oblivion Stone (2)": {
+    "name": "Oblivion Stone (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_OblivionStone2",
+      "OblivionStone2",
+      "Perk_OblivionStone2",
+      "Oblivion Stone (2)"
+    ]
+  },
+  "Grand Conjurer (1)": {
+    "name": "Grand Conjurer (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_GrandConjurer1",
+      "GrandConjurer1",
+      "Perk_GrandConjurer1",
+      "Grand Conjurer (1)"
+    ]
+  },
+  "Elemental Potency": {
+    "name": "Elemental Potency",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ElementalPotency",
+      "ElementalPotency",
+      "Perk_ElementalPotency",
+      "Elemental Potency"
+    ]
+  },
+  "Elemental Conflux": {
+    "name": "Elemental Conflux",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ElementalConflux",
+      "ElementalConflux",
+      "Perk_ElementalConflux",
+      "Elemental Conflux"
+    ]
+  },
+  "Twin Souls": {
+    "name": "Twin Souls",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_TwinSouls",
+      "TwinSouls",
+      "Perk_TwinSouls",
+      "Twin Souls"
+    ]
+  },
+  "Heavy Armor Mastery": {
+    "name": "Heavy Armor Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_HeavyArmorMastery",
+      "HeavyArmorMastery",
+      "Perk_HeavyArmorMastery",
+      "Heavy Armor Mastery"
+    ]
+  },
+  "Cushioned (2)": {
+    "name": "Cushioned (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Cushioned2",
+      "Cushioned2",
+      "Perk_Cushioned2",
+      "Cushioned (2)"
+    ]
+  },
+  "Battle Fatigue": {
+    "name": "Battle Fatigue",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_BattleFatigue",
+      "BattleFatigue",
+      "Perk_BattleFatigue",
+      "Battle Fatigue"
+    ]
+  },
+  "Heavy Armor Fit": {
+    "name": "Heavy Armor Fit",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_HeavyArmorFit",
+      "HeavyArmorFit",
+      "Perk_HeavyArmorFit",
+      "Heavy Armor Fit"
+    ]
+  },
+  "Tower of Strength": {
+    "name": "Tower of Strength",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_TowerofStrength",
+      "TowerofStrength",
+      "Perk_TowerofStrength",
+      "Tower of Strength"
+    ]
+  },
+  "Matching Heavy Set": {
+    "name": "Matching Heavy Set",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MatchingHeavySet",
+      "MatchingHeavySet",
+      "Perk_MatchingHeavySet",
+      "Matching Heavy Set"
+    ]
+  },
+  "Elemental Defense": {
+    "name": "Elemental Defense",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ElementalDefense",
+      "ElementalDefense",
+      "Perk_ElementalDefense",
+      "Elemental Defense"
+    ]
+  },
+  "Glancing Blows": {
+    "name": "Glancing Blows",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_GlancingBlows",
+      "GlancingBlows",
+      "Perk_GlancingBlows",
+      "Glancing Blows"
+    ]
+  },
+  "Face of the Mountain": {
+    "name": "Face of the Mountain",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_FaceoftheMountain",
+      "FaceoftheMountain",
+      "Perk_FaceoftheMountain",
+      "Face of the Mountain"
+    ]
+  },
+  "Block Mastery": {
+    "name": "Block Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_BlockMastery",
+      "BlockMastery",
+      "Perk_BlockMastery",
+      "Block Mastery"
+    ]
+  },
+  "Deflect Arrows": {
+    "name": "Deflect Arrows",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DeflectArrows",
+      "DeflectArrows",
+      "Perk_DeflectArrows",
+      "Deflect Arrows"
+    ]
+  },
+  "Elemental Protection": {
+    "name": "Elemental Protection",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ElementalProtection",
+      "ElementalProtection",
+      "Perk_ElementalProtection",
+      "Elemental Protection"
+    ]
+  },
+  "Power Bash": {
+    "name": "Power Bash",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_PowerBash",
+      "PowerBash",
+      "Perk_PowerBash",
+      "Power Bash"
+    ]
+  },
+  "Shield Charge": {
+    "name": "Shield Charge",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ShieldCharge",
+      "ShieldCharge",
+      "Perk_ShieldCharge",
+      "Shield Charge"
+    ]
+  },
+  "Block Runner": {
+    "name": "Block Runner",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_BlockRunner",
+      "BlockRunner",
+      "Perk_BlockRunner",
+      "Block Runner"
+    ]
+  },
+  "Stoneheart": {
+    "name": "Stoneheart",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Stoneheart",
+      "Stoneheart",
+      "Perk_Stoneheart",
+      "Stoneheart"
+    ]
+  },
+  "Disciplined Fighter": {
+    "name": "Disciplined Fighter",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DisciplinedFighter",
+      "DisciplinedFighter",
+      "Perk_DisciplinedFighter",
+      "Disciplined Fighter"
+    ]
+  },
+  "Magic Resistance (3)": {
+    "name": "Magic Resistance (3)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MagicResistance3",
+      "MagicResistance3",
+      "Perk_MagicResistance3",
+      "Magic Resistance (3)"
+    ]
+  },
+  "Light Armor Mastery": {
+    "name": "Light Armor Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_LightArmorMastery",
+      "LightArmorMastery",
+      "Perk_LightArmorMastery",
+      "Light Armor Mastery"
+    ]
+  },
+  "Agility": {
+    "name": "Agility",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Agility",
+      "Agility",
+      "Perk_Agility",
+      "Agility"
+    ]
+  },
+  "Light Armor Fit": {
+    "name": "Light Armor Fit",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_LightArmorFit",
+      "LightArmorFit",
+      "Perk_LightArmorFit",
+      "Light Armor Fit"
+    ]
+  },
+  "Keen Senses": {
+    "name": "Keen Senses",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_KeenSenses",
+      "KeenSenses",
+      "Perk_KeenSenses",
+      "Keen Senses"
+    ]
+  },
+  "Light Armor Training": {
+    "name": "Light Armor Training",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_LightArmorTraining",
+      "LightArmorTraining",
+      "Perk_LightArmorTraining",
+      "Light Armor Training"
+    ]
+  },
+  "Wardancer": {
+    "name": "Wardancer",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Wardancer",
+      "Wardancer",
+      "Perk_Wardancer",
+      "Wardancer"
+    ]
+  },
+  "Two-Handed Mastery": {
+    "name": "Two-Handed Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Two_HandedMastery",
+      "Two_HandedMastery",
+      "Perk_Two_HandedMastery",
+      "Two-Handed Mastery"
+    ]
+  },
+  "Brutal Fighter": {
+    "name": "Brutal Fighter",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_BrutalFighter",
+      "BrutalFighter",
+      "Perk_BrutalFighter",
+      "Brutal Fighter"
+    ]
+  },
+  "Mortal Wounds (1)": {
+    "name": "Mortal Wounds (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MortalWounds1",
+      "MortalWounds1",
+      "Perk_MortalWounds1",
+      "Mortal Wounds (1)"
+    ]
+  },
+  "Death or Glory": {
+    "name": "Death or Glory",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DeathorGlory",
+      "DeathorGlory",
+      "Perk_DeathorGlory",
+      "Death or Glory"
+    ]
+  },
+  "Ferocious Strength": {
+    "name": "Ferocious Strength",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_FerociousStrength",
+      "FerociousStrength",
+      "Perk_FerociousStrength",
+      "Ferocious Strength"
+    ]
+  },
+  "Hook Blade": {
+    "name": "Hook Blade",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_HookBlade",
+      "HookBlade",
+      "Perk_HookBlade",
+      "Hook Blade"
+    ]
+  },
+  "Rolling Charge": {
+    "name": "Rolling Charge",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RollingCharge",
+      "RollingCharge",
+      "Perk_RollingCharge",
+      "Rolling Charge"
+    ]
+  },
+  "Stimulants": {
+    "name": "Stimulants",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Stimulants",
+      "Stimulants",
+      "Perk_Stimulants",
+      "Stimulants"
+    ]
+  },
+  "Slow Metabolism (1)": {
+    "name": "Slow Metabolism (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SlowMetabolism1",
+      "SlowMetabolism1",
+      "Perk_SlowMetabolism1",
+      "Slow Metabolism (1)"
+    ]
+  },
+  "Adrenaline": {
+    "name": "Adrenaline",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Adrenaline",
+      "Adrenaline",
+      "Perk_Adrenaline",
+      "Adrenaline"
+    ]
+  },
+  "Reap the Whirlwind": {
+    "name": "Reap the Whirlwind",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ReaptheWhirlwind",
+      "ReaptheWhirlwind",
+      "Perk_ReaptheWhirlwind",
+      "Reap the Whirlwind"
+    ]
+  },
+  "Heavy Armor Training": {
+    "name": "Heavy Armor Training",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_HeavyArmorTraining",
+      "HeavyArmorTraining",
+      "Perk_HeavyArmorTraining",
+      "Heavy Armor Training"
+    ]
+  },
+  "Overbearing Assault (2)": {
+    "name": "Overbearing Assault (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_OverbearingAssault2",
+      "OverbearingAssault2",
+      "Perk_OverbearingAssault2",
+      "Overbearing Assault (2)"
+    ]
+  },
+  "Bear Hide": {
+    "name": "Bear Hide",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_BearHide",
+      "BearHide",
+      "Perk_BearHide",
+      "Bear Hide"
+    ]
+  },
+  "Crowd Pleaser": {
+    "name": "Crowd Pleaser",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_CrowdPleaser",
+      "CrowdPleaser",
+      "Perk_CrowdPleaser",
+      "Crowd Pleaser"
+    ]
+  },
+  "Raw Power (2)": {
+    "name": "Raw Power (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RawPower2",
+      "RawPower2",
+      "Perk_RawPower2",
+      "Raw Power (2)"
+    ]
+  },
+  "Denting Blows (2)": {
+    "name": "Denting Blows (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DentingBlows2",
+      "DentingBlows2",
+      "Perk_DentingBlows2",
+      "Denting Blows (2)"
+    ]
+  },
+  "Furious Strength": {
+    "name": "Furious Strength",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_FuriousStrength",
+      "FuriousStrength",
+      "Perk_FuriousStrength",
+      "Furious Strength"
+    ]
+  },
+  "Mercy": {
+    "name": "Mercy",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Mercy",
+      "Mercy",
+      "Perk_Mercy",
+      "Mercy"
+    ]
+  },
+  "Inspire": {
+    "name": "Inspire",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Inspire",
+      "Inspire",
+      "Perk_Inspire",
+      "Inspire"
+    ]
+  },
+  "Inner Light (1)": {
+    "name": "Inner Light (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_InnerLight1",
+      "InnerLight1",
+      "Perk_InnerLight1",
+      "Inner Light (1)"
+    ]
+  },
+  "Respite": {
+    "name": "Respite",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Respite",
+      "Respite",
+      "Perk_Respite",
+      "Respite"
+    ]
+  },
+  "Inner Light (2)": {
+    "name": "Inner Light (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_InnerLight2",
+      "InnerLight2",
+      "Perk_InnerLight2",
+      "Inner Light (2)"
+    ]
+  },
+  "Windrunner": {
+    "name": "Windrunner",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Windrunner",
+      "Windrunner",
+      "Perk_Windrunner",
+      "Windrunner"
+    ]
+  },
+  "Evasive Sprint": {
+    "name": "Evasive Sprint",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_EvasiveSprint",
+      "EvasiveSprint",
+      "Perk_EvasiveSprint",
+      "Evasive Sprint"
+    ]
+  },
+  "Untouchable": {
+    "name": "Untouchable",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Untouchable",
+      "Untouchable",
+      "Perk_Untouchable",
+      "Untouchable"
+    ]
+  },
+  "Overpowering Assault (1)": {
+    "name": "Overpowering Assault (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_OverpoweringAssault1",
+      "OverpoweringAssault1",
+      "Perk_OverpoweringAssault1",
+      "Overpowering Assault (1)"
+    ]
+  },
+  "Dual Flurry (2)": {
+    "name": "Dual Flurry (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DualFlurry2",
+      "DualFlurry2",
+      "Perk_DualFlurry2",
+      "Dual Flurry (2)"
+    ]
+  },
+  "Valorous Charge": {
+    "name": "Valorous Charge",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ValorousCharge",
+      "ValorousCharge",
+      "Perk_ValorousCharge",
+      "Valorous Charge"
+    ]
+  },
+  "Dual Savagery": {
+    "name": "Dual Savagery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DualSavagery",
+      "DualSavagery",
+      "Perk_DualSavagery",
+      "Dual Savagery"
+    ]
+  },
+  "Execute": {
+    "name": "Execute",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Execute",
+      "Execute",
+      "Perk_Execute",
+      "Execute"
+    ]
+  },
+  "Bladedancer": {
+    "name": "Bladedancer",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Bladedancer",
+      "Bladedancer",
+      "Perk_Bladedancer",
+      "Bladedancer"
+    ]
+  },
+  "Victory Rush": {
+    "name": "Victory Rush",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_VictoryRush",
+      "VictoryRush",
+      "Perk_VictoryRush",
+      "Victory Rush"
+    ]
+  },
+  "Archery Mastery": {
+    "name": "Archery Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ArcheryMastery",
+      "ArcheryMastery",
+      "Perk_ArcheryMastery",
+      "Archery Mastery"
+    ]
+  },
+  "Far Shot (2)": {
+    "name": "Far Shot (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_FarShot2",
+      "FarShot2",
+      "Perk_FarShot2",
+      "Far Shot (2)"
+    ]
+  },
+  "Eagle Eye": {
+    "name": "Eagle Eye",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_EagleEye",
+      "EagleEye",
+      "Perk_EagleEye",
+      "Eagle Eye"
+    ]
+  },
+  "Steady Aim (2)": {
+    "name": "Steady Aim (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SteadyAim2",
+      "SteadyAim2",
+      "Perk_SteadyAim2",
+      "Steady Aim (2)"
+    ]
+  },
+  "Hunter's Discipline": {
+    "name": "Hunter's Discipline",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_HuntersDiscipline",
+      "HuntersDiscipline",
+      "Perk_HuntersDiscipline",
+      "Hunter's Discipline"
+    ]
+  },
+  "Arrow to the Knee": {
+    "name": "Arrow to the Knee",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ArrowtotheKnee",
+      "ArrowtotheKnee",
+      "Perk_ArrowtotheKnee",
+      "Arrow to the Knee"
+    ]
+  },
+  "Power Shot": {
+    "name": "Power Shot",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_PowerShot",
+      "PowerShot",
+      "Perk_PowerShot",
+      "Power Shot"
+    ]
+  },
+  "Sneak Mastery": {
+    "name": "Sneak Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SneakMastery",
+      "SneakMastery",
+      "Perk_SneakMastery",
+      "Sneak Mastery"
+    ]
+  },
+  "Silent Movement (2)": {
+    "name": "Silent Movement (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SilentMovement2",
+      "SilentMovement2",
+      "Perk_SilentMovement2",
+      "Silent Movement (2)"
+    ]
+  },
+  "Deadly Aim": {
+    "name": "Deadly Aim",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DeadlyAim",
+      "DeadlyAim",
+      "Perk_DeadlyAim",
+      "Deadly Aim"
+    ]
+  },
+  "Dodge Roll": {
+    "name": "Dodge Roll",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DodgeRoll",
+      "DodgeRoll",
+      "Perk_DodgeRoll",
+      "Dodge Roll"
+    ]
+  },
+  "Point Blank Shot (2)": {
+    "name": "Point Blank Shot (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_PointBlankShot2",
+      "PointBlankShot2",
+      "Perk_PointBlankShot2",
+      "Point Blank Shot (2)"
+    ]
+  },
+  "Ranger": {
+    "name": "Ranger",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Ranger",
+      "Ranger",
+      "Perk_Ranger",
+      "Ranger"
+    ]
+  },
+  "Quick Shot": {
+    "name": "Quick Shot",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_QuickShot",
+      "QuickShot",
+      "Perk_QuickShot",
+      "Quick Shot"
+    ]
+  },
+  "Pinning Shot": {
+    "name": "Pinning Shot",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_PinningShot",
+      "PinningShot",
+      "Perk_PinningShot",
+      "Pinning Shot"
+    ]
+  },
+  "Gore": {
+    "name": "Gore",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Gore",
+      "Gore",
+      "Perk_Gore",
+      "Gore"
+    ]
+  },
+  "Fangs (2)": {
+    "name": "Fangs (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Fangs2",
+      "Fangs2",
+      "Perk_Fangs2",
+      "Fangs (2)"
+    ]
+  },
+  "Dual Flurry (1)": {
+    "name": "Dual Flurry (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DualFlurry1",
+      "DualFlurry1",
+      "Perk_DualFlurry1",
+      "Dual Flurry (1)"
+    ]
+  },
+  "Spitting Cobra": {
+    "name": "Spitting Cobra",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SpittingCobra",
+      "SpittingCobra",
+      "Perk_SpittingCobra",
+      "Spitting Cobra"
+    ]
+  },
+  "Slow Metabolism (2)": {
+    "name": "Slow Metabolism (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SlowMetabolism2",
+      "SlowMetabolism2",
+      "Perk_SlowMetabolism2",
+      "Slow Metabolism (2)"
+    ]
+  },
+  "Concentrated Poison (3)": {
+    "name": "Concentrated Poison (3)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ConcentratedPoison3",
+      "ConcentratedPoison3",
+      "Perk_ConcentratedPoison3",
+      "Concentrated Poison (3)"
+    ]
+  },
+  "Alkahest": {
+    "name": "Alkahest",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Alkahest",
+      "Alkahest",
+      "Perk_Alkahest",
+      "Alkahest"
+    ]
+  },
+  "Plague Doctor": {
+    "name": "Plague Doctor",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_PlagueDoctor",
+      "PlagueDoctor",
+      "Perk_PlagueDoctor",
+      "Plague Doctor"
+    ]
+  },
+  "Illusion Mastery": {
+    "name": "Illusion Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_IllusionMastery",
+      "IllusionMastery",
+      "Perk_IllusionMastery",
+      "Illusion Mastery"
+    ]
+  },
+  "Quiet Casting": {
+    "name": "Quiet Casting",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_QuietCasting",
+      "QuietCasting",
+      "Perk_QuietCasting",
+      "Quiet Casting"
+    ]
+  },
+  "Blur": {
+    "name": "Blur",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Blur",
+      "Blur",
+      "Perk_Blur",
+      "Blur"
+    ]
+  },
+  "Sneak Attack": {
+    "name": "Sneak Attack",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SneakAttack",
+      "SneakAttack",
+      "Perk_SneakAttack",
+      "Sneak Attack"
+    ]
+  },
+  "Assassin's Blade": {
+    "name": "Assassin's Blade",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AssassinsBlade",
+      "AssassinsBlade",
+      "Perk_AssassinsBlade",
+      "Assassin's Blade"
+    ]
+  },
+  "Backstab": {
+    "name": "Backstab",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Backstab",
+      "Backstab",
+      "Perk_Backstab",
+      "Backstab"
+    ]
+  },
+  "Shadow Warrior": {
+    "name": "Shadow Warrior",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ShadowWarrior",
+      "ShadowWarrior",
+      "Perk_ShadowWarrior",
+      "Shadow Warrior"
+    ]
+  },
+  "Cloak and Dagger": {
+    "name": "Cloak and Dagger",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_CloakandDagger",
+      "CloakandDagger",
+      "Perk_CloakandDagger",
+      "Cloak and Dagger"
+    ]
+  },
+  "Mystic Binding": {
+    "name": "Mystic Binding",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MysticBinding",
+      "MysticBinding",
+      "Perk_MysticBinding",
+      "Mystic Binding"
+    ]
+  },
+  "Hollow Binding": {
+    "name": "Hollow Binding",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_HollowBinding",
+      "HollowBinding",
+      "Perk_HollowBinding",
+      "Hollow Binding"
+    ]
+  },
+  "Void Brand": {
+    "name": "Void Brand",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_VoidBrand",
+      "VoidBrand",
+      "Perk_VoidBrand",
+      "Void Brand"
+    ]
+  },
+  "Atronach": {
+    "name": "Atronach",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Atronach",
+      "Atronach",
+      "Perk_Atronach",
+      "Atronach"
+    ]
+  },
+  "Vigilant Ward (2)": {
+    "name": "Vigilant Ward (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_VigilantWard2",
+      "VigilantWard2",
+      "Perk_VigilantWard2",
+      "Vigilant Ward (2)"
+    ]
+  },
+  "Inspire (2)": {
+    "name": "Inspire (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Inspire2",
+      "Inspire2",
+      "Perk_Inspire2",
+      "Inspire (2)"
+    ]
+  },
+  "Enduring Flame": {
+    "name": "Enduring Flame",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_EnduringFlame",
+      "EnduringFlame",
+      "Perk_EnduringFlame",
+      "Enduring Flame"
+    ]
+  },
+  "Anímage (2)": {
+    "name": "Anímage (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Anímage2",
+      "Anímage2",
+      "Perk_Anímage2",
+      "Anímage (2)"
+    ]
+  },
+  "Alteration Dual Casting": {
+    "name": "Alteration Dual Casting",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_AlterationDualCasting",
+      "AlterationDualCasting",
+      "Perk_AlterationDualCasting",
+      "Alteration Dual Casting"
+    ]
+  },
+  "Magic Resistance (1)": {
+    "name": "Magic Resistance (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MagicResistance1",
+      "MagicResistance1",
+      "Perk_MagicResistance1",
+      "Magic Resistance (1)"
+    ]
+  },
+  "Hethoth's Escape": {
+    "name": "Hethoth's Escape",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_HethothsEscape",
+      "HethothsEscape",
+      "Perk_HethothsEscape",
+      "Hethoth's Escape"
+    ]
+  },
+  "Silent Roll (2)": {
+    "name": "Silent Roll (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SilentRoll2",
+      "SilentRoll2",
+      "Perk_SilentRoll2",
+      "Silent Roll (2)"
+    ]
+  },
+  "Shadowcaster": {
+    "name": "Shadowcaster",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Shadowcaster",
+      "Shadowcaster",
+      "Perk_Shadowcaster",
+      "Shadowcaster"
+    ]
+  },
+  "Mage Armor (1)": {
+    "name": "Mage Armor (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MageArmor1",
+      "MageArmor1",
+      "Perk_MageArmor1",
+      "Mage Armor (1)"
+    ]
+  },
+  "Mage Armor (2)": {
+    "name": "Mage Armor (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_MageArmor2",
+      "MageArmor2",
+      "Perk_MageArmor2",
+      "Mage Armor (2)"
+    ]
+  },
+  "Rune Mestre": {
+    "name": "Rune Mestre",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RuneMestre",
+      "RuneMestre",
+      "Perk_RuneMestre",
+      "Rune Mestre"
+    ]
+  },
+  "Deafening Shock:": {
+    "name": "Deafening Shock:",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DeafeningShock",
+      "DeafeningShock",
+      "Perk_DeafeningShock",
+      "Deafening Shock:"
+    ]
+  },
+  "Oblivion Stone (1)": {
+    "name": "Oblivion Stone (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_OblivionStone1",
+      "OblivionStone1",
+      "Perk_OblivionStone1",
+      "Oblivion Stone (1)"
+    ]
+  },
+  "Rift Summoner (1)": {
+    "name": "Rift Summoner (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RiftSummoner1",
+      "RiftSummoner1",
+      "Perk_RiftSummoner1",
+      "Rift Summoner (1)"
+    ]
+  },
+  "Cushioned (1)": {
+    "name": "Cushioned (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Cushioned1",
+      "Cushioned1",
+      "Perk_Cushioned1",
+      "Cushioned (1)"
+    ]
+  },
+  "Heavy Armor Mestre": {
+    "name": "Heavy Armor Mestre",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_HeavyArmorMestre",
+      "HeavyArmorMestre",
+      "Perk_HeavyArmorMestre",
+      "Heavy Armor Mestre"
+    ]
+  },
+  "Overbearing Assault (1)": {
+    "name": "Overbearing Assault (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_OverbearingAssault1",
+      "OverbearingAssault1",
+      "Perk_OverbearingAssault1",
+      "Overbearing Assault (1)"
+    ]
+  },
+  "Raw Power (1)": {
+    "name": "Raw Power (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RawPower1",
+      "RawPower1",
+      "Perk_RawPower1",
+      "Raw Power (1)"
+    ]
+  },
+  "Denting Blows (1)": {
+    "name": "Denting Blows (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_DentingBlows1",
+      "DentingBlows1",
+      "Perk_DentingBlows1",
+      "Denting Blows (1)"
+    ]
+  },
+  "Rebuke Undead": {
+    "name": "Rebuke Undead",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_RebukeUndead",
+      "RebukeUndead",
+      "Perk_RebukeUndead",
+      "Rebuke Undead"
+    ]
+  },
+  "One-Hand Mastery": {
+    "name": "One-Hand Mastery",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_One_HandMastery",
+      "One_HandMastery",
+      "Perk_One_HandMastery",
+      "One-Hand Mastery"
+    ]
+  },
+  "Far Shot (1)": {
+    "name": "Far Shot (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_FarShot1",
+      "FarShot1",
+      "Perk_FarShot1",
+      "Far Shot (1)"
+    ]
+  },
+  "Steady Aim (1)": {
+    "name": "Steady Aim (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SteadyAim1",
+      "SteadyAim1",
+      "Perk_SteadyAim1",
+      "Steady Aim (1)"
+    ]
+  },
+  "Silent Movement": {
+    "name": "Silent Movement",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SilentMovement",
+      "SilentMovement",
+      "Perk_SilentMovement",
+      "Silent Movement"
+    ]
+  },
+  "Point Blank Shot (1)": {
+    "name": "Point Blank Shot (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_PointBlankShot1",
+      "PointBlankShot1",
+      "Perk_PointBlankShot1",
+      "Point Blank Shot (1)"
+    ]
+  },
+  "Fangs (1)": {
+    "name": "Fangs (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Fangs1",
+      "Fangs1",
+      "Perk_Fangs1",
+      "Fangs (1)"
+    ]
+  },
+  "Concentrated Poison (1)": {
+    "name": "Concentrated Poison (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ConcentratedPoison1",
+      "ConcentratedPoison1",
+      "Perk_ConcentratedPoison1",
+      "Concentrated Poison (1)"
+    ]
+  },
+  "Concentrated Poison (2)": {
+    "name": "Concentrated Poison (2)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_ConcentratedPoison2",
+      "ConcentratedPoison2",
+      "Perk_ConcentratedPoison2",
+      "Concentrated Poison (2)"
+    ]
+  },
+  "Silent Movement (1)": {
+    "name": "Silent Movement (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SilentMovement1",
+      "SilentMovement1",
+      "Perk_SilentMovement1",
+      "Silent Movement (1)"
+    ]
+  },
+  "Inspire (1)": {
+    "name": "Inspire (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Inspire1",
+      "Inspire1",
+      "Perk_Inspire1",
+      "Inspire (1)"
+    ]
+  },
+  "Anímage (1)": {
+    "name": "Anímage (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Anímage1",
+      "Anímage1",
+      "Perk_Anímage1",
+      "Anímage (1)"
+    ]
+  },
+  "Silent Roll (1)": {
+    "name": "Silent Roll (1)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_SilentRoll1",
+      "SilentRoll1",
+      "Perk_SilentRoll1",
+      "Silent Roll (1)"
+    ]
+  },
+  "Anímage (3)": {
+    "name": "Anímage (3)",
+    "localId": "0x000000",
+    "candidatePlugins": [
+      "Vokrii - Minimalistic Perks of Skyrim.esp",
+      "Vokrii.esp",
+      "Vokrii.esl",
+      "Skyrim.esm",
+      "Update.esm"
+    ],
+    "editorIdAliases": [
+      "VKR_Anímage3",
+      "Anímage3",
+      "Perk_Anímage3",
+      "Anímage (3)"
+    ]
+  }
+}

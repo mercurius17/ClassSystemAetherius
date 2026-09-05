@@ -1,0 +1,302 @@
+[
+  {
+    "category": "Humanoides",
+    "name": "Bandit",
+    "baseXp": 10.0,
+    "notes": "Inimigo comum de referencia inicial"
+  },
+  {
+    "category": "Humanoides",
+    "name": "Riekling",
+    "baseXp": 10.0,
+    "notes": "Equivalente tribal ao bandido"
+  },
+  {
+    "category": "Humanoides",
+    "name": "Silver Hand",
+    "baseXp": 12.0,
+    "notes": "Guerreiros cacadores com armas de prata"
+  },
+  {
+    "category": "Humanoides",
+    "name": "Reaver",
+    "baseXp": 13.0,
+    "notes": "Saqueadores nordicos de Solstheim"
+  },
+  {
+    "category": "Humanoides",
+    "name": "Forsworn",
+    "baseXp": 15.0,
+    "notes": "Tribais rebeldes de Reach"
+  },
+  {
+    "category": "Humanoides",
+    "name": "Warlock / Necromancer",
+    "baseXp": 15.0,
+    "notes": "Conjuradores hostis e necromantes"
+  },
+  {
+    "category": "Humanoides",
+    "name": "Cultist",
+    "baseXp": 15.0,
+    "notes": "Fanaticos cultistas com magia"
+  },
+  {
+    "category": "Humanoides",
+    "name": "Falmer",
+    "baseXp": 20.0,
+    "notes": "Elfos subterraneos com venenos fortes"
+  },
+  {
+    "category": "Humanoides",
+    "name": "Vampire",
+    "baseXp": 30.0,
+    "notes": "Predadores da noite de elite com dreno"
+  },
+  {
+    "category": "Mortos-Vivos",
+    "name": "Skeleton",
+    "baseXp": 10.0,
+    "notes": "Esqueletos frageis de masmorra"
+  },
+  {
+    "category": "Mortos-Vivos",
+    "name": "Draugr",
+    "baseXp": 18.0,
+    "notes": "Espinha dorsal das criptas e tumulos nordicos"
+  },
+  {
+    "category": "Mortos-Vivos",
+    "name": "Ghost / Phantom",
+    "baseXp": 20.0,
+    "notes": "Espiritos resistentes a dano fisico"
+  },
+  {
+    "category": "Mortos-Vivos",
+    "name": "Corrupted Shade",
+    "baseXp": 21.0,
+    "notes": "Sombras corrompidas de cripta"
+  },
+  {
+    "category": "Mortos-Vivos",
+    "name": "Boneman",
+    "baseXp": 22.0,
+    "notes": "Arqueiros do Soul Cairn"
+  },
+  {
+    "category": "Mortos-Vivos",
+    "name": "Mistman",
+    "baseXp": 24.0,
+    "notes": "Conjuradores de gelo do Soul Cairn"
+  },
+  {
+    "category": "Mortos-Vivos",
+    "name": "Wrathman",
+    "baseXp": 28.0,
+    "notes": "Combatentes pesados do Soul Cairn"
+  },
+  {
+    "category": "Mortos-Vivos",
+    "name": "Dragon Priest",
+    "baseXp": "Fixo 500",
+    "notes": "Chefe de tumba nordica (nao escala por nivel comum)"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Ice Wraith",
+    "baseXp": 14.0,
+    "notes": "Espectro agil de gelo"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Chaurus",
+    "baseXp": 15.0,
+    "notes": "InsetImageo blindado com veneno"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Troll",
+    "baseXp": 16.0,
+    "notes": "Regeneracao pesada em combate"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Chaurus Hunter",
+    "baseXp": 18.0,
+    "notes": "Forma alada agressiva de Chaurus"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Spriggan",
+    "baseXp": 18.0,
+    "notes": "Espirito guardiao com enxames"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Ash Spawn",
+    "baseXp": 18.0,
+    "notes": "Criatura das cinzas vulcanicas"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Giant",
+    "baseXp": 20.0,
+    "notes": "Forca bruta massiva e impacto"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Hagraven",
+    "baseXp": 21.0,
+    "notes": "Bruxas ancestrais com feiticos de fogo"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Wispmother / Wisp",
+    "baseXp": 22.0,
+    "notes": "Espirito ilusorio de gelo"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Gargoyle",
+    "baseXp": 22.0,
+    "notes": "Gargula sentinela de pedra"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Ash Guardian",
+    "baseXp": 26.0,
+    "notes": "Golem de cinzas de alta resistencia"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Lurker",
+    "baseXp": 28.0,
+    "notes": "Monstro abissal de Apocrypha"
+  },
+  {
+    "category": "Criaturas e Monstros",
+    "name": "Seeker",
+    "baseXp": 30.0,
+    "notes": "Entidade magica arcana de Apocrypha"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Mudcrab",
+    "baseXp": 3.0,
+    "notes": "Crustaceo trivial de rios"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Skeever",
+    "baseXp": 4.0,
+    "notes": "Roedor comum com doencas"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Slaughterfish",
+    "baseXp": 4.0,
+    "notes": "Peixe carnivoro de rios e lagos"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Wolf",
+    "baseXp": 5.0,
+    "notes": "Predador comum de matilha"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Horker",
+    "baseXp": 6.0,
+    "notes": "Mamifero marinho costeiro resistente"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Frostbite Spider",
+    "baseXp": 7.0,
+    "notes": "Aranha tecela venenosa"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Sabre Cat",
+    "baseXp": 9.0,
+    "notes": "Predador felino agil"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Bear",
+    "baseXp": 10.0,
+    "notes": "Urso territorial de forca pesada"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Death Hound",
+    "baseXp": 12.0,
+    "notes": "Cao corrompido de vampiros"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Netch",
+    "baseXp": 13.0,
+    "notes": "Criatura flutuante de Solstheim"
+  },
+  {
+    "category": "Animais e Insetoides",
+    "name": "Mammoth",
+    "baseXp": 15.0,
+    "notes": "Colosso dos acampamentos de gigantes"
+  },
+  {
+    "category": "Autômatos Dwemer",
+    "name": "Dwarven Spider",
+    "baseXp": 12.0,
+    "notes": "Automato agil de patrulha"
+  },
+  {
+    "category": "Autômatos Dwemer",
+    "name": "Dwarven Sphere",
+    "baseXp": 18.0,
+    "notes": "Guardiao rapido com lamina e besta"
+  },
+  {
+    "category": "Autômatos Dwemer",
+    "name": "Dwarven Ballista",
+    "baseXp": 24.0,
+    "notes": "Artilharia pesada dwemer"
+  },
+  {
+    "category": "Autômatos Dwemer",
+    "name": "Dwarven Centurion",
+    "baseXp": 30.0,
+    "notes": "Colosso dwemer a vapor"
+  },
+  {
+    "category": "Daedra",
+    "name": "Flame Atronach",
+    "baseXp": 20.0,
+    "notes": "Daedra elemental de fogo"
+  },
+  {
+    "category": "Daedra",
+    "name": "Frost Atronach",
+    "baseXp": 22.0,
+    "notes": "Golem bruto elemental de gelo"
+  },
+  {
+    "category": "Daedra",
+    "name": "Storm Atronach",
+    "baseXp": 25.0,
+    "notes": "Elemental de eletricidade"
+  },
+  {
+    "category": "Daedra",
+    "name": "Dremora",
+    "baseXp": 30.0,
+    "notes": "Guerreiro daedrico avancado"
+  },
+  {
+    "category": "Dragões",
+    "name": "Dragon (Todas as variantes)",
+    "baseXp": "Fixo 1000",
+    "notes": "Ameaca mitica rara. Evento de servidor."
+  }
+]
